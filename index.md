@@ -3,8 +3,6 @@ layout: default
 title: クラウド帳票リリースノート
 ---
 
-https://e2info.github.io/cloudreport-docs/
-
 # 1111
 
 テスト
