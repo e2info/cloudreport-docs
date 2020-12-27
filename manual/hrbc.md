@@ -49,4 +49,4 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 -----
 * 2020年12月25日新規作成
 
-{% include footer.html %}
+{% include footer.md %}
