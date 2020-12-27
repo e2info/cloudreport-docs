@@ -7,12 +7,12 @@
 
 ### HRBC設定
 
-* [HRBC設定マニュアル](manual/hrbc.html)
+* [HRBC設定マニュアル](manual/hrbc.md)
 
 
 ## リリースノート
 
-* [リリースノート](release-notes.html)
+* [リリースノート](release-notes/index.md)
 
 
 -----
