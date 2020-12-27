@@ -1,5 +1,3 @@
-[https://e2info.github.io/cloudreport-docs/]()
-
 ## マニュアル
 
 * [管理者マニュアル](manual/admin.html)
