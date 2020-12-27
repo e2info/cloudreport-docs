@@ -1,8 +1,8 @@
-* [クラウド帳票ドキュメント](/)
-  * [管理者マニュアル](/manual/admin.html)
-  * [利用者マニュアル](/manual/user.html)
-  * [HRBC設定マニュアル](/manual/hrbc.html)
-  * [リリースノート](/release-notes.md)
+* [クラウド帳票ドキュメント](/cloudreport-docs)
+  * [管理者マニュアル](/cloudreport-docs/manual/admin.html)
+  * [利用者マニュアル](/cloudreport-docs/manual/user.html)
+  * [HRBC設定マニュアル](/cloudreport-docs/manual/hrbc.html)
+  * [リリースノート](/cloudreport-docs/release-notes.md)
 
 Copyright [E2info, Inc.](https://www.e2info.co.jp/)
 
