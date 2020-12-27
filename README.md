@@ -7,7 +7,7 @@
 
 ## リリースノート
 
-* [リリースノート](release-note.html)
+* [リリースノート](release-notes.html)
 
 
 -----
