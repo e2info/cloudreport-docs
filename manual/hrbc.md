@@ -32,7 +32,7 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 
 |リソース|URL|
 |-----|-----|
-|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/candidate/\{\{Candidate.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |JOB|https://【利用中のドメイン】.report-cloud.com/report/job/\{\{Job.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |売上|https://【利用中のドメイン】.report-cloud.com/report/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |レジュメ|https://【利用中のドメイン】.report-cloud.com/report/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
