@@ -7,7 +7,7 @@ title: クラウド帳票リリースノート
 
 ## 2021年2月7日
 
-* [クラウド帳票 2020年2月7日 リリースノート](/cloudreport-docs/release-notes/20210207.html)
+* [クラウド帳票 2020年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
 
 ## 2020年12月25日
 
