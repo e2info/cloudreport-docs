@@ -5,9 +5,12 @@ title: クラウド帳票リリースノート
 
 # リリースノート
 
+## 2021年3月22日
+* [【リリース予定】2021年3月22日 アクティビティから帳票を出力できる機能を追加](/cloudreport-docs/release-notes/20210322.html)
+
 ## 2021年3月15日
 
-* [クラウド帳票 2020年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
+* [クラウド帳票 2021年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
 
 ## 2020年12月25日
 
