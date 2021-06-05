@@ -32,21 +32,22 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 
 |リソース|URL|
 |-----|-----|
-|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業|https://【利用中のドメイン】.report-cloud.com/report/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/recruiter/\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |JOB|https://【利用中のドメイン】.report-cloud.com/report/job/\{\{Job.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】.report-cloud.com/report/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |レジュメ|https://【利用中のドメイン】.report-cloud.com/report/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】.report-cloud.com/report/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 
 #### 準備中
 
 |リソース|URL|
 |-----|-----|
-|企業|https://【利用中のドメイン】.report-cloud.com/report/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/recruiter/\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 
 -----
 * 2020年12月25日新規作成
+* 2021年6月7日更新
 
 {% include footer.md %}
