@@ -3,21 +3,16 @@ layout: default
 title: クラウド帳票リリースノート
 ---
 
-# リリースノート
+# クラウド帳票リリースノート
 
-## 2021年3月29日
-* [【リリース完了】2021年3月29日 アクティビティのマッピング不具合修正](/cloudreport-docs/release-notes/20210329.html)
+## 最新リリース
+* [【リリース完了】クラウド帳票 2021年6月13日 リリースノート](/cloudreport-docs/release-notes/20210613.html)
 
-## 2021年3月23日
-* [【リリース完了】2021年3月23日 アクティビティから帳票を出力できる機能を追加](/cloudreport-docs/release-notes/20210323.html)
-
-## 2021年3月15日
-
-* [クラウド帳票 2021年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
-
-## 2020年12月25日
-
-* [クラウド帳票 2020年12月25日 リリースノート](/cloudreport-docs/release-notes/20201225.html)
+## 過去のリリース
+* [【リリース完了】クラウド帳票 2021年3月29日 リリースノート](/cloudreport-docs/release-notes/20210329.html)
+* [【リリース完了】クラウド帳票 2021年3月23日 リリースノート](/cloudreport-docs/release-notes/20210323.html)
+* [【リリース完了】クラウド帳票 2021年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
+* [【リリース完了】クラウド帳票 2020年12月25日 リリースノート](/cloudreport-docs/release-notes/20201225.html)
 
 -----
 * 2020年12月25日 新規作成
