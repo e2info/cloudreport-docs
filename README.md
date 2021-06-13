@@ -19,6 +19,4 @@ https://e2info.github.io/cloudreport-docs/
 
 -----
 
-2020年12月27日新規作成
-
 {% include footer.md %}
