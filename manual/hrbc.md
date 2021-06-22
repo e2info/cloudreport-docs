@@ -39,15 +39,11 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 |レジュメ|https://【利用中のドメイン】.report-cloud.com/report/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |売上|https://【利用中のドメイン】.report-cloud.com/report/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 |アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-
-#### 準備中
-
-|リソース|URL|
-|-----|-----|
 |選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+
 
 -----
 * 2020年12月25日新規作成
-* 2021年6月7日更新
+* 2021年6月23日更新
 
 {% include footer.md %}
