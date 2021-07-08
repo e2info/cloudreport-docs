@@ -71,25 +71,26 @@ title: クラウド帳票 作成マニュアル（管理者用）
 #### HRBCのフィールドや選択肢の変更した場合、クラウド帳票を手動で同期する必要があります。
 
 <h3 id="hrbc_1">1-1.HRBCフィールドの取得</h3>
-(1) 左側の「HRBCフィールド取得」を選択します。
-![HRBCフィールド取得](images/hrbc_synchrbc_1.png)
+(1) 左側の「HRBCフィールド取得」を選択します。<br>
 
-(2)「HRBCフィールド情報の取得」を押下します。
-![HRBCフィールド情報の取得](images/manual/hrbc_2.png)
+![HRBCフィールド情報を更新しました](images/hrbc_sync/hrbc_1.png)
+
+(2)「HRBCフィールド情報の同期」を押下します。
+![HRBCフィールド情報の同期](images/hrbc_sync/hrbc_2.png)
 
 HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBCフィールド情報を更新しました。」という緑色の帯が表示されます。
-![HRBCフィールド情報を更新しました](images/manual/hrbc_3.png)
+![HRBCフィールド情報を更新しました](images/hrbc_sync/hrbc_3.png)
 
 
 <h3 id="hrbc_2">1-2.HRBC選択肢の取得</h3>
 (1) 左側の「HRBC選択肢取得」を選択します。
-![HRBC選択肢取得](images/manual/hrbc_4.png)
+![HRBC選択肢取得](images/hrbc_sync/hrbc_4.png)
 
-(2) 「HRBC選択肢情報の取得」を押下します。
-![HRBC選択肢情報の取得](images/manual/hrbc_5.png)
+(2) 「HRBC選択肢情報の同期」を押下します。
+![HRBC選択肢情報の同期](images/hrbc_sync/hrbc_5.png)
 
 HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC選択肢情報を更新しました。」という緑色の帯が表示されます。
-![HRBC選択肢情報を更新しました](images/manual/hrbc_6.png)
+![HRBC選択肢情報を更新しました](images/hrbc_sync/hrbc_6.png)
 
 
 <h2 id="document_temp_file">2.帳票テンプレート用ファイルの作成</h2>
@@ -98,10 +99,10 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="document_temp_file_1">2-1.テンプレート用ファイルの作成</h3>
 (1) Excelファイルでテンプレートファイルを作成します。このときクラウド帳票に出力したい　箇所は{{ }}で囲みます。<br>
-![テンプレートファイル](images/manual/document_temp_file_1.png)
+![テンプレートファイル](images/document_temp/document_temp_file_1.png)
 
 (2) 保存する際は、下記の拡張子でファイルを保存してください。
-![保存する際の拡張子](images/manual/document_temp_file_2.png)
+![保存する際の拡張子](images/document_temp/document_temp_file_2.png)
 
 
 
@@ -111,50 +112,50 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="document_temp_1">3-1.テンプレートの新規作成</h3>
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
-![＋新規登録](images/manual/document_temp_1.png)
+![＋新規登録](images/document_temp/document_temp_1.png)
 
 (2) 「タイトル」欄に帳票名を入力、「リソース」欄にHRBCリソースを選択し、「保存する」を押下します。
-![「リソース」欄にHRBCリソースを選択し、「保存する」](images/manual/document_temp_2.png)
+![「リソース」欄にHRBCリソースを選択し、「保存する」](images/document_temp/document_temp_2.png)
 
 (3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
-![「ファイルをアップロードしてください」または「Browse」](images/manual/document_temp_3.png)
+![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_3.png)
 
 (4) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![ファイルを選択し、アップロード](images/manual/document_temp_4.png)
+![ファイルを選択し、アップロード](images/document_temp/document_temp_4.png)
 
 (5)「保存する」を押下すると帳票一覧に追加されます。
-![「保存する」](images/manual/document_temp_5.png)
+![「保存する」](images/document_temp/document_temp_5.png)
 
 テンプレートが作成されると帳票一覧に遷移し、「更新しました」という緑色の帯が表示され、帳票一覧に作成したテンプレートが表示されます。
-![テンプレートが表示される](images/manual/document_temp_6.png)
+![テンプレートが表示される](images/document_temp/document_temp_6.png)
 
 出力したい項目が正しく抽出されたかを確認する場合、「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下してご確認ください。
-![「マッピング」](images/manual/document_temp_7.png)
+![「マッピング」](images/document_temp/document_temp_7.png)
 
 注意事項 ：「帳票更新」画面の「ステータス」欄の「有効」をOFFにした場合
-![「ステータス」欄の「有効」をOFF](images/manual/document_temp_8.png)
+![「ステータス」欄の「有効」をOFF](images/document_temp/document_temp_8.png)
 
 「帳票更新」画面の「ステータス」欄の「有効」をOFFにした場合、「帳票一覧」に表示されなくなります。
 「無効の帳票も表示する」を選択することで表示されます。
-![無効の帳票も表示する](images/manual/document_temp_9.png)
+![無効の帳票も表示する](images/document_temp/document_temp_9.png)
 
 またマッピングが必要な場合、「無効の帳票も表示する」を選択し[3-2.テンプレートの更新](#document_temp_2)にて「ステータス」の「有効」をONに変更する必要があります。
 
 <h3 id="document_temp_2">3-2.テンプレートの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。
-![「アクション」にある「更新」を押下](images/manual/document_temp_10.png)
+![「アクション」にある「更新」を押下](images/document_temp/document_temp_10.png)
 
 (2) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
 ![「ファイルをアップロードしてください」または「Browse」](images/manual/document_temp_11.png)
 
 (3) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![アップロード](images/manual/document_temp_12.png)
+![アップロード](images/document_temp/document_temp_12.png)
 
 (4)「保存する」を押下すると「帳票一覧」に追加されます
-![「帳票一覧」に追加](images/manual/document_temp_13.png)
+![「帳票一覧」に追加](images/document_temp/document_temp_13.png)
 
 テンプレートが作成されると「帳票一覧」に遷移し、「更新しました」という緑色の帯が表示され、作成したテンプレートが表示されます。
-  ![更新しました](images/manual/document_temp_14.png)
+  ![更新しました](images/document_temp/document_temp_14.png)
 
 
 
