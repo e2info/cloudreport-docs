@@ -72,7 +72,7 @@ title: クラウド帳票 作成マニュアル（管理者用）
 
 <h3 id="hrbc_1">1-1.HRBCフィールドの取得</h3>
 (1) 左側の「HRBCフィールド取得」を選択します。
-![HRBCフィールド取得](images/manual/hrbc_1.png)
+![HRBCフィールド取得](images/hrbc_1.png)
 
 (2)「HRBCフィールド情報の取得」を押下します。
 ![HRBCフィールド情報の取得](images/manual/hrbc_2.png)
