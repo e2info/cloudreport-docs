@@ -159,16 +159,16 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![「アクション」にある「更新」を押下](images/document_temp/document_temp_12.png)
 
 (2) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
-![「ファイルをアップロードしてください」または「Browse」](images/manual/document_temp_13.png)
+![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_13.png)
 
 (3) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![アップロード](images/document_temp/document_temp_14.png)
+![アップロード](images/document_temp/document_temp_4.png)
 
 (4)「保存する」を押下すると「帳票一覧」に追加されます
-![「帳票一覧」に追加](images/document_temp/document_temp_15.png)
+![「帳票一覧」に追加](images/document_temp/document_temp_7.png)
 
 テンプレートが作成されると「帳票一覧」に遷移し、「更新しました」という緑色の帯が表示され、作成したテンプレートが表示されます。
-  ![更新しました](images/document_temp/document_temp_16.png)
+  ![更新しました](images/document_temp/document_temp_14.png)
 
 
 
