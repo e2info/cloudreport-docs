@@ -92,7 +92,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC選択肢情報を同期しています。処理完了までおよそ10分程度かかります。」という緑色の帯が表示されます。
 10分程度置いていただければ完了となります。
 ※現状、「HRBC選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
-![HRBC選択肢情報を更新しました](images/hrbc_sync/hrbc_6.png)
+![HRBC選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
 
 
 <h2 id="document_temp_file">2.帳票テンプレート用ファイルの作成</h2>
@@ -159,16 +159,16 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![「アクション」にある「更新」を押下](images/document_temp/document_temp_12.png)
 
 (2) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
-![「ファイルをアップロードしてください」または「Browse」](images/manual/document_temp_11.png)
+![「ファイルをアップロードしてください」または「Browse」](images/manual/document_temp_13.png)
 
 (3) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![アップロード](images/document_temp/document_temp_13.png)
+![アップロード](images/document_temp/document_temp_14.png)
 
 (4)「保存する」を押下すると「帳票一覧」に追加されます
-![「帳票一覧」に追加](images/document_temp/document_temp_14.png)
+![「帳票一覧」に追加](images/document_temp/document_temp_15.png)
 
 テンプレートが作成されると「帳票一覧」に遷移し、「更新しました」という緑色の帯が表示され、作成したテンプレートが表示されます。
-  ![更新しました](images/document_temp/document_temp_15.png)
+  ![更新しました](images/document_temp/document_temp_16.png)
 
 
 
