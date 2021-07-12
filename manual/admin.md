@@ -177,33 +177,33 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="mapping_1">4-1.マッピングの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
-![「アクション」にある「マッピング」](images/manual/mapping_1.png)
+![「アクション」にある「マッピング」](images/document_temp/document_temp_9.png)
 
 (2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。
-![「アクション」にある「更新」](images/manual/mapping_2.png)
+![「アクション」にある「更新」](images/mapping/mp_1.png)
 
 (3) 「HRBCフィールド」欄からHRBCに紐づける項目を選択します。
-![HRBCに紐づける項目](images/manual/mapping_3.png)
+![HRBCに紐づける項目](images/mapping/mp_2.png)
 
 (4) 「保存する」を押下します。
-![保存する](images/manual/mapping_4.png)
+![保存する](images/mapping/mp_3.png)
 
 更新が完了すると「マッピング設定」に遷移し、「マッピング情報を更新しました。」という緑色の帯が表示され、「HRBC名称」と「HRBCエイリアス」が反映されます。
-![「HRBC名称」と「HRBCエイリアス」が反映される](images/manual/mapping_5.png)
+![「HRBC名称」と「HRBCエイリアス」が反映される](images/mapping/mp_4.png)
 
 
 <h3 id="mapping_2">4-2.マッピングの削除</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
-![「アクション」にある「マッピング」](images/manual/mapping_6.png)
+![「アクション」にある「マッピング」](images/document_temp/document_temp_9.png)
 
-(2) 「マッピング設定」に遷移するので、削除したい行右側の「アクション」にある「削除」アイコンを押下します。
-![「アクション」にある「削除」](images/manual/mapping_7.png)
+(2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。
+![「アクション」にある「更新」](images/mapping/mp_1.png)
 
-(3)  選択ウィンドウで「削除する」を押下します。
-![削除する](images/manual/mapping_8.png)
+(3) 「HRBCフィールド」欄から「選択してください」を選択し、マッピングを外します。
+![「選択してください」を選択](images/mapping/mp_5.png)
 
-削除が完了すると「マッピング設定」に遷移し、指定した行が削除されております。
-![指定した行が削除されている](images/manual/mapping_9.png)
+(4)マッピングが解除されると「マッピング設定」に遷移し、指定した行が削除されております。
+![マッピングが解除されている](images/mapping/mp_6.png)
 
 
 
