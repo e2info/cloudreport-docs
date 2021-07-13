@@ -33,6 +33,7 @@ title: クラウド帳票 作成マニュアル（管理者用）
 <h2 id="introduction">はじめに</h2>
 
 <h3 id="flow">主なフローについて</h3>
+![主なフロー](images/hrbc_sync/flow.png)
 
 #### 1.HRBCの同期（管理者のみ利用可能）
 
