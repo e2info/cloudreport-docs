@@ -9,7 +9,7 @@ title: クラウド帳票リリースノート
 * [【リリース予定】クラウド帳票 2021年7月20日 リリースノート](/cloudreport-docs/release-notes/20210720.html)
 
 ## 過去のリリース
-*　　[【リリース完了】クラウド帳票 2021年7月7日 リリースノート](/cloudreport-docs/release-notes/20210707.html)
+* [【リリース完了】クラウド帳票 2021年7月7日 リリースノート](/cloudreport-docs/release-notes/20210707.html)
 * [【リリース完了】クラウド帳票 2021年6月23日 リリースノート](/cloudreport-docs/release-notes/20210623.html)
 * [【リリース完了】クラウド帳票 2021年6月13日 リリースノート](/cloudreport-docs/release-notes/20210613.html)
 * [【リリース完了】クラウド帳票 2021年3月29日 リリースノート](/cloudreport-docs/release-notes/20210329.html)
