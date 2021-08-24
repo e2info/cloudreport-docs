@@ -218,87 +218,87 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="hrbc_dl_1">5-1.クラウド帳票を1件ダウンロードする</h3>
 (1) HRBC画面左上のタブで「成約」を選択し、ドロップダウンから「すべての成約」を選択すると成約一覧が表示されます。
-![成約一覧](images/manual/hrbc_dl_1.png)
+![成約一覧](images/hrbc_dl/hrbc_dl_1.png)
 
 (2) クラウド帳票を作成したいHRBCデータのIDをクリックします
-![HRBCデータのIDをクリック](images/manual/hrbc_dl_2.png)
+![HRBCデータのIDをクリック](images/hrbc_dl/hrbc_dl_2.png)
 
 (3) 左上のタブで「帳票をダウンロードする」を選択し、ダウンロード画面に切り替えます。
-![ダウンロード画面](images/manual/hrbc_dl_3.png)
+![ダウンロード画面](images/hrbc_dl/hrbc_dl_3.png)
 
 <h3 id="hrbc_dl_1_4"></h3>
 (4) ダウンロード画面のSales ID欄に表示されているIDが正しいことを確認し、
 テンプレートのドロップダウンから利用したいテンプレート名称を選択します。
-![テンプレート名称を選択](images/manual/hrbc_dl_4.png)
+![テンプレート名称を選択](images/hrbc_dl/hrbc_dl_4.png)
 
 (5)「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。
-![帳票ダウンロード画面](images/manual/hrbc_dl_5.png)
+![帳票ダウンロード画面](images/hrbc_dl/hrbc_dl_5.png)
 
 
  ①アクション＝「ダウンロードする」の場合
  (1)「ダウンロードする」の右側にあるEXCEL/PDFのボタンを押下します。
-![EXCEL/PDFのボタンを押下](images/manual/hrbc_dl_6.png)
+![EXCEL/PDFのボタンを押下](images/hrbc_dl/hrbc_dl_6.png)
 
 　　(2) 画面左下に表示されるブラウザのダウンロードバーをクリックするとダウンロードしたEXCEL/PDFファイルが確認できます。
-![たEXCEL/PDFファイルを確認](images/manual/hrbc_dl_7.png)
+![たEXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_7.png)
 
 　　(3) PCのダウンロードフォルダにEXCEL/PDFファイルが保存されます。
-![EXCEL/PDFファイルを保存](images/manual/hrbc_dl_8.png)
+![EXCEL/PDFファイルを保存](images/hrbc_dl/hrbc_dl_8.png)
 
  ②アクション＝ 「HRBCに保存する」の場合
  (1)「HRBCに保存する」の右側にあるEXCEL/PDFのボタンを押下します。
-![EXCEL/PDFのボタン](images/manual/hrbc_dl_9.png)
+![EXCEL/PDFのボタン](images/hrbc_dl/hrbc_dl_9.png)
 
 　　(2) 上部に「HRBCにファイルを添付しました。」という緑色の帯が表示されたら「HRBCを開く」をクリックします。
-![「HRBCを開く」](images/manual/hrbc_dl_10.png)
+![「HRBCを開く」](images/hrbc_dl/hrbc_dl_10.png)
 
 　　(3) HRBC画面に切り替わり、「成約」ウィンドウが表示されます。「サブリスト｜ 添付ファイル」でダウンロードしたEXCEL/PDFファイルが確認できます。
-![EXCEL/PDFファイルを確認](images/manual/hrbc_dl_11.png)
+![EXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_11.png)
 
 
 
 
 <h3 id="hrbc_dl_2">クラウド帳票を一括ダウンロードする</h3>
 (1) HRBC画面左上のタブで「成約」を選択し、ドロップダウンから「すべての成約」を選択すると成約一覧が表示されます。。
-![メンテナンス機能追加](images/manual/hrbc_dl_12.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_12.png)
 
 (2) 「成約一覧」 右上の「一括アクション」のドロップダウンから「帳票を一括ダウンロードする」を選択します。
-![メンテナンス機能追加](images/manual/hrbc_dl_13.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_13.png)
 ※すべてのデータではなく、選択したデータのみのクラウド帳票を出したい場合は成約 IDの左横のチェックボックスに✓をつけます。）
 
 (3) データの選択ウィンドウで「OK」を押下すると一括ダウンロード画面に切り替わります。
-![メンテナンス機能追加](images/manual/hrbc_dl_14.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_14.png)
 ※すべてのデータではなく、選択したデータのみのクラウド帳票を出したい場合はラジオボタンを「チェックされているデータ」に変更してから「OK」を押下します。）
 
 <h3 id="hrbc_dl_2_4"></h3>
 (4) Sales ID欄に表示されているIDが正しいことを確認し、テンプレートのドロップダウンから利用したいテンプレート名称を選択します。
-![メンテナンス機能追加](images/manual/hrbc_dl_15.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_15.png)
 
 (5) 「ダウンロードする」ボタンを押下すると、一括ダウンロード出力画面に切り替わります。
-![メンテナンス機能追加](images/manual/hrbc_dl_16.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_16.png)
 
 (6) 出力したいデータのファイル欄にある「ダウンロードする」を押下すると、「一括ダウンロード出力」画面に切り替わります。
-![メンテナンス機能追加](images/manual/hrbc_dl_17.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_17.png)
 
  ①アクション＝「ダウンロードする」の場合
  (1)「ダウンロードする」の右側にあるEXCEL/PDFのボタンを押下します。
-![メンテナンス機能追加](images/manual/hrbc_dl_18.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_18.png)
 
 　　(2) 画面左下に表示されるブラウザのダウンロードバーをクリックするとダウンロードしたEXCEL/PDFファイルが確認できます。
-![メンテナンス機能追加](images/manual/hrbc_dl_19.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_19.png)
 
 　　(3) PCのダウンロードフォルダにEXCEL/PDFファイルが保存されます。
-![メンテナンス機能追加](images/manual/hrbc_dl_20.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_20.png)
 
  ②アクション＝ 「HRBCに保存する」の場合
  (1)「HRBCに保存する」の右側にあるEXCEL/PDFのボタンを押下します。
-![メンテナンス機能追加](images/manual/hrbc_dl_21.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_21.png)
 
 　　(2) 上部に「HRBCにファイルを添付しました。」という緑色の帯が表示されたら「HRBCを開く」をクリックします。
-![メンテナンス機能追加](images/manual/hrbc_dl_22.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_22.png)
 
 　　　(3) HRBC画面に切り替わり、「成約」ウィンドウが表示されます。「サブリスト｜ 添付ファイル」でダウンロードしたEXCEL/PDFファイルが確認できます。
-![メンテナンス機能追加](images/manual/hrbc_dl_23.png)
+![メンテナンス機能追加](images/hrbc_dl/hrbc_dl_23.png)
 
 
 
