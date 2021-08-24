@@ -66,7 +66,6 @@ title: クラウド帳票 作成マニュアル（管理者用）
 詳細は[5-1.クラウド帳票を1件ダウンロードする(1)～(3)](#hrbc_dl_1)　[5-2.クラウド帳票を一括ダウンロードする(1)～(3)](#hrbc_dl_2)　をご確認ください。
 
 [<TOPに戻る>](#TOP)
-
 <br><br><br>
 
 <h2 id="hrbc">1.HRBCとの同期</h2>
@@ -101,8 +100,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![HRBC選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
 
 
-[TOPに戻る](#TOP)
-<br><br>
+[<TOPに戻る>](#TOP)
+<br><br><br>
 
 <h2 id="document_temp_file">2.帳票テンプレート用ファイルの作成</h2>
 クラウド帳票のテンプレートはExcelファイルで作成したものを取り込む必要があります。
@@ -118,8 +117,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![保存する際の拡張子](images/document_temp/document_temp_file_2.png)
 
 
-[TOPに戻る](#TOP)
-<br><br>
+[<TOPに戻る>](#TOP)
+<br><br><br>
 
 <h2 id="document_temp">3.帳票テンプレートの作成</h2>
 
@@ -190,8 +189,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
   ![更新しました](images/document_temp/document_temp_14.png)
 
 
-[TOPに戻る](#TOP)
-<br><br>
+[<TOPに戻る>](#TOP)
+<br><br><br>
 
 <h2 id="mapping">4．マッピングの設定</h2>
 
@@ -232,7 +231,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![マッピングが解除されている](images/mapping/mp_6.png)
 
 
-[TOPに戻る](#TOP)
+[<TOPに戻る>](#TOP)
 <br><br><br>
 
 
@@ -351,8 +350,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![EXCEL/PDFファイルが確認できます](images/hrbc_dl/hrbc_dl_23.png)
 
 
-[TOPに戻る](#TOP)
-<br><br>
+[<TOPに戻る>](#TOP)
+<br><br><br>
 
 <h2 id="dl">6.クラウド帳票から成約IDを入力してダウンロードする</h2>
 
@@ -404,8 +403,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 (3) 以降の操作は [5-1.クラウド帳票を1件ダウンロードする(4)](#hrbc_dl_1_4)をご参照ください。
 
-
-[TOPに戻る](#TOP)
+[<TOPに戻る>](#TOP)
+<br><br><br>
 -----
 * 2021年8月24日新規作成
 * 2021年8月24日更新
