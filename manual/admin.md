@@ -354,8 +354,52 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 <h2 id="dl_ledger">7.台帳(一覧表)をダウンロードする</h2>
 同じリソースに対して、HRBCで複数選択したデータの台帳が出力します。
 
+<h3 id="dl_ledger_1">7-1.HRBCの設定</h3>
+※HRBCにシステム管理者権限でのログインが必要です。
+(1)設定→カスタマイズの順に選択します
+(2)アクションメニュー編集を選択
+(3)アクションメニューを設定するリソースを選択します
+(4)一括アクションを選択します
+![一括アクションを選択](images/dl_ledger/dl_ledger_1.png)
 
-(1)「出力履歴」を選択し、右側の「対象データ」にあるIDを押下します。
+
+(5)新規でアクションメニューを作成し、下の表を元にURLを設定します
+
+|利用可能リソース|URL|
+|-----|-----|
+|企業|https://【利用中のドメイン】.report-cloud.com/report/list/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/list/recruiter/\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|JOB|https://【利用中のドメイン】.report-cloud.com/report/list/job/\{\{Job.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/list/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/list/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】.report-cloud.com/report/list/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/list/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/list/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+
+
+
+<h3 id="dl_ledger_2">7-2.テンプレートの作成</h3>
+
+繰り返し行の前後を　　　{{LOOP_START}}　　　　～　　　　{{LOOP_END}}　　　で囲みます。(この行は削除されます)
+![囲む](images/dl_ledger/dl_ledger_2.png)
+
+<h3 id="dl_ledger_3">7-3.テンプレートの登録</h3>
+帳票一覧→新規登録から一覧表を選んで保存し、テンプレートを設定し、マッピングを行います。
+![囲む](images/dl_ledger/dl_ledger_3.png)
+
+<h3 id="dl_ledger_4">7-4.出力</h3>
+(1)一括アクションボタンのプルダウンから、 [7-1.HRBCの設定](#dl_ledger_1)でHRBCに設定した一覧表メニューを選びます。
+![一覧表メニューを選ぶ](images/dl_ledger/dl_ledger_4.png)
+
+(2)表示されているデータ全てorチェックを入れたデータかを選びます。
+![表示されているデータ全てorチェックを入れたデータかを選ぶ](images/dl_ledger/dl_ledger_5.png)
+
+(3)[7-2.テンプレートの作成](#dl_ledger_2)で登録したテンプレートを選択しダウンロードします。
+
+(4) 以降の操作は [5-1.クラウド帳票を1件ダウンロードする(4)](#hrbc_dl_1_4)をご参照ください。
+
+
+
 
 -----
 * 2021年8月24日新規作成
