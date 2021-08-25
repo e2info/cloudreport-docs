@@ -196,7 +196,8 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![「帳票一覧」に追加](images/document_temp/document_temp_7.png)
 
 テンプレートが作成されると「帳票一覧」に遷移し、「更新しました」という緑色の帯が表示され、作成したテンプレートが表示されます。
-  ![更新しました](images/document_temp/document_temp_14.png)
+
+![更新しました](images/document_temp/document_temp_14.png)
 
 
 [<TOPに戻る>](#TOP)
