@@ -384,14 +384,16 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 繰り返し行の前後を　　　{{LOOP_START}}　　～　　{{LOOP_END}}　　　で囲みます。(この行は削除されます) <br>
 ![囲む](images/dl_ledger/dl_ledger_2.png) <br><br>
 
-<h3 id="dl_ledger_3">7-3.テンプレートの登録</h3> <br>
+<h3 id="dl_ledger_3">7-3.テンプレートの登録</h3> 
+
 帳票一覧→新規登録から一覧表を選んで保存し、テンプレートを設定し、マッピングを行います。
 
 ![一覧表を選ぶ](images/dl_ledger/dl_ledger_3.png)
 
 <br><br>
 
-<h3 id="dl_ledger_4">7-4.出力</h3> <br>
+<h3 id="dl_ledger_4">7-4.出力</h3>
+
 (1)一括アクションボタンのプルダウンから、 [7-1.HRBCの設定](#dl_ledger_1)でHRBCに設定した一覧表メニューを選びます。
 
 ![一覧表メニューを選ぶ](images/dl_ledger/dl_ledger_4.png)
