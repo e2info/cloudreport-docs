@@ -90,6 +90,7 @@ title: クラウド帳票 作成マニュアル（管理者用）
 ![HRBCフィールド情報の同期](images/hrbc_sync/hrbc_2.png)
 
 HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBCフィールド情報を同期しました。」という緑色の帯が表示されます。
+
 ![HRBCフィールド情報を同期しました](images/hrbc_sync/hrbc_3.png)
 
 <br><br>
