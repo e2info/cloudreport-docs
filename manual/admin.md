@@ -119,7 +119,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="document_temp_file_1">2-1.テンプレート用ファイルの作成</h3>
 (1) Excelファイルでテンプレートファイルを作成します。このときクラウド帳票に出力したい　箇所は
-`{{ }}`で囲みます。<br>
+\{\{\}\}で囲みます。<br>
 
 ![テンプレートファイル](images/document_temp/document_temp_file_1.png)
 
@@ -129,6 +129,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 
 [<TOPに戻る>](#TOP)
+
 <br><br><br>
 
 <h2 id="document_temp">3.帳票テンプレートの作成</h2>
