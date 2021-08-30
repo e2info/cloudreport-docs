@@ -135,7 +135,7 @@ title: クラウド帳票 作成マニュアル（一般ユーザー用）
 
 ![左のメニューから出力履歴を選択](images/hrbc_dl/hrbc_dl_27.png)
 
-![「対象データ」にあるIDを押下](images/hrbc_dl/hrbc_dl_28.png)
+![「対象データ」にあるIDを押下](images/hrbc_dl/hrbc_dl_user5.png)
 
 (2) 別ウィンドウでHRBCの「売上一覧」が表示されます。左上のタブで「クラウド帳票(本番)」を選択し、ダウンロード画面に切り替えます。
 
