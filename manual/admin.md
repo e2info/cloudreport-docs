@@ -287,10 +287,10 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 ![PDFファイル保存](images/hrbc_dl/hrbc_dl_8_2.png)
 
-<font color="Red">※マッピング項目先（HRBC側の値）に半角「¥」が入っていると帳票出力時に半角「\」に変換されてしまいます。<br>
+<font color="Red">#### ※マッピング項目先（HRBC側の値）に半角「¥」が入っていると帳票出力時に半角「\」に変換されてしまいます。<br>
 「¥」を帳票に表示したい場合は全角の￥をご使用ください。</font>
 
-![PDFファイル保存](images/hrbc_dl/hrbc_dl_8_3.png)
+![全角の￥をご使用ください](images/hrbc_dl/hrbc_dl_8_3.png)
 
 <br><br>
 
