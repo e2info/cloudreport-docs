@@ -110,7 +110,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![HRBC選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
 
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 <br><br><br>
 
 <h2 id="document_temp_file">2.帳票テンプレート用ファイルの作成</h2>
@@ -128,7 +128,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![保存する際の拡張子](images/document_temp/document_temp_file_2.png)
 
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 
 <br><br><br>
 
@@ -202,7 +202,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 ![更新しました](images/document_temp/document_temp_14.png)
 
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 <br><br><br>
 
 <h2 id="mapping">4．マッピングの設定</h2>
@@ -242,7 +242,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 (4)マッピングが解除されると「マッピング設定」に遷移し、指定した行が削除されております。
 
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 <br><br><br>
 
 
@@ -369,7 +369,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 (3) 以降の操作は [5-1.クラウド帳票を1件ダウンロードする(4)](#hrbc_dl_1_4)をご参照ください。
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 <br><br><br>
 
 
@@ -431,11 +431,11 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 (4) 以降の操作は [5-1.クラウド帳票を1件ダウンロードする(4)](#hrbc_dl_1_4)をご参照ください。
 <br><br>
 
-[<TOPに戻る>](#TOP)
+[▲TOPに戻る](#TOP)
 <br><br><br>
 -----
 * 2021年8月25日新規作成
-* 2021年8月25日更新
+* 2021年8月30日更新
 
 
 {% include footer.md %}
