@@ -283,8 +283,10 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 (3) PCのダウンロードフォルダにEXCEL/PDFファイルが保存されます。
 ![EXCEL/PDFファイルを保存](images/hrbc_dl/hrbc_dl_8.png)
 
+▼EXCELの場合
 ![EXCELファイル保存](images/hrbc_dl/hrbc_dl_8_1.png)
 
+▼PDFの場合
 ![PDFファイル保存](images/hrbc_dl/hrbc_dl_8_2.png)
 
 ##### ※マッピング項目先（HRBC側の値）に半角「¥」が入っていると帳票出力時に半角「\」に変換されてしまいます。<br>
