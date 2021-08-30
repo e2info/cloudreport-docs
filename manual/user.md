@@ -113,7 +113,7 @@ title: クラウド帳票 作成マニュアル（一般ユーザー用）
 <h3 id="dl_1">2-1.「帳票の作成」からクラウド帳票を出力する</h3>
 (1)「帳票の作成」から出力したいメニューを選択し、Sales ID欄に成約IDを入力します。
 
-![Sales ID欄に成約IDを入力](images/hrbc_dl/hrbc_dl_25.png)
+![Sales ID欄に成約IDを入力](images/hrbc_dl/hrbc_dl_user5.png)
 
 (2) 以降の操作は [1-1.クラウド帳票を1件ダウンロードする(4)](#hrbc_dl_1_4)をご参照ください。
 
@@ -135,7 +135,7 @@ title: クラウド帳票 作成マニュアル（一般ユーザー用）
 
 ![左のメニューから出力履歴を選択](images/hrbc_dl/hrbc_dl_27.png)
 
-![「対象データ」にあるIDを押下](images/hrbc_dl/hrbc_dl_user5.png)
+![「対象データ」にあるIDを押下](images/hrbc_dl/hrbc_dl_user6.png)
 
 (2) 別ウィンドウでHRBCの「売上一覧」が表示されます。左上のタブで「クラウド帳票(本番)」を選択し、ダウンロード画面に切り替えます。
 
