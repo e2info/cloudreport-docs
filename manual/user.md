@@ -30,12 +30,12 @@ title: クラウド帳票 作成マニュアル（標準ユーザー用）
 
 帳票テンプレートを使用しHRBCにダウンロードします。<br>
 ※管理者のみ直接PCへのダウンロードが可能です。<br>
-※HRBCへダウンロードするには事前にHRBCの同期や帳票テンプレートの作成、設定が必要となり、この作業は管理者のみ対応可能です。<br>
+※HRBCへダウンロードするには事前にHRBCの同期や帳票テンプレートの作成、設定が必要となり、<br>この作業は管理者のみ対応可能です。<br>
 管理者の方の手順については管理者用マニュアルにてご確認ください。<br>
- #### クラウド帳票 作成マニュアル（管理者用）はこちら
- https://e2info.github.io/cloudreport-docs/manual/admin.html
+#### クラウド帳票 作成マニュアル（管理者用）はこちら
+https://e2info.github.io/cloudreport-docs/manual/admin.html
  
-
+[#### クラウド帳票 作成マニュアル（管理者用）はこちら](https://e2info.github.io/cloudreport-docs/manual/admin.html)
 <br><br>
 
 <h3 id="login">クラウド帳票のログインについて</h3>
