@@ -1,4 +1,4 @@
-## クラウド帳票マニュアル
+## クラウドドキュメントマニュアル
 
 https://e2info.github.io/cloudreport-docs/
 
