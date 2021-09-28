@@ -388,14 +388,14 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 |利用可能リソース|URL|
 |-----|-----|
-|企業|https://【利用中のドメイン】.report-cloud.com/report/list/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/list/recruiter/\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|JOB|https://【利用中のドメイン】.report-cloud.com/report/list/job/\{\{Job.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/list/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/list/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】.report-cloud.com/report/list/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/list/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/list/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|JOB|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Job.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】report-cloud.com/report/ledger/job?ids=\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 
 <br><br>
 
