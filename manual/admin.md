@@ -386,37 +386,37 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 (5)新規でアクションメニューを作成し、下の表を元にURLを設定します
 
-URLが https://【利用中のドメイン】.report-cloud.com の場合
-※【利用中のドメイン】について
+URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
+※【利用中のドメイン】について <br>
 　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。
 
 |利用可能リソース|URL|
 |-----|-----|
-|企業|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業|https://【利用中のドメイン】.report-cloud.com/report/ledger/client?ids=\{\{Client.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/ledger/recruiter?ids=\{\{Recruiter.P_Id\}\}&user=\{\{Session.P_UserId}}|
 |JOB|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Job.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】report-cloud.com/report/ledger/job?ids=\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/ledger/candidate?ids=\{\{Person.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/ledger/resume?ids=\{\{Resume.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】.report-cloud.com/report/ledger/sales?ids=\{\{Sales.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/ledger/activity?ids=\{\{Activity.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/ledger/process?ids=\{\{Process.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
 
 <br><br>
 
-URLが https://【利用中のドメイン】.cloud-document.net　の場合
-※【利用中のドメイン】について
+URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br>
+※【利用中のドメイン】について <br>
 　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。
 
 |利用可能リソース|URL|
 |-----|-----|
-|企業|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業|https://【利用中のドメイン】.cloud-document.net/report/ledger/client?ids=\{\{Client.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.cloud-document.net/report/ledger/recruiter?ids=\{\{Recruiter.P_Id\}\}&user=\{\{Session.P_UserId}}|
 |JOB|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Job.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|個人連絡先|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|レジュメ|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
-|選考プロセス|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.cloud-document.net/report/ledger/candidate?ids=\{\{Person.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|レジュメ|https://【利用中のドメイン】.cloud-document.net/report/ledger/resume?ids=\{\{Resume.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】.cloud-document.net/report/ledger/sales?ids=\{\{Sales.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.cloud-document.net/report/ledger/activity?ids=\{\{Activity.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+|選考プロセス|https://【利用中のドメイン】.cloud-document.net/report/ledger/process?ids=\{\{Process.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
 
 <br><br>
 
