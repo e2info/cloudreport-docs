@@ -1,13 +1,13 @@
 ---
 layout: default
-title: クラウド帳票 HRBC設定マニュアル
+title: クラウドドキュメント HRBC設定マニュアル
 ---
 
-# クラウド帳票 HRBC設定マニュアル
+# クラウドドキュメント HRBC設定マニュアル
 
-## HRBCからクラウド帳票への画面遷移
+## HRBCからクラウドドキュメントへの画面遷移
 
-HRBCからクラウド帳票を利用する場合、HRBCのアクションメニューから遷移します。
+HRBCからクラウドドキュメントを利用する場合、HRBCのアクションメニューから遷移します。
 
 ![アクションメニュー例](images/hrbc/hrbc_actionmenu_1.png)
 
@@ -30,6 +30,10 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 
 #### 利用可能
 
+URLが https://【利用中のドメイン】.report-cloud.com の場合
+※【利用中のドメイン】について
+　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。
+
 |リソース|URL|
 |-----|-----|
 |企業|https://【利用中のドメイン】.report-cloud.com/report/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
@@ -42,8 +46,26 @@ HRBCからクラウド帳票を利用する場合、HRBCのアクションメニ
 |選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
 
 
+
+#### 利用可能
+
+URLが https://【利用中のドメイン】.cloud-document.net　の場合
+※【利用中のドメイン】について
+　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。
+
+|リソース|URL|
+|-----|-----|
+|企業|https://【利用中のドメイン】.cloud-document.net/report/client/\{\{Client.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|企業担当者|https://【利用中のドメイン】.cloud-document.net/report/recruiter/\{\{Recruiter.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|JOB|https://【利用中のドメイン】.cloud-document.net/report/job/\{\{Job.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|個人連絡先|https://【利用中のドメイン】.cloud-document.net/report/candidate/\{\{Person.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|レジュメ|https://【利用中のドメイン】.cloud-document.net/report/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|売上|https://【利用中のドメイン】.cloud-document.net/report/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|アクティビティ|https://【利用中のドメイン】.cloud-document.net/report/activity/\{\{Activity.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+|選考プロセス|https://【利用中のドメイン】.cloud-document.net/report/process/\{\{Process.P_Id\}\}?user=\{\{Session.P_UserId\}\}|
+
 -----
 * 2020年12月25日新規作成
-* 2021年6月23日更新
+* 2021年9月28日更新
 
 {% include footer.md %}
