@@ -1,15 +1,16 @@
 ---
 layout: default
-title: クラウド帳票リリースノート
+title: クラウドドキュメントリリースノート
 ---
 
-# クラウド帳票リリースノート
+# クラウドドキュメントリリースノート
 
 ## 最新リリース
-* [【リリース完了】クラウド帳票 2021年7月28日 リリースノート](/cloudreport-docs/release-notes/20210728.html)
+* [【リリース完了】クラウドドキュメント 2021年10月12日 リリースノート](/cloudreport-docs/release-notes/20211012.html)
 
 
 ## 過去のリリース
+* [【リリース完了】クラウド帳票 2021年7月28日 リリースノート](/cloudreport-docs/release-notes/20210728.html)
 * [【リリース完了】クラウド帳票 2021年7月7日 リリースノート](/cloudreport-docs/release-notes/20210707.html)
 * [【リリース完了】クラウド帳票 2021年6月23日 リリースノート](/cloudreport-docs/release-notes/20210623.html)
 * [【リリース完了】クラウド帳票 2021年6月13日 リリースノート](/cloudreport-docs/release-notes/20210613.html)
@@ -20,6 +21,6 @@ title: クラウド帳票リリースノート
 
 -----
 * 2020年12月25日 新規作成
-* 2021年7月28日 更新 
+* 2021年10月12日 更新 
 
 {% include footer.md %}
