@@ -10,7 +10,7 @@ title: クラウドドキュメント よくある質問
 - [クラウドドキュメントへのログインについて](#login)
   - [クラウドドキュメントにログインできません](#login1)
   - [クラウドドキュメントにログインの際エラーとなる](#login2)
-  - [https://cloud-document.net/hrbc/callback?subscribe　からログインすると毎回利用規約の同意を求められます ](#login3)
+  - [ログインすると毎回利用規約の同意を求められます ](#login3)
 - [HRBCのアクションメニュー設定について](#hrbc)
   - [HRBCのアクションメニューにURLを登録したあと
 アクションメニューを押したら「この接続ではプライバシーが保護されません」と表示されました](#hrbc1)
@@ -46,6 +46,11 @@ HRBCにログインした上で下記方法でお試しください。<br>
 HRBCにログイン後アクションメニューのボタンから遷移してください<br>
 
 ![アクションメニューのボタン](images/login1.png)　　<br>
+　　<br>
+※ボタンが見当たらない場合　　<br>
+下記設定がまだのようですので、ご対応お願いいたします。　　<br>
+https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+<br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
@@ -68,6 +73,11 @@ HRBCにログインした上で下記方法でお試しください。<br>
 HRBCにログイン後アクションメニューのボタンから遷移してください<br>
 
 ![アクションメニューのボタン](images/login1.png)　　<br>
+　　<br>
+※ボタンが見当たらない場合　　<br>
+下記設定がまだのようですので、ご対応お願いいたします。　　<br>
+https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+<br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
@@ -80,7 +90,7 @@ HRBCにログイン後　https://cloud-document.net/hrbc/callback  にアクセ�
 ***
 
 
-<h3 id="login3">Q.https://cloud-document.net/hrbc/callback?subscribeからログインすると毎回利用規約の同意を求められます</h3><br>
+<h3 id="login3">Q.ログインすると毎回利用規約の同意を求められます</h3><br>
 A.https://cloud-document.net/hrbc/callback?subscribe　　は利用開始時のみご案内するURLになります。
 HRBCにログインした上で下記方法でログインをお願いいたします。<br>
 
@@ -88,6 +98,12 @@ HRBCにログインした上で下記方法でログインをお願いいたし�
 HRBCにログイン後アクションメニューのボタンから遷移してください<br>
 
 ![アクションメニューのボタン](images/login1.png)　　<br>
+
+　　<br>
+※ボタンが見当たらない場合　　<br>
+下記設定がまだのようですので、ご対応お願いいたします。　　<br>
+https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+<br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
@@ -248,6 +264,7 @@ A.前回HRBCとの同期したあとに項目を追加したため新しく追�
 ![同期の設定](images/document4.png)
 
 <br>
+
 [▲TOPに戻る](#TOP)
 
 ***
