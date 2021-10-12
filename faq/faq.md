@@ -337,7 +337,9 @@ https://e2info.github.io/cloudreport-docs/manual/admin.html#price
 
 <h3 id="contact1">Q.利用開始後のお問い合わせ先はどちらですか</h3><br>
 A.利用開始後のお問い合わせはクラウドドキュメントサポートデスクにメールにてお願いいたします。<br><br>
+
 #### クラウドドキュメントサポートデスク(土日祝・年末年始休み)<br>
+
 <お問い合わせ> support_cloudreport@e2info.com<br>
 ※現状お電話では承っておりません<br>
 ※お問い合わせいただいた内容は順番に対応させていただきます。<br>
