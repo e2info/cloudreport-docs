@@ -315,6 +315,10 @@ A.項目のマッピングは1シート目のみとなっています。<br>
 A.下記にて詳しくご説明しております。<br>
 https://e2info.github.io/cloudreport-docs/manual/admin.html#price
 
+<br><br>
+
+[▲TOPに戻る](#TOP)
+
 ***
 
 <h3 id="price2">Q.どの帳票が課金対象になりますか</h3><br>
@@ -323,7 +327,7 @@ A.本番環境で出力した場合すべて課金対象になります(トラ�
 下記にて詳しくご説明しております。<br>
 https://e2info.github.io/cloudreport-docs/manual/admin.html#price
 
-<br>
+<br><br>
 
 [▲TOPに戻る](#TOP)
 
@@ -336,6 +340,7 @@ A.利用開始後のお問い合わせはクラウドドキュメントサポー
 クラウドドキュメントサポートデスク support_cloudreport@e2info.com<br>
 ※現状お電話では承っておりません
 
+<br><br>
 
 [▲TOPに戻る](#TOP)
 
