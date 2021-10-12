@@ -12,6 +12,11 @@ https://e2info.github.io/cloudreport-docs/
 * [HRBC設定マニュアル](manual/hrbc.md)
 
 
+### よくある質問
+
+* [よくある質問](faq/faq.md)
+
+
 ## リリースノート
 
 * [リリースノート](release-notes/index.md)
