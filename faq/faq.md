@@ -49,13 +49,12 @@ HRBCにログイン後アクションメニューのボタンから遷移して�
 ![アクションメニューのボタン](images/login1.png)　　<br>
 　　<br>
 ※ボタンが見当たらない場合　　<br>
-下記設定がまだのようですので、ご対応お願いいたします。　　<br>
-https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+[HRBC設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br><br>
 <br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
-HRBCにログイン後　https://cloud-document.net/hrbc/callback  にアクセスしてください<br>
+HRBCにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback)にアクセスしてください<br>
 
 <br>
 
@@ -76,13 +75,13 @@ HRBCにログイン後アクションメニューのボタンから遷移して�
 ![アクションメニューのボタン](images/login1.png)　　<br>
 　　<br>
 ※ボタンが見当たらない場合　　<br>
-下記設定がまだのようですので、ご対応お願いいたします。　　<br>
-https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+ [HRBC設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br>
+
 <br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
-HRBCにログイン後　https://cloud-document.net/hrbc/callback  にアクセスしてください<br>
+HRBCにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback) にアクセスしてください<br>
 
 <br>
 
@@ -102,13 +101,12 @@ HRBCにログイン後アクションメニューのボタンから遷移して�
 
 　　<br>
 ※ボタンが見当たらない場合　　<br>
-下記設定がまだのようですので、ご対応お願いいたします。　　<br>
-https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+[HRBC設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br>
 <br>
      
 #### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
 
-HRBCにログイン後　https://cloud-document.net/hrbc/callback  にアクセスしてください<br>
+HRBCにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback)にアクセスしてください<br>
 
 <br>
 
@@ -145,7 +143,7 @@ URLの種類によってアクションメニューに設定する【利用中�
 ***
 
 <h3 id="hrbc2">Q.HRBCのアクションメニューにURLを登録したあと
-アクションメニューを押したら 謎の文字列が表示されました</h3>
+アクションメニューを押したら謎の文字列が表示されました</h3>
 文字列例<br>
 
 ![文字列例](images/hrbc2.png)　　<br>
@@ -325,8 +323,7 @@ A.はい。可能です。<br>
 
 <h3 id="price1">Q.課金タイミングについて</h3><br>
 A.下記にて詳しくご説明しております。<br>
-https://e2info.github.io/cloudreport-docs/manual/admin.html#price
-
+[管理者マニュアル 帳票のご利用料金について](https://e2info.github.io/cloudreport-docs/manual/admin.html#price)で詳しくご説明しております。<br>
 <br><br>
 
 [▲TOPに戻る](#TOP)
@@ -336,8 +333,7 @@ https://e2info.github.io/cloudreport-docs/manual/admin.html#price
 <h3 id="price2">Q.どの帳票が課金対象になりますか</h3><br>
 A.本番環境で出力した場合すべて課金対象になります(トライアル期間内を除く)<br>
 検証環境で出力した場合はすべて無課金となります。<br>
-下記にて詳しくご説明しております。<br>
-https://e2info.github.io/cloudreport-docs/manual/admin.html#price
+[管理者マニュアル 帳票のご利用料金について](https://e2info.github.io/cloudreport-docs/manual/admin.html#price)で詳しくご説明しております。<br>
 
 <br><br>
 
