@@ -7,7 +7,7 @@ title: クラウドドキュメントリリースノート
 
 ## 最新リリース
 ### URLがhttps://【利用中のドメイン】.cloud-document.net の環境向け
-* [【リリース予定】クラウドドキュメント 2021年11月17日 リリースノート](/cloudreport-docs/release-notes/20211117_3rd.html)
+* [【リリース完了】クラウドドキュメント 2021年11月17日 リリースノート](/cloudreport-docs/release-notes/20211117_3rd.html)
 
 <br><br>
 ## 過去のリリース
