@@ -2,6 +2,9 @@
 
 https://e2info.github.io/cloudreport-docs/
 
+## 年末年始の休業のお知らせと2022年1月からの料金改定について
+* [詳しくはこちら](release-notes/20211224.md)
+
 ### 画面操作マニュアル
 
 * [管理者マニュアル](manual/admin.md)
