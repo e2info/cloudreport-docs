@@ -8,6 +8,8 @@ title: クラウドドキュメントリリースノート
 ## 年末年始の休業のお知らせと2022年1月からの料金改定について
 * [詳しくはこちら](release-notes/20211224.md)
 
+<br>
+
 ## 最新リリース
 ### URLがhttps://【利用中のドメイン】.cloud-document.net の環境向け
 * [【リリース完了】クラウドドキュメント 2021年11月17日 リリースノート](/cloudreport-docs/release-notes/20211117_3rd.html)
