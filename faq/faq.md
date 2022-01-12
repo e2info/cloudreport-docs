@@ -374,7 +374,7 @@ A.下記にて詳しくご説明しております。<br>
 <h3 id="price2">Q.どの帳票が課金対象になりますか</h3><br>
 A.本番環境で出力した場合すべて課金対象になります(トライアル期間内を除く)<br>
 検証環境で出力した場合はすべて無課金となります。<br>
-[管理者マニュアル 帳票のご利用料金について](https://e2info.github.io/cloudreport-docs/manual/admin.html#price)で詳しくご説明しております。<br>
+[管理者マニュアル 帳票のご利用料金について](https://e2info.github.io/cloudreport-docs/manual/admin.html#price)　で詳しくご説明しております。<br>
 
 <br><br>
 
