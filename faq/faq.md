@@ -1,6 +1,10 @@
+<br>
+<div align="center">
 <img src="images/logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
+</div>
+<br><br>
 
-#### クラウドドキュメント よくある質問
+# クラウドドキュメント よくある質問
 
 <h2 id="TOP">よくある質問一覧</h2>
 
