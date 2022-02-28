@@ -1,3 +1,9 @@
+<br>
+<div align="center">
+<img src="logo-type.png" alt="属性" title="クラウドドキュメント">
+</div>
+<br><br>
+
 ## クラウドドキュメントマニュアル
 
 https://e2info.github.io/cloudreport-docs/
