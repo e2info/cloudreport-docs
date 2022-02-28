@@ -1,7 +1,4 @@
----
-layout: default
-title: クラウドドキュメント よくある質問
----
+<img src="images/logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
 
 #### クラウドドキュメント よくある質問
 
