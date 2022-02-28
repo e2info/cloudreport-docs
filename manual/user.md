@@ -1,7 +1,8 @@
----
-layout: default
-title: クラウドドキュメント 作成マニュアル（標準ユーザー用）
----
+<br>
+<div align="center">
+<img src="images/logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
+</div>
+<br><br>
 
 #### クラウドドキュメント 作成マニュアル（標準ユーザー用）
 
