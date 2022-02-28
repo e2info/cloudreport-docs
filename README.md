@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-<img src="logo-type.png" alt="属性" title="クラウドドキュメント">
+<img src="logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
 </div>
 <br><br>
 
