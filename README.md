@@ -1,3 +1,9 @@
+---
+layout: default
+title: クラウドドキュメント リリースノート
+
+---
+
 <br>
 <div align="center">
 <img src="logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
@@ -30,3 +36,6 @@
 -----
 
 {% include footer.md %}
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
