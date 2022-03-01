@@ -1,3 +1,8 @@
+---
+layout: default
+title: クラウドドキュメント リリースノート
+
+---
 <br>
 <div align="center">
 <img src="images/logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
