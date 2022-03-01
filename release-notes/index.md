@@ -11,7 +11,7 @@ title: クラウドドキュメントリリースノート
 <br>
 
 ## 最新リリース
-* [【リリース予定】クラウドドキュメント 2022年1月26日 リリースノート](/cloudreport-docs/release-notes/20220126.html)
+* [【お知らせ】【お知らせ】利用規約の改定とクラウドドキュメントページのメニューの変更について](/cloudreport-docs/release-notes/20220301.html)
 
 
 <br><br>
@@ -26,6 +26,7 @@ title: クラウドドキュメントリリースノート
 * [【リリース完了】クラウド帳票 2021年3月23日 リリースノート](/cloudreport-docs/release-notes/20210323.html)
 * [【リリース完了】クラウド帳票 2021年3月15日 リリースノート](/cloudreport-docs/release-notes/20210315.html)
 * [【リリース完了】クラウド帳票 2020年12月25日 リリースノート](/cloudreport-docs/release-notes/20201225.html)
+* [【リリース完了】クラウドドキュメント 2022年1月26日 リリースノート](/cloudreport-docs/release-notes/20220126.html)
 
 ### URLが https://【利用中のドメイン】.report-cloud.com の環境向け
 * [【リリース完了】クラウドドキュメント 2021年11月4日 リリースノート](/cloudreport-docs/release-notes/20211104.html)
@@ -37,6 +38,6 @@ title: クラウドドキュメントリリースノート
 
 -----
 * 2020年1月14日 新規作成
-* 2022年1月21日 更新 
+* 2022年3月1日 更新 
 
 {% include footer.md %}

@@ -1,7 +1,8 @@
----
-layout: default
-title: クラウドドキュメント HRBC設定マニュアル
----
+<br>
+<div align="center">
+<img src="images/logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
+</div>
+<br><br>
 
 # クラウドドキュメント HRBC設定マニュアル
 
