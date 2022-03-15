@@ -1,4 +1,4 @@
-## クラウドドキュメントマニュアル
+## クラウドドキュメント ユーザー様向けマニュアル
 
 https://e2info.github.io/cloudreport-docs/
 
@@ -20,7 +20,7 @@ https://e2info.github.io/cloudreport-docs/
 * [よくある質問](faq/faq.md)
 
 
-## リリースノート
+### リリースノート
 
 * [リリースノート](release-notes/index.md)
 
