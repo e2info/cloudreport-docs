@@ -1,14 +1,6 @@
----
-layout: default
-title: クラウドドキュメント リリースノート
+## クラウドドキュメントマニュアル
 
----
-
-<br>
-<div align="center">
-<img src="logo-type.png" alt="クラウドドキュメント" title="クラウドドキュメント">
-</div>
-<br><br>
+https://e2info.github.io/cloudreport-docs/
 
 ## 2022年1月からの料金改定について
 * [詳しくはこちら](release-notes/20220104.md)
