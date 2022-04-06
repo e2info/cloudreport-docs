@@ -11,7 +11,12 @@ title: クラウドドキュメントリリースノート
 <br>
 
 ## 最新リリース
+### URLが https://【利用中のドメイン】.report-cloud.com の環境向け
 * [【リリース予定】クラウドドキュメント 2022年4月7日 リリースノート](/cloudreport-docs/release-notes/20220407.html)
+
+### URLがhttps://【利用中のドメイン】.cloud-document.net の環境向け
+* [【リリース予定】クラウドドキュメント 2022年4月7日 リリースノート](/cloudreport-docs/release-notes/20220407_3rd.html)
+
 
 
 <br><br>
