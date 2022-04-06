@@ -215,7 +215,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 <h3 id="document_temp_2">3-2.テンプレートの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。
 
-![「アクション」にある「更新」を押下](images/document_temp/document_temp_12.png)
+![更新を押下](images/document_temp/document_temp_12.png)
 
 (2) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
 ![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_13.png)
@@ -234,7 +234,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <h3 id="document_temp_3">3-3.テンプレートの削除</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。<br>
-![「アクション」にある「更新」を押下](images/document_temp/document_temp_12.png)<br><br>
+![更新を押下](images/document_temp/document_temp_12.png)<br><br>
 
 (2) 「帳票更新」画面下の「この帳票を削除する」ボタンを押下します。<br>
 ![「「この帳票を削除する」ボタンを押下](images/document_temp/document_temp_15.png)<br><br>
