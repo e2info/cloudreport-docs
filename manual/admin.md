@@ -232,8 +232,9 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <br><br>
 
-<h3 id="document_temp_3">3-3.テンプレートの削除</h3>
+<h3 id="document_temp_3">3-3.テンプレートの削除</h3><br>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。<br>
+
 ![更新を押下](images/document_temp/document_temp_12.png)<br><br>
 
 (2) 「帳票更新」画面下の「この帳票を削除する」ボタンを押下します。<br>
@@ -546,7 +547,7 @@ URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br
 <br><br><br><br>
 -----
 * 2021年8月25日新規作成
-* 2021年10月12日更新
+* 2022年4月7日更新
 
 
 {% include footer.md %}
