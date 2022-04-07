@@ -596,7 +596,12 @@ ID変更:JOBID等を変更できるかどうか<br>
 ※帳票識別IDは「帳票更新」画面から確認できます。<br>
 ![帳票識別ID](images/dl_sp/dl_sp_3.png)<br>
 指定したい帳票の帳票識別IDを【ここに帳票識別IDを指定してください】の部分に挿入してください。
-![帳票識別ID](images/dl_sp/dl_sp_4.png)<br>
+<例>
+https://XXXXX.cloud-document.net/report/job/{{Job.P_Id}}/template/【ここに帳票識別IDを指定してください】/?user={{Session.P_UserId}}<br>
+帳票識別IDが00035の場合下記のように挿入してください<br>
+![挿入](images/dl_sp/dl_sp_4.png)<br><br>
+
+#### どのURLを入れるかによりアクションボタン押下後の遷移先の表示が異なります。<br>
 
 #### ID変更:可　　テンプレート変更:可　　　テンプレート初期値：なし<br>
 ![ID可 テ可 初なし](images/dl_sp/IDOK_temOK_IVNO.png)<br><br>
@@ -616,11 +621,7 @@ ID変更:JOBID等を変更できるかどうか<br>
 #### ID変更:不可　　テンプレート変更:不可　　　テンプレート初期値：あり<br>
 ![ID不可 テ不可 初あり](images/dl_sp/IDNO_temNO_ivOK.png)<br><br>
 
-
-
-
-
-
+上記を必要に応じて設定することで、帳票出力毎の設定の工程を短縮できます。
 
 
 [▲TOPに戻る](#TOP)
