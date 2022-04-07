@@ -420,7 +420,7 @@ HRBCフィールドの取得が完了すると管理画面に遷移し、「HRBC
 
 <br><br>
 
-<h2 id="dl">6.クラウドドキュメントから成約IDを入力してダウンロードする</h2>
+<h2 id="dl">6.クラウドドキュメントからIDを入力してダウンロードする</h2>
 
 ここでは[3.帳票テンプレートの作成](#document_temp) で取り込んだ出力用の項目を、HRBCデータに紐づけを行います。
 
@@ -586,17 +586,40 @@ URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br
 <URLの設定方法>
 クラウドドキュメントの左側のメニューの「HRBC側の設定」から値をコピーします<br>
 
-![HRBC側の設定](images/dl_ledger/dl_sp_2.png)<br><br>
+![HRBC側の設定](images/dl_sp/dl_sp_2.png)<br><br>
 
-URLは下記の変更可否によって分かれています。<br>
+#### URLは下記の変更可否によって分かれています。<br>
 
 ID変更:JOBID等を変更できるかどうか<br>
 テンプレート変更:テンプレートを変更できるかどうか<br>
-テンプレート初期値:URLの【ここに帳票識別IDを指定してください】の部分を指定するかどうか<br><br>
-
-帳票識別IDは「帳票更新」画面から確認できます。
+テンプレート初期値:URLの【ここに帳票識別IDを指定してください】の部分を指定するかどうか=帳票を指定するかどうか<br>
+※帳票識別IDは「帳票更新」画面から確認できます。<br>
+![帳票識別ID](images/dl_sp/dl_sp_3.png)<br>
 指定したい帳票の帳票識別IDを【ここに帳票識別IDを指定してください】の部分に挿入してください。
-![帳票識別ID](images/dl_ledger/dl_sp_3.png)<br>
+![帳票識別ID](images/dl_sp/dl_sp_4.png)<br>
+
+#### ID変更:可　　テンプレート変更:可　　　テンプレート初期値：なし<br>
+![ID可 テ可 初なし](images/dl_sp/IDOK_temOK_IVNO.png)<br><br>
+
+#### ID変更:不可　　テンプレート変更:可　　　テンプレート初期値：なし<br>
+![ID可 テ不可 初なし](images/dl_sp/IDNO_temOK_ivNO.png)<br><br>
+
+#### ID変更:可　　テンプレート変更:可　　　テンプレート初期値：あり<br>
+![ID可 テ可 初あり](images/dl_sp/IDOK_temOK_ivOK.png)<br><br>
+
+#### ID変更:可　　テンプレート変更:不可　　　テンプレート初期値：あり<br>
+![ID可 テ不可 初あり](images/dl_sp/IDOK_temNO_ivOK.png)<br><br>
+
+#### ID変更:不可　　テンプレート変更:可　　　テンプレート初期値：あり<br>
+![ID不可 テ可 初あり](images/dl_sp/IDNO_temOK_ivOK.png)<br><br>
+
+#### ID変更:不可　　テンプレート変更:不可　　　テンプレート初期値：あり<br>
+![ID不可 テ不可 初あり](images/dl_sp/IDNO_temNO_ivOK.png)<br><br>
+
+
+
+
+
 
 
 
