@@ -603,7 +603,7 @@ URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br
 ![帳票識別ID](images/dl_sp/dl_sp_3.png)<br>
 
 指定したい帳票の帳票識別IDを【ここに帳票識別IDを指定してください】の部分に挿入してください。<br>
-<例><br>
+(例)<br>
 https://XXXXX.cloud-document.net/report/job/{{Job.P_Id}}/template/【ここに帳票識別IDを指定してください】/?user={{Session.P_UserId}}　<br>
 帳票識別IDが00035の場合下記のように挿入してください<br>
 
