@@ -584,7 +584,7 @@ URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br
 
 ![URL設定](images/dl_sp/dl_sp_1.png)<br><br>
 
-<URLの設定方法>
+#### URLの設定方法
 クラウドドキュメントの左側のメニューの「HRBC側の設定」から値をコピーします<br>
 
 ![HRBC側の設定](images/dl_sp/dl_sp_2.png)<br><br>
