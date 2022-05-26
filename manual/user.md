@@ -35,7 +35,7 @@ title: クラウドドキュメント リリースノート
 
 <br>
 <div align="center">
-<img src="images/hrbc_sync/flow_user.png" alt="フロー" title="フロー">
+<img src="images/hrbc_sync/flow_user.png" width="600" alt="フロー" title="フロー">
 </div>
 <br><br>
 
