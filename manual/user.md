@@ -33,7 +33,11 @@ title: クラウドドキュメント リリースノート
 
 <h3 id="flow">フローについて</h3>
 
-![フロー](images/hrbc_sync/flow_user.png)
+<br>
+<div align="center">
+<img src="images/hrbc_sync/flow_user.png" alt="フロー" title="フロー">
+</div>
+<br><br>
 
 #### ダウンロード（管理者/標準ユーザー共通で利用可能）
 
