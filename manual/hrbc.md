@@ -73,6 +73,6 @@ URLが https://【利用中のドメイン】.cloud-document.net　の場合
 
 -----
 * 2020年12月25日新規作成
-* 2021年9月28日更新
+* 2022年5月27日更新
 
 {% include footer.md %}
