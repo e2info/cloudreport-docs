@@ -52,7 +52,11 @@ title: クラウドドキュメント リリースノート
 
 <h3 id="flow">主なフローについて</h3>
 
-![主なフロー](images/hrbc_sync/flow.png)
+<br>
+<div align="center">
+<img src="images/hrbc_sync/flow.png" alt="主なフロー" title="主なフロー">
+</div>
+<br><br>
 
 #### 1.PORTERSの同期（管理者のみ利用可能）
 
