@@ -13,9 +13,9 @@ https://e2info.github.io/cloudreport-docs/
 * [管理者マニュアル](manual/admin.md)
 * [標準ユーザーマニュアル](manual/user.md)
 
-### HRBC設定
+### PORTERS設定
 
-* [HRBC設定マニュアル](manual/hrbc.md)
+* [PORTERS設定マニュアル](manual/hrbc.md)
 
 
 ### よくある質問
