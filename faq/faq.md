@@ -90,15 +90,11 @@ A.まずは動作保証対象の下記OS・ブラウザでご覧いただいて�
 ブラウザでキャッシュを保持している場合、サイト更新後も新しい情報よりも、先に保持しているキャッシュが優先的に表示されてしまう場合がございます。<br>
 表示が変わらない または 表示の崩れがある場合、まずはキャッシュの削除をお試しください。<br><br>
 
-##### Google Chrome - Chromeヘルプ
-https://support.google.com/chrome/answer/95582?hl=ja
+##### [Google Chrome - Chromeヘルプ](https://support.google.com/chrome/answer/95582?hl=ja)
+
+##### [Microsoft Edge - Windowsサポート情報](https://support.microsoft.com/ja-jp/microsoft-edge/-00cf7943-a9e1-975a-a33d-ac10ce454ca4)
+
 <br>
-
-##### Microsoft Edge - Windowsサポート情報<br>
-https://support.microsoft.com/ja-jp/microsoft-edge/-00cf7943-a9e1-975a-a33d-ac10ce454ca4
-<br><br>
-
-
 
 #### ②スーパーリロード<br>
 ブラウザのキャッシュを無視し、強制的に再読み込みを行います<br>
@@ -111,11 +107,9 @@ https://support.microsoft.com/ja-jp/microsoft-edge/-00cf7943-a9e1-975a-a33d-ac10
 
 ブラウザが最新バージョンになっているかご確認いただき、なっていない場合はアップデートをお願いいたします。<br>
 
-##### Google Chrome - Chromeヘルプ
-https://support.google.com/chrome/answer/95414?hl=ja&co=GENIE.Platform%3DDesktop
+##### [Google Chrome - Chromeヘルプ](https://support.google.com/chrome/answer/95414?hl=ja&co=GENIE.Platform%3DDesktop)
 
-##### Microsoft Edge - Windowsサポート情報
-https://support.microsoft.com/ja-jp/topic/-af8aaca2-1b69-4870-94fe-18822dbb7ef1
+##### [Microsoft Edge - Windowsサポート情報](https://support.microsoft.com/ja-jp/topic/-af8aaca2-1b69-4870-94fe-18822dbb7ef1)
 
 <br>
  
