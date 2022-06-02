@@ -13,6 +13,9 @@ title: クラウドドキュメント リリースノート
 
 <h2 id="TOP">よくある質問一覧</h2>
 
+
+- [クラウドドキュメントについて](#about)
+  - [クラウドドキュメントの動作保証環境はどちらになりますか？](#about1)
 - [クラウドドキュメントへのログインについて](#login)
   - [クラウドドキュメントにログインできません](#login1)
   - [クラウドドキュメントにログインの際エラーとなる](#login2)
@@ -49,6 +52,26 @@ title: クラウドドキュメント リリースノート
   - [最低利用料金について](#price3)
 - [お問い合わせについて](#contact)
   - [利用開始後のお問い合わせ先はどちらですか](#contact1)
+
+
+<h2 id="about">クラウドドキュメントについて</h2>
+
+<h3 id="about1">Q.クラウドドキュメントの動作保証環境はどちらになりますか？</h3><br>
+A.PORTERSに準じ、以下のOS・ブラウザを動作保証としております。<br><br>
+
+【動作保証】<br>
+　Windows10 Google Chrome<br>
+　Windows11 Google Chrome<br>
+　Windows10 Microsoft Edge Chromium<br>
+　Windows11 Microsoft Edge Chromium<br><br>
+ 
+ ※動作保証外のOS・ブラウザや、動作保証ブラウザでも任意設定内容によっては、正しく表示されない場合があります。<br><br>
+ 
+ 
+[▲TOPに戻る](#TOP)
+
+<br><br>
+
  
 <h2 id="login">クラウドドキュメントへのログインについて</h2>
 
