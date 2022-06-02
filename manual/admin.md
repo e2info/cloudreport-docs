@@ -54,7 +54,7 @@ title: クラウドドキュメント リリースノート
 <h3 id="os">クラウドドキュメントの動作保証環境について</h3>
 PORTERSに準じ、動作保証環境を設定しています。
 
-[クラウドドキュメント よくある質問 「クラウドドキュメントの動作保証環境はどちらになりますか？」](https://github.com/e2info/cloudreport-docs/blob/faq0602/faq/faq.md#about1)でご確認ください。
+[クラウドドキュメント よくある質問 「クラウドドキュメントの動作保証環境はどちらになりますか？」](https://e2info.github.io/cloudreport-docs/faq/faq.html#about1)でご確認ください。
 <br><br>
 
 
