@@ -626,7 +626,7 @@ https://XXXXX.cloud-document.net/report/job/{{Job.P_Id}}/template/【ここに�
 
 ![アクションボタン追加後](images/dl_sp/dl_sp_5.png)<br><br>
 
-<h3 id="dl_sp_1">8-2.出力</h3>
+<h3 id="dl_sp_2">8-2.出力</h3>
 
 ### どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。<br>
 
@@ -671,7 +671,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2021年8月25日新規作成
-* 2022年5月27日更新
+* 2022年6月2日更新
 
 
 {% include footer.md %}
