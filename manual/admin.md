@@ -512,39 +512,22 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 ![一括アクションを選択](images/dl_ledger/dl_ledger_1.png)<br>
 
 
-(5)新規でアクションメニューを作成し、下の表を元にURLを設定します
+(5)新規でアクションメニューを作成し、URLを設定します
 
-URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
-※【利用中のドメイン】について <br>
-　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。
+クラウドドキュメント上の左側のメニュー「HRBC側の設定」に入ります<br>
+<img src="images/dl_ledger/dl_ledger_8.png" width="300"><br>
 
-|利用可能リソース|URL|
-|-----|-----|
-|企業|https://【利用中のドメイン】.report-cloud.com/report/ledger/client?ids=\{\{Client.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.report-cloud.com/report/ledger/recruiter?ids=\{\{Recruiter.P_Id\}\}&user=\{\{Session.P_UserId}}|
-|JOB|https://【利用中のドメイン】.report-cloud.com/report/ledger/job?ids=\{\{Job.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|個人連絡先|https://【利用中のドメイン】.report-cloud.com/report/ledger/candidate?ids=\{\{Person.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|レジュメ|https://【利用中のドメイン】.report-cloud.com/report/ledger/resume?ids=\{\{Resume.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】.report-cloud.com/report/ledger/sales?ids=\{\{Sales.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.report-cloud.com/report/ledger/activity?ids=\{\{Activity.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|選考プロセス|https://【利用中のドメイン】.report-cloud.com/report/ledger/process?ids=\{\{Process.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
+### URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
+該当するリソースのURLをコピーしてください
+![アクションメニュー設定用URL（帳票の種類：一覧表）](images/dl_ledger/dl_ledger_6.png)<br>
 
-<br><br>
 
-URLが https://【利用中のドメイン】.cloud-document.net　の場合 <br>
-※【利用中のドメイン】について <br>
-　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。
+### URLが https://【利用中のドメイン】.cloud-document.net の場合 <br>
+該当するリソースのURLをコピーしてください <br>
+※IDやテンプレートの変更可否やテンプレート初期値の指定あり・なしでURLが変わります。 <br>
+　詳しくは [8.特定の帳票をアクションボタンに設定する](#dl_sp)をご参照ください。 <br>
+![アクションメニュー設定用URL（帳票の種類：一覧表）_3rd](images/dl_ledger/dl_ledger_7.png)<br>
 
-|利用可能リソース|URL|
-|-----|-----|
-|企業|https://【利用中のドメイン】.cloud-document.net/report/ledger/client?ids=\{\{Client.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|企業担当者|https://【利用中のドメイン】.cloud-document.net/report/ledger/recruiter?ids=\{\{Recruiter.P_Id\}\}&user=\{\{Session.P_UserId}}|
-|JOB|https://【利用中のドメイン】.cloud-document.net/report/ledger/job?ids=\{\{Job.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|個人連絡先|https://【利用中のドメイン】.cloud-document.net/report/ledger/candidate?ids=\{\{Person.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|レジュメ|https://【利用中のドメイン】.cloud-document.net/report/ledger/resume?ids=\{\{Resume.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|売上|https://【利用中のドメイン】.cloud-document.net/report/ledger/sales?ids=\{\{Sales.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|アクティビティ|https://【利用中のドメイン】.cloud-document.net/report/ledger/activity?ids=\{\{Activity.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
-|選考プロセス|https://【利用中のドメイン】.cloud-document.net/report/ledger/process?ids=\{\{Process.P_Id\}\}&user=\{\{Session.P_UserId\}\}|
 
 <br><br>
 
