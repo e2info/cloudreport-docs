@@ -514,14 +514,19 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 (5)新規でアクションメニューを作成し、URLを設定します
 
-クラウドドキュメント上の左側のメニュー「HRBC側の設定」に入ります
-![アクションメニュー設定用URL（帳票の種類：一覧表）](images/dl_ledger/dl_ledger_5.png)<br>
+クラウドドキュメント上の左側のメニュー「HRBC側の設定」に入ります<br>
+<img src="images/dl_ledger/dl_ledger_8.png" width="300"><br>
+
+### URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
+該当するリソースのURLをコピーしてください
+![アクションメニュー設定用URL（帳票の種類：一覧表）](images/dl_ledger/dl_ledger_6.png)<br>
 
 
-URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
-※IDやテンプレートの変更可否やテンプレート初期値の指定あり・なしでURLが変わります。
-　　詳しくは [8.特定の帳票をアクションボタンに設定する](#dl_sp)をご参照ください。
-![アクションメニュー設定用URL（帳票の種類：一覧表）_3rd](images/dl_ledger/dl_ledger_6.png)<br>
+### URLが https://【利用中のドメイン】.cloud-document.net の場合 <br>
+該当するリソースのURLをコピーしてください <br>
+※IDやテンプレートの変更可否やテンプレート初期値の指定あり・なしでURLが変わります。 <br>
+　詳しくは [8.特定の帳票をアクションボタンに設定する](#dl_sp)をご参照ください。 <br>
+![アクションメニュー設定用URL（帳票の種類：一覧表）_3rd](images/dl_ledger/dl_ledger_7.png)<br>
 
 
 <br><br>
