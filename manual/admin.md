@@ -426,9 +426,52 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 <br><br>
 
 <h3 id="porters_dl_2">5-2.クラウドドキュメントを一括ダウンロードする</h3>
+まずPORTERSの設定から行います。<br>
+※PORTERSの設定は管理者の方のみ設定可能です。<br>
+(1)PORTERSの「カスタマイズ」ページに入り<br>
+<br>
+<img src="images/hrbc_dl/hrbc_dl_33.png" width="300"><br><br>
+アクションメニュー→レジュメ or 売上　or JOBを選択→一括アクションを選択します。<br>
+新規の項目を作成します。<br>
+<img src="images/hrbc_dl/hrbc_dl_34.png" width="500">
 
-[こちら](https://e2info.github.io/cloudreport-docs/release-notes/20220706_3rd.html)
-で詳しくご説明しています。<br>
+(2)項目名は任意で設定してください。<br>
+　URLは下記の通り、【ご利用中のドメイン】にはご利用中のドメインを置き換えて設定してください。<br>
+ (例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br>
+ <img src="images/hrbc_dl/hrbc_dl_35.png" width="500"><br>
+<br>
+売上<br>
+https://【ご利用中のドメイン】.cloud-document.net/report/multiple/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}
+<br>
+レジュメ<br>
+https://【ご利用中のドメイン】.cloud-document.net/report/multiple/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}
+<br>
+JOB<br>
+https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job/\{\{ob.P_Id\}\}?user=\{\{Session.P_UserId\}\}
+<br>
+
+(3)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
+もしくはページに表示されている全件のIDの出力を希望の場合はチェックを入れる必要はありません。<br>
+<img src="images/hrbc_dl/hrbc_dl_39.png" width="800"><br><br>
+
+(4)「チェックされているデータ」を選択し「OK」を押下します。<br>
+ページに表示されている全件のIDの出力を希望の場合は「表示されているデータ」を選択し「OK」を押下します。<br>
+<img src="images/hrbc_dl/hrbc_dl_36.png" width="300"><br><br>
+
+(5)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
+テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
+![ダウンロードする](images/hrbc_dl/hrbc_dl_32.png)<br><br>
+
+(6)左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
+<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
+
+(7)処理結果からExcelまたはPDFを選択します。<br>
+※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
+※ダウンロードできるのは5の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。
+![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
+
+(8)zipファイルにてダウンロードされますので解凍してご確認ください。<br>
+![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
 
 
 <br><br>
@@ -478,6 +521,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 <img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
 
 (4) 処理結果からExcelまたはPDFを選択します。<br>
+※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
 ※ダウンロードできるのは2の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。<br>
 ![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
 
