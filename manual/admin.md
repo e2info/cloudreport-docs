@@ -467,8 +467,22 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 <h3 id="dl_3">6-3.「帳票の一括作成」からクラウドドキュメントを出力する</h3>
 
-[こちら](https://e2info.github.io/cloudreport-docs/release-notes/20220706_3rd.html)
-で詳しくご説明しています。<br>
+(1) クラウドドキュメントの左側のメニュー「帳票の一括作成」から、該当する階層を選びます。<br>
+<br>
+<img src="images/hrbc_dl/hrbc_dl_30.png" width="300"><br><br>
+
+(2) 出力したいIDをコンマで区切り入力し、テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
+![出力したいIDをコンマで区切り入力](images/hrbc_dl/hrbc_dl_32.png)<br><br>
+
+(3) 左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
+<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
+
+(4) 処理結果からExcelまたはPDFを選択します。<br>
+※ダウンロードできるのは2の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。<br>
+![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
+
+(5) zipファイルにてダウンロードされますので解凍してご確認ください。<br>
+![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
 
 <br><br>
 
