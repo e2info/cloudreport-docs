@@ -62,20 +62,20 @@ title: クラウドドキュメント リリースノート
 A.PORTERSに準じ、以下を動作環境としております。<br><br>
 
 【OS・ブラウザ：動作環境】<br>
-　Windows10 Google Chrome<br>
-　Windows11 Google Chrome<br>
-　Windows10 Microsoft Edge Chromium<br>
-　Windows11 Microsoft Edge Chromium<br><br>
+下記バージョンにて基本動作を確認しています。<br>
+- Windows10 Google Chrome<br>
+- Windows11 Google Chrome<br>
+- Windows10 Microsoft Edge Chromium<br>
+- Windows11 Microsoft Edge Chromium<br>
+※動作環境外のOS・ブラウザや、動作保証ブラウザでも任意設定内容によっては、正しく表示されない場合があります。<br>
  
- ※動作環境外のOS・ブラウザや、動作保証ブラウザでも任意設定内容によっては、正しく表示されない場合があります。<br><br>
- 
- 【Excel：動作環境】<br>
- メインストリーム サポート中の下記バージョンにて基本動作を確認しています。<br>
- Office 2019<br>
- Office 2021<br>
- ※ただし、上記バージョンであってもOSの組み合わせ等の違いにより、不具合や未発見のバグなどが発生することがあります。<br>
+【Excel：動作環境】<br>
+メインストリームサポート中の下記バージョンにて基本動作を確認しています。<br>
+- Office 2019<br>
+- Office 2021<br>
+※ただし、上記バージョンであってもOSの組み合わせ等の違いにより、不具合や未発見のバグなどが発生することがあります。<br>
 あらかじめご了承ください。その際は、順次対応してまいります。<br>
- ※上記のバージョンでも一部利用できない関数があります<br>
+※上記のバージョンでも一部利用できない関数があります<br>
  [テンプレートに使用できない関数等はありますか](#output4) でご確認ください。
  
  
