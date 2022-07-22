@@ -273,7 +273,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br>
 -----
 * 2021年8月25日新規作成
-* 2022年7月8日更新
+* 2022年7月22日更新
 
 
 {% include footer.md %}
