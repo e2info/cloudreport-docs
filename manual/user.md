@@ -32,10 +32,10 @@ title: クラウドドキュメント リリースノート
  
 <h2 id="introduction">はじめに</h2>
 
-<h3 id="os">クラウドドキュメントの動作保証環境について</h3>
-PORTERSに準じ、動作保証環境を設定しています。
+<h3 id="os">クラウドドキュメントの動作環境について</h3>
+PORTERSに準じ、動作環境を設定しています。
 
-[クラウドドキュメント よくある質問 「クラウドドキュメントの動作保証環境はどちらになりますか？」](https://e2info.github.io/cloudreport-docs/faq/faq.html#about1)でご確認ください。
+[クラウドドキュメント よくある質問 「クラウドドキュメントの動作環境はどちらになりますか？」](https://e2info.github.io/cloudreport-docs/faq/faq.html#about1)でご確認ください。
 <br><br>
 
 <h3 id="flow">フローについて</h3>
@@ -87,6 +87,7 @@ PORTERSに準じ、動作保証環境を設定しています。
 <h2 id="porters_dl">1.PORTERSからクラウドドキュメントをダウンロードする</h2>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
+#### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
 <h3 id="porters_dl_1">1-1.クラウドドキュメントを1件ダウンロードする</h3>
 (1) PORTERS画面左上のタブで「成約」または「売上」を選択し、ドロップダウンから「すべての成約」または「すべての売上」を選択すると一覧が表示されます。
@@ -113,6 +114,7 @@ PORTERSに準じ、動作保証環境を設定しています。
 <br><br>
 
 アクション＝ 「PORTERSに保存する」
+#### ※マクロを使用したテンプレート(xlms形式)はPORTERSに保存できません。
 
 (1)「PORTERSに保存する」の右側にあるEXCEL/PDFのボタンを押下します。
 ![EXCEL/PDFのボタン](images/hrbc_dl/hrbc_dl_user3.png)
@@ -235,6 +237,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <h2 id="dl_ledger">3.台帳(一覧表)をダウンロードする</h2>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
+#### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
 同じリソースに対して、PORTERSで複数選択したデータの台帳が出力します。
 
@@ -270,7 +273,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br>
 -----
 * 2021年8月25日新規作成
-* 2022年7月8日更新
+* 2022年7月22日更新
 
 
 {% include footer.md %}
