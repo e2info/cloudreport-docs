@@ -262,7 +262,11 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br><br>
 
 
-<h2 id="dl_sp">4.特定の帳票を設定したアクションボタンについて</h2>
+<h2 id="dl_sp">4.特定の帳票を設定したアクションボタンについて</h2><br>
+
+### この機能はURLが https://【利用中のドメイン】.report-cloud.com の場合に利用可能です。<br>
+
+※【利用中のドメイン】について 　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。<br>
 
 よく使う帳票はアクションボタンに設定することが可能です。<br>
 
@@ -273,7 +277,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br>
 -----
 * 2021年8月25日新規作成
-* 2022年7月22日更新
+* 2022年9月6日更新
 
 
 {% include footer.md %}
