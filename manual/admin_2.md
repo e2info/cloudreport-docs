@@ -34,20 +34,15 @@ title: クラウドドキュメント リリースノート
   - [4-3.マッピングの削除](#mapping_3)
 - [5.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)
   - [5-1.クラウドドキュメントを1件ダウンロードする](#porters_dl_1)
-  - [5-2.クラウドドキュメントを一括ダウンロードする](#porters_dl_2)
 - [6.クラウドドキュメントからIDを入力して ダウンロードする](#dl)
   - [6-1.「帳票一覧」からクラウドドキュメントを出力する](#dl_1)
   - [6-2.「ダウンロード」からクラウドドキュメントを出力する](#dl_2)
-  - [6-3.「一括ダウンロード」からクラウドドキュメントを出力する](#dl_3)
-  - [6-4.「出力履歴」からクラウドドキュメントを出力する](#dl_4)
+  - [6-3.「出力履歴」からクラウドドキュメントを出力する](#dl_3)
 - [7.台帳(一覧表)をダウンロードする](#dl_ledger)
   - [7-1.PORTERSの設定](#dl_ledger_1)
   - [7-2.テンプレートの作成](#dl_ledger_2)
   - [7-3.テンプレートの登録](#dl_ledger_3)
   - [7-4.出力](#dl_ledger_4)
-- [8.特定の帳票をアクションボタンに設定する](#dl_sp)
-  - [8-1.PORTERSの設定](#dl_sp_1)
-  - [8-2.出力](#dl_sp_2)
  
 <h2 id="introduction">はじめに</h2>
 
@@ -426,61 +421,10 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
   
 ![EXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_11.png)
 
-<br><br>
 
-<h3 id="porters_dl_2">5-2.クラウドドキュメントを一括ダウンロードする</h3>
+[▲TOPに戻る](#TOP)
+<br><br><br>
 
-#### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
-
-まずPORTERSの設定から行います。<br>
-※PORTERSの設定は管理者の方のみ設定可能です。<br>
-(1)PORTERSの「カスタマイズ」ページに入り<br>
-<br>
-<img src="images/hrbc_dl/hrbc_dl_33.png" width="300"><br><br>
-アクションメニュー→レジュメ or 売上　or JOBを選択→一括アクションを選択します。<br>
-新規の項目を作成します。<br>
-<img src="images/hrbc_dl/hrbc_dl_34.png" width="500">
-
-(2)項目名は任意で設定してください。<br>
-　URLは下記の通り、【ご利用中のドメイン】にはご利用中のドメインを置き換えて設定してください。<br>
- (例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br>
- <img src="images/hrbc_dl/hrbc_dl_35.png" width="500"><br>
-<br>
-売上<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-レジュメ<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-JOB<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job/\{\{ob.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-
-(3)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
-もしくはページに表示されている全件のIDの出力を希望の場合はチェックを入れる必要はありません。<br>
-<img src="images/hrbc_dl/hrbc_dl_39.png" width="800"><br><br>
-
-(4)「チェックされているデータ」を選択し「OK」を押下します。<br>
-ページに表示されている全件のIDの出力を希望の場合は「表示されているデータ」を選択し「OK」を押下します。<br>
-<img src="images/hrbc_dl/hrbc_dl_36.png" width="300"><br><br>
-
-(5)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
-テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
-![ダウンロードする](images/hrbc_dl/hrbc_dl_32.png)<br><br>
-
-(6)左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
-<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
-
-(7)処理結果からExcelまたはPDFを選択します。<br>
-※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
-※ダウンロードできるのは5の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。
-![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
-
-(8)zipファイルにてダウンロードされますので解凍してご確認ください。<br>
-![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
-
-
-<br><br>
 
 <h2 id="dl">6.クラウドドキュメントからIDを入力してダウンロードする</h2>
 
@@ -516,29 +460,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 
 <br><br>
 
-<h3 id="dl_3">6-3.「帳票の一括作成」からクラウドドキュメントを出力する</h3>
-
-(1) クラウドドキュメントの左側のメニュー「帳票の一括作成」から、該当する階層を選びます。<br>
-<br>
-<img src="images/hrbc_dl/hrbc_dl_30.png" width="300"><br><br>
-
-(2) 出力したいIDをコンマで区切り入力し、テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
-![出力したいIDをコンマで区切り入力](images/hrbc_dl/hrbc_dl_32.png)<br><br>
-
-(3) 左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
-<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
-
-(4) 処理結果からExcelまたはPDFを選択します。<br>
-※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
-※ダウンロードできるのは2の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。<br>
-![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
-
-(5) zipファイルにてダウンロードされますので解凍してご確認ください。<br>
-![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
-
-<br><br>
-
-<h3 id="dl_4">6-4.「出力履歴」からクラウドドキュメントを出力する</h3>
+<h3 id="dl_3">6-3.「出力履歴」からクラウドドキュメントを出力する</h3>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
@@ -588,13 +510,6 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 ![アクションメニュー設定用URL（帳票の種類：一覧表）](images/dl_ledger/dl_ledger_6.png)<br>
 
 
-### URLが https://【利用中のドメイン】.cloud-document.net の場合 <br>
-該当するリソースのURLをコピーしてください <br>
-※IDやテンプレートの変更可否やテンプレート初期値の指定あり・なしでURLが変わります。 <br>
-　詳しくは [8.特定の帳票をアクションボタンに設定する](#dl_sp)をご参照ください。 <br>
-![アクションメニュー設定用URL（帳票の種類：一覧表）_3rd](images/dl_ledger/dl_ledger_7.png)<br>
-
-
 <br><br>
 
 <h3 id="dl_ledger_2">7-2.テンプレートの作成</h3>
@@ -630,100 +545,10 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 [▲TOPに戻る](#TOP)
 <br><br>
 
-<h2 id="dl_sp">8.特定の帳票をアクションボタンに設定する</h2><br>
-
-### こちらの機能は、URLが https://【利用中のドメイン】.cloud-document.net　の場合に利用可能です。<br>
-※【利用中のドメイン】について 　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br><br>
-
-よく使う帳票はアクションボタンに設定することが可能です。<br>
-この設定により、帳票の種類を選ぶ工程等を省くことができます。<br>
-
-<h3 id="dl_sp_1">8-1.PORTERSの設定</h3>
-※PORTERSにシステム管理者権限でのログインが必要です。 <br>
-(1)設定→カスタマイズの順に選択します <br>
-(2)アクションメニュー編集を選択 <br>
-(3)アクションメニューを設定するリソースを選択します <br>
-(4)新規アクションメニューを追加します<br>
-(5)URLを設定します<br>
-
-![URL設定](images/dl_sp/dl_sp_1.png)<br><br>
-
-#### URLの設定方法
-クラウドドキュメントの左側のメニューの「PORTERS側の設定」から値をコピーします<br>
-
-![PORTERS側の設定](images/dl_sp/dl_sp_2.png)<br><br>
-
-#### URLは下記の変更可否によって分かれています。<br>
-
-|項目|内容|
-|-----|-----|
-|ID変更|JOBID等の各IDを変更できるかどうか|
-|テンプレート変更|テンプレートを変更できるかどうか|
-|テンプレート初期値|URLの【ここに帳票識別IDを指定してください】の部分を指定するかどうか=帳票を指定するかどうか|
-
-<br>
-※帳票識別IDは「帳票更新」画面から確認できます。<br>
-
-![帳票識別ID](images/dl_sp/dl_sp_3.png)<br>
-
-指定したい帳票の帳票識別IDを【ここに帳票識別IDを指定してください】の部分に挿入してください。<br>
-(例)<br>
-https://XXXXX.cloud-document.net/report/job/{{Job.P_Id}}/template/【ここに帳票識別IDを指定してください】/?user={{Session.P_UserId}}　<br>
-帳票識別IDが00035の場合下記のように挿入してください<br>
-
-![挿入](images/dl_sp/dl_sp_4.png)<br><br>
-
-<br>
-(6)レイアウトを確定し、設定が完了するとアクションボタンが追加されます。<br>
-
-![アクションボタン追加後](images/dl_sp/dl_sp_5.png)<br><br>
-
-<h3 id="dl_sp_2">8-2.出力</h3>
-
-### どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。<br>
-
-#### ID変更:可　　テンプレート変更:可　　　テンプレート初期値：なし<br>
-IDを変更可能、テンプレートも変更可能<br>
-
-![ID可 テ可 初なし](images/dl_sp/IDOK_temOK_IVNO.png)<br><br>
-
-#### ID変更:不可　　テンプレート変更:可　　　テンプレート初期値：なし<br>
-IDは固定、テンプレートは変更可能<br>
-
-![ID可 テ不可 初なし](images/dl_sp/IDNO_temOK_ivNO.png)<br><br>
-
-#### ID変更:可　　テンプレート変更:可　　　テンプレート初期値：あり<br>
-IDは変更可能、テンプレートは指定されたものが自動的に設定されるが変更可能<br>
-
-![ID可 テ可 初あり](images/dl_sp/IDOK_temOK_ivOK.png)<br><br>
-
-#### ID変更:可　　テンプレート変更:不可　　　テンプレート初期値：あり<br>
-IDは変更可能、テンプレートは指定されたものが自動的に設定される(変更不可)<br>
-
-![ID可 テ不可 初あり](images/dl_sp/IDOK_temNO_ivOK.png)<br><br>
-
-#### ID変更:不可　　テンプレート変更:可　　　テンプレート初期値：あり
-
-IDは変更不可、テンプレートは指定されたものが自動的に設定されるが変更可能<br>
-
-![ID不可 テ可 初あり](images/dl_sp/IDNO_temOK_ivOK.png)
-
-#### ID変更:不可　　テンプレート変更:不可　　　テンプレート初期値：あり
-
-IDは変更不可、テンプレートは指定されたものが自動的に設定される(変更不可)<br>
-
-![ID不可 テ不可 初あり](images/dl_sp/IDNO_temNO_ivOK.png)
-
-上記を必要に応じて設定することで、帳票出力毎の設定の工程を短縮できます。
-
-
-[▲TOPに戻る](#TOP)
-<br><br><br><br>
-
 -----
 
 * 2021年8月25日新規作成
-* 2022年9月6日更新
+* 2022年11月16日更新
 
 
 {% include footer.md %}

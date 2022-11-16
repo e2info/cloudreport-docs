@@ -20,14 +20,11 @@ title: クラウドドキュメント リリースノート
   - [帳票のご利用料金について](#price)
 - [1.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)
   - [1-1.クラウドドキュメントを1件ダウンロードする](#porters_dl_1)
-  - [1-2.クラウドドキュメントを一括ダウンロードする](#porters_dl_2)
 - [2.クラウドドキュメントから成約IDを入力して ダウンロードする](#dl)
   - [2-1.「ダウンロード」からクラウドドキュメントを出力する](#dl_1)
-  - [2-2.「一括ダウンロード」からクラウドドキュメントを出力する](#dl_2)
-  - [2-3.「出力履歴」からクラウドドキュメントを出力する](#dl_3)
+  - [2-2.「出力履歴」からクラウドドキュメントを出力する](#dl_2)
 - [3.台帳(一覧表)をダウンロードする](#dl_ledger)
   - [3-1.出力](#dl_ledger_1)
-- [4.特定の帳票を設定したアクションボタンについて](#dl_sp)
 
  
 <h2 id="introduction">はじめに</h2>
@@ -128,57 +125,6 @@ PORTERSに準じ、動作環境を設定しています。
 
 <br><br>
 
-<h3 id="porters_dl_2">1-2.クラウドドキュメントを一括ダウンロードする</h3>
-
-まずPORTERSの設定から行います。<br>
-※PORTERSの設定は管理者の方のみ設定可能です。<br>
-(1)PORTERSの「カスタマイズ」ページに入り<br>
-<br>
-<img src="images/hrbc_dl/hrbc_dl_33.png" width="300"><br><br>
-アクションメニュー→レジュメ or 売上　or JOBを選択→一括アクションを選択します。<br>
-新規の項目を作成します。<br>
-<img src="images/hrbc_dl/hrbc_dl_34.png" width="500">
-
-(2)項目名は任意で設定してください。<br>
-　URLは下記の通り、【ご利用中のドメイン】にはご利用中のドメインを置き換えて設定してください。<br>
- (例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br>
- <img src="images/hrbc_dl/hrbc_dl_35.png" width="500"><br>
-<br>
-売上<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-レジュメ<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-JOB<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job/\{\{ob.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-
-(3)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
-もしくはページに表示されている全件のIDの出力を希望の場合はチェックを入れる必要はありません。<br>
-<img src="images/hrbc_dl/hrbc_dl_39.png" width="800"><br><br>
-
-(4)「チェックされているデータ」を選択し「OK」を押下します。<br>
-ページに表示されている全件のIDの出力を希望の場合は「表示されているデータ」を選択し「OK」を押下します。<br>
-<img src="images/hrbc_dl/hrbc_dl_36.png" width="300"><br><br>
-
-(5)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
-テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
-![ダウンロードする](images/hrbc_dl/hrbc_dl_32.png)<br><br>
-
-(6)左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
-<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
-
-(7)処理結果からExcelまたはPDFを選択します。<br>
-※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
-※ダウンロードできるのは5の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。
-![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
-
-(8)zipファイルにてダウンロードされますので解凍してご確認ください。<br>
-![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
-
-<br><br>
-
 <h2 id="dl">2.クラウドドキュメントから成約IDを入力してダウンロードする</h2>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
@@ -192,29 +138,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 
 <br><br>
 
-<h3 id="dl_2">2-2.「帳票の一括作成」からクラウドドキュメントを出力する</h3>
-
-(1) クラウドドキュメントの左側のメニュー「帳票の一括作成」から、該当する階層を選びます。<br>
-<br>
-<img src="images/hrbc_dl/hrbc_dl_30.png" width="300"><br><br>
-
-(2) 出力したいIDをコンマで区切り入力し、テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
-![出力したいIDをコンマで区切り入力](images/hrbc_dl/hrbc_dl_32.png)<br><br>
-
-(3) 左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
-<img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
-
-(4) 処理結果からExcelまたはPDFを選択します。<br>
-※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
-※ダウンロードできるのは2の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。<br>
-![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
-
-(5) zipファイルにてダウンロードされますので解凍してご確認ください。<br>
-![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
-
-<br><br>
-
-<h3 id="dl_3">2-3.「出力履歴」からクラウドドキュメントを出力する</h3>
+<h3 id="dl_2">2-2.「出力履歴」からクラウドドキュメントを出力する</h3>
 「出力履歴」では、過去に出力したクラウドドキュメントの履歴を確認し、再出力できます。
 
 (1)「出力履歴」を選択し、右側の「対象データ」にあるIDを押下します。
@@ -261,23 +185,9 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 [▲TOPに戻る](#TOP)
 <br><br><br>
 
-
-<h2 id="dl_sp">4.特定の帳票を設定したアクションボタンについて</h2><br>
-
-### この機能はURLが https://【利用中のドメイン】.report-cloud.com の場合に利用可能です。<br>
-
-※【利用中のドメイン】について 　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。<br>
-
-よく使う帳票はアクションボタンに設定することが可能です。<br>
-
-![アクションボタン](images/dl_sp/dl_sp_5.png)<br>
-
-※設定は管理者の方のみ可能です。変更したい場合は管理者の方に依頼をお願いいたします。
-
-<br><br>
 -----
 * 2021年8月25日新規作成
-* 2022年9月6日更新
+* 2022年11月16日更新
 
 
 {% include footer.md %}
