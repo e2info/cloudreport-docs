@@ -20,7 +20,6 @@ title: クラウドドキュメント リリースノート
 - [クラウドドキュメントへのログインについて](#login)
   - [クラウドドキュメントにログインできません](#login1)
   - [クラウドドキュメントにログインの際エラーとなる](#login2)
-  - [ログインすると毎回利用規約の同意を求められます ](#login3)
 - [PORTERSのアクションメニュー設定について](#hrbc)
   - [PORTERSのアクションメニューにURLを登録したあと
 アクションメニューを押したら「この接続ではプライバシーが保護されません」と表示されました](#hrbc1)
@@ -150,13 +149,7 @@ PORTERSにログイン後アクションメニューのボタンから遷移し�
 ![アクションメニューのボタン](images/login1.png)　　<br>
 　　<br>
 ※ボタンが見当たらない場合　　<br>
-[PORTERS設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br><br>
-<br>
-     
-#### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
-
-PORTERSにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback)にアクセスしてください<br>
-
+[PORTERS設定](https://e2info.github.io/cloudreport-docs/manual/hrbc_2.html)がまだのようですので、ご対応お願いいたします。　　<br><br>
 <br>
 
 [▲TOPに戻る](#TOP)
@@ -176,13 +169,7 @@ PORTERSにログイン後アクションメニューのボタンから遷移し�
 ![アクションメニューのボタン](images/login1.png)　　<br>
 　　<br>
 ※ボタンが見当たらない場合　　<br>
- [PORTERS設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br>
-
-<br>
-     
-#### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
-
-PORTERSにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback) にアクセスしてください<br>
+ [PORTERS設定](https://e2info.github.io/cloudreport-docs/manual/hrbc_2.html)がまだのようですので、ご対応お願いいたします。　　<br>
 
 <br>
 
@@ -190,30 +177,6 @@ PORTERSにログイン後[https://cloud-document.net/hrbc/callback](https://clou
 
 ***
 
-
-<h3 id="login3">Q.ログインすると毎回利用規約の同意を求められます</h3><br>
-A.https://cloud-document.net/hrbc/callback?subscribe　　は利用開始時のみご案内するURLになります。<br>
-PORTERSにログインした上で下記方法でログインをお願いいたします。<br>
-
-#### ①(PORTERSのアクションメニューにクラウドドキュメントのボタンを設定済みの場合)<br>
-PORTERSにログイン後アクションメニューのボタンから遷移してください<br>
-
-![アクションメニューのボタン](images/login1.png)　　<br>
-
-　　<br>
-※ボタンが見当たらない場合　　<br>
-[PORTERS設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)がまだのようですので、ご対応お願いいたします。　　<br>
-<br>
-     
-#### ②(クラウドドキュメントのURLがhttps://○○○.cloud-document.net 　の場合)<br>
-
-PORTERSにログイン後[https://cloud-document.net/hrbc/callback](https://cloud-document.net/hrbc/callback)にアクセスしてください<br>
-
-<br>
-
-[▲TOPに戻る](#TOP)
-
-***
 
 <h2 id="hrbc">PORTERSのアクションメニュー設定について</h2>　<br>
 
@@ -223,19 +186,9 @@ A.アクションメニューに設定するURLは正しく設定されている
 クラウドドキュメントにログインするには、PORTERSにログインしている必要があります。<br>
 PORTERSにログインした上で下記方法でお試しください。<br>
 
-#### 【よくある設定ミス(1)】<br>
-【利用中のドメイン】に　https://e2info.cloud-document.net  のすべてを入力してしまい<br>
-https://e2info.cloud-document.net.cloud-document.net　  のように .cloud-document.net　が重複してしまっている<br>
-     
-#### 【よくある設定ミス(2)】<br>
-
-現状、URLの種類が2つございます。<br>
-URLの種類によってアクションメニューに設定する【利用中のドメイン】以降のURLが異なりますので<br>
-ご利用いただいているクラウドドキュメントのURLに間違いがないかご確認をお願いいたします。<br>
-- URLが https://【利用中のドメイン】.report-cloud.com　　<br>
-　→ 従来環境(弊社にAPI情報をご提供いただき、弊社にて環境構築を行った場合)　　<br>
-- URLが https://【利用中のドメイン】.cloud-document.net　　<br>
-　→サードパーティ環境(利用開始URLよりお客様自身で環境構築を行った場合)
+#### 【よくある設定ミス】<br>
+【利用中のドメイン】に　https://e2info.report-cloud.com  のすべてを入力してしまい<br>
+https://e2info.report-cloud.com.report-cloud.com  のように .report-cloud.com　が重複してしまっている<br>
 
 <br>
 
@@ -253,19 +206,9 @@ A.アクションメニューに設定するURLは正しく設定されている
 クラウドドキュメントにログインするには、PORTERSにログインしている必要があります。<br>
 PORTERSにログインした上で下記方法でお試しください。<br>
 
-#### 【よくある設定ミス(1)】<br>
-【利用中のドメイン】に　https://e2info.cloud-document.net  のすべてを入力してしまい<br>
-https://e2info.cloud-document.net.cloud-document.net　  のように .cloud-document.net　が重複してしまっている<br>
-     
-#### 【よくある設定ミス(2)】<br>
-
-現状、URLの種類が2つございます。<br>
-URLの種類によってアクションメニューに設定する【利用中のドメイン】以降のURLが異なりますので<br>
-ご利用いただいているクラウドドキュメントのURLに間違いがないかご確認をお願いいたします。<br>
-- URLが https://【利用中のドメイン】.report-cloud.com　　<br>
-　→ 従来環境(弊社にAPI情報をご提供いただき、弊社にて環境構築を行った場合)　　<br>
-- URLが https://【利用中のドメイン】.cloud-document.net　　<br>
-　→サードパーティ環境(利用開始URLよりお客様自身で環境構築を行った場合)
+#### 【よくある設定ミス】<br>
+【利用中のドメイン】に　https://e2info.report-cloud.com  のすべてを入力してしまい<br>
+https://e2info.report-cloud.com.report-cloud.com  のように .report-cloud.com　が重複してしまっている<br>
 
 
 <br>
@@ -655,11 +598,8 @@ A.利用開始後のお問い合わせはクラウドドキュメントサポー
 
 [▲TOPに戻る](#TOP)
 
-
-
-
 -----
 * 2021年10月11日新規作成
-* 2022年11月8日更新
+* 2022年11月16日更新
 
 {% include footer.md %}
