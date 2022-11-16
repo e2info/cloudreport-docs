@@ -1,8 +1,8 @@
-## クラウドドキュメント ユーザー様向けマニュアル 
+## クラウドドキュメント ユーザー様向けマニュアル
 
 https://e2info.github.io/cloudreport-docs/
 
-### 画面操作マニュアル 
+### 画面操作マニュアル
 
 * [管理者マニュアル](manual/admin.md)
 * [標準ユーザーマニュアル](manual/user.md)
