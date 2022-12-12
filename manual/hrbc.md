@@ -12,12 +12,6 @@ title: クラウドドキュメント リリースノート
 
 # クラウドドキュメント PORTERS設定マニュアル
 
-## PORTERSからクラウドドキュメントへの画面遷移
-
-PORTERSからクラウドドキュメントを利用する場合、下記URLより遷移します。
-
-https://cloud-document.net/hrbc/callback
-
 
 ### 設定手順
 
