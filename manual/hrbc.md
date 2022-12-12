@@ -54,11 +54,11 @@ https://cloud-document.net/hrbc/callback
 
 ### 新機能
 クラウドドキュメント上の左側のメニュー「PORTERS設定」の「PORTERS側の設定」
-![PORTERS側の設定](images/hrbc/hrbc_actionmenu_3.png)
+![PORTERS側の設定](images/hrbc/hrbc_actionmenu_4.png)
 
 「アクションメニュー設定用URL（帳票の種類：通常）」の
 URLをコピーして設定いただくと、より詳細な設定が可能になります。
-![PORTERS側の設定](images/hrbc/hrbc_actionmenu_4.png)
+![PORTERS側の設定](images/hrbc/hrbc_actionmenu_5.png)
 
 ID・テンプレートが可または不可、初期値が指定有りまたは無し　でURLが異なります。
 どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。
