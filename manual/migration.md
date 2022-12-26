@@ -31,8 +31,9 @@ title: クラウドドキュメント リリースノート
 ### 1.新環境での利用開始
 
 PORTERSに管理者としてログイン後、下記の開始用URLにアクセスいただき、新環境の利用を開始してください。<br><br>
-<p><a href="https://cloud-document.net/hrbc/callback?subscribe" target="_blank"> 利用開始URLはこちら</a></p>
-<br><br>
+__利用開始URLはこちら__
+>https://cloud-document.net/hrbc/callback?subscribe
+<br>
 <img src="images/migration/migration1.png" width="600" alt="利用規約" title="利用規約"><br>
 
 クラウドドキュメント 利用規約をご確認後<br>
@@ -56,13 +57,12 @@ __利用開始時点ではトライアル期間は２週間となりますが、
 
 ①下記のマニュアルを参考にPORTERS側の設定をお願いいたします。<br>
 ※旧環境利用開始時に設定いただいた内容とほぼ同じ内容での作業となります。<br>
-
-https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+> https://e2info.github.io/cloudreport-docs/manual/hrbc.html
 <br><br>
 
 ②PORTERSとの同期を行う<br>
 (PORTERSフィールドの同期、選択肢の取得、ユーザーの同期)<br>
-https://e2info.github.io/cloudreport-docs/manual/admin.html#porters
+> https://e2info.github.io/cloudreport-docs/manual/admin.html#porters
 
 <br><br>
 
