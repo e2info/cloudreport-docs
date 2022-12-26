@@ -33,6 +33,7 @@ title: クラウドドキュメント リリースノート
 PORTERSに管理者としてログイン後、下記の開始用URLにアクセスいただき、新環境の利用を開始してください。<br><br>
 __利用開始URLはこちら__
 >https://cloud-document.net/hrbc/callback?subscribe
+
 <br>
 <img src="images/migration/migration1.png" width="600" alt="利用規約" title="利用規約"><br>
 
