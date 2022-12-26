@@ -24,17 +24,15 @@ title: クラウドドキュメント リリースノート
 詳しくは[移行期間の出力分について](#1)をご確認ください。<br>
 
 本番環境の他にテスト環境のご利用がある場合にはそれぞれで移行作業が必要となります。<br>
-__※その際お申し込みのメールアドレスを本番と検証で別のアドレスにてお申し込みをお願いします。__<br>
-__このメールアドレスは重要なご案内等をお送りする予定ですので、必ずご確認可能なアドレスの設定をお願いいたします。__<br><br>
+<span style="color: red; ">※その際お申し込みのメールアドレスを本番と検証で別のアドレスにてお申し込みをお願いします。</span><br>
+<span style="color: red; ">このメールアドレスは重要なご案内等をお送りする予定ですので、必ずご確認可能なアドレスの設定をお願いいたします。</span><br><br>
 
 
 ### 1.新環境での利用開始
 
 PORTERSに管理者としてログイン後、下記の開始用URLにアクセスいただき、新環境の利用を開始してください。<br><br>
-__利用開始URL__<br>
-https://cloud-document.net/hrbc/callback?subscribe
-<br>
-
+<p><a href="https://cloud-document.net/hrbc/callback?subscribe" target="_blank"> 利用開始URLはこちら</a></p>
+<br><br>
 <img src="images/migration/migration1.png" width="600" alt="利用規約" title="利用規約"><br>
 
 クラウドドキュメント 利用規約をご確認後<br>
@@ -58,11 +56,15 @@ __利用開始時点ではトライアル期間は２週間となりますが、
 
 ①下記のマニュアルを参考にPORTERS側の設定をお願いいたします。<br>
 ※旧環境利用開始時に設定いただいた内容とほぼ同じ内容での作業となります。<br>
-https://e2info.github.io/cloudreport-docs/manual/hrbc.html<br><br>
+
+https://e2info.github.io/cloudreport-docs/manual/hrbc.html
+<br><br>
 
 ②PORTERSとの同期を行う<br>
 (PORTERSフィールドの同期、選択肢の取得、ユーザーの同期)<br>
-https://e2info.github.io/cloudreport-docs/manual/admin.html#porters<br><br>
+https://e2info.github.io/cloudreport-docs/manual/admin.html#porters
+
+<br><br>
 
 
 ### 3.新環境へのテンプレート設定
