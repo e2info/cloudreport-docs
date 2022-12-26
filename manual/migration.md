@@ -23,7 +23,9 @@ title: クラウドドキュメント リリースノート
 新環境での出力テストを想定しご請求対象外となります。<br>
 詳しくは[移行期間の出力分について](https://notepm.jp)　をご確認ください。<br>
 
-本番環境の他にテスト環境のご利用がある場合にはそれぞれで移行作業が必要となります。<br><br>
+本番環境の他にテスト環境のご利用がある場合にはそれぞれで移行作業が必要となります。<br>
+※その際お申し込みのメールアドレスを本番と検証で別のアドレスにてお申し込みをお願いします。<br>
+このメールアドレスは重要なご案内等をお送りする予定ですので、必ずご確認可能なアドレスの設定をお願いいたします。<br><br>
 
 
 ### 1.新環境での利用開始
@@ -47,7 +49,9 @@ https://cloud-document.net/hrbc/callback?subscribe
 その後、「PORTERS HR-Business Cloud-リソースへのアクセス権の承認」という画面が表示されます。<br>
 <img src="images/migration/migration2.png" width="400" alt="リソースへのアクセス権の承認" title="リソースへのアクセス権の承認"><br>
 
-御社PORTERSのデータへのアクセス権をクラウドドキュメントに承諾いただくことでPORTERSと連携可能になります。<br><br>
+御社PORTERSのデータへのアクセス権をクラウドドキュメントに承諾いただくことでPORTERSと連携可能になります。<br>
+ご利用開始されますと、弊社に通知が来るためその通知を持って利用開始日といたします。<br>
+利用開始時点ではトライアル期間は２週間となりますが、確認取れ次第弊社側で翌月末までの期限延長いたします。<br><br>
 
 
 ### 2.マニュアルに沿ってPORTERSの設定を行う
@@ -121,11 +125,29 @@ https://e2info.github.io/cloudreport-docs/manual/admin.html#porters<br><br>
 ・新環境での出力は請求対象外<br>
 ・旧環境での出力は請求対象<br>
 2023年3月1日〜<br>
-・新環境と旧環境の出力すべてが請求対象<br>
+・新環境と旧環境の出力すべてが請求対象<br><br><br>
 
+
+### よくある質問
+Q.旧環境と新環境でどちらが新環境かわからなくなってしまいました
+A.見分け方は下記の通りです。
+
+#### 新環境
+URLが
+https://【利用中のドメイン】.cloud-document.net/
+<br>
+左上のアイコンが新英語名称のCloud Document<br>
+<img src="images/migration/migration10.png" width="400" alt="Cloud Document" title="Cloud Document"><br>
+
+
+#### 旧環境
+URLが
+https://【利用中のドメイン】.report-cloud.com/
+<br>
+左上のアイコンが旧英語名称のReport cloud<br>
+<img src="images/migration/migration9.png" width="400" alt="Report cloud" title="Report cloud"><br>
 
 -----
-* 2020年12月25日新規作成
-* 2022年5月27日更新
+* 2022年12月26日新規作成
 
 {% include footer.md %}
