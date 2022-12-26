@@ -147,6 +147,11 @@ https://【利用中のドメイン】.report-cloud.com/
 左上のアイコンが旧英語名称のReport cloud<br>
 <img src="images/migration/migration9.png" width="400" alt="Report cloud" title="Report cloud"><br>
 
+<br><br>
+### 不明な点のお問い合わせ<br>
+クラウドドキュメント上の左側のメニュー「お問い合わせ」よりお願いいたします。<br>
+(平日9:00-17:00で順次対応いたします)<br><br>
+
 -----
 * 2022年12月26日新規作成
 
