@@ -134,16 +134,16 @@ __※利用開始日が月の途中でも、１ヶ月としてカウントいた
 Q.旧環境と新環境でどちらが新環境かわからなくなってしまいました
 A.見分け方は下記の通りです。
 
-#### 新環境
-URLが
+#### 新環境<br>
+URLが<br>
 https://【利用中のドメイン】.cloud-document.net/
 <br>
 左上のアイコンが新英語名称のCloud Document<br>
 <img src="images/migration/migration10.png" width="400" alt="Cloud Document" title="Cloud Document"><br>
 
 
-#### 旧環境
-URLが
+#### 旧環境<br>
+URLが<br>
 https://【利用中のドメイン】.report-cloud.com/
 <br>
 左上のアイコンが旧英語名称のReport cloud<br>
@@ -154,7 +154,7 @@ https://【利用中のドメイン】.report-cloud.com/
 クラウドドキュメント上の左側のメニュー「お問い合わせ」よりお願いいたします。<br>
 (平日9:00-17:00で順次対応いたします)<br><br>
 
------
+-----<br>
 * 2022年12月26日新規作成<br>
 
 {% include footer.md %}
