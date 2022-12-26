@@ -60,13 +60,13 @@ __利用開始時点ではトライアル期間は２週間となりますが、
 
 ①下記のマニュアルを参考にPORTERS側の設定をお願いいたします。<br>
 ※旧環境利用開始時に設定いただいた内容とほぼ同じ内容での作業となります。<br>
-* [PORTERS設定マニュアル](manual/hrbc.md)
+* [PORTERS設定マニュアル](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)
 
 <br>
 ②PORTERSとの同期を行う<br>
 (PORTERSフィールドの同期、選択肢の取得、ユーザーの同期)<br>
 
-* [管理者マニュアル](manual/admin.html#porters)
+* [管理者マニュアル](https://e2info.github.io/cloudreport-docs/manual/admin.html#porters)
 
 <br><br>
 
