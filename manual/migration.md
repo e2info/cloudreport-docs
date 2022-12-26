@@ -33,6 +33,7 @@ title: クラウドドキュメント リリースノート
 
 PORTERSに管理者としてログイン後、下記の開始用URLにアクセスいただき、新環境の利用を開始してください。<br><br>
 __利用開始URLはこちら__<br>
+<span style="color: red; ">※お手数ですが誤操作防止のため下記をコピーして別ウィンドウでアクセスしてください。</span><br>
 https://cloud-document.net/hrbc/callback?subscribe
 
 <br>
@@ -65,7 +66,7 @@ __利用開始時点ではトライアル期間は２週間となりますが、
 ②PORTERSとの同期を行う<br>
 (PORTERSフィールドの同期、選択肢の取得、ユーザーの同期)<br>
 
-* [管理者マニュアル](manual/admin.md#porters)
+* [管理者マニュアル](manual/admin.html#porters)
 
 <br><br>
 
