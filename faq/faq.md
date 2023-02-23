@@ -448,7 +448,8 @@ Excelのページ設定→シートの印刷オプションの枠線にチェッ
 <h3 id="document2">Q.PDFで出力したら1枚に収まらない、出力したい部分が含まれていない、複数枚にしたいが中途半端に切れてしまう</h3><br>
 A.Excelの設定の確認をお願いします。<br>
 Excelのページ設定や印刷範囲設定をお願いいたします。<br>
-こちらでも詳しく説明しております。
+https://e2info.github.io/cloudreport-docs/faq/faq_excel.html
+でも設定方法をご紹介しております。
 
 <br>
 
