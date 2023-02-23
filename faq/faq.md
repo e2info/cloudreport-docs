@@ -449,6 +449,7 @@ Excelのページ設定→シートの印刷オプションの枠線にチェッ
 A.Excelの設定の確認をお願いします。<br>
 Excelのページ設定や印刷範囲設定をお願いいたします。<br>
 https://e2info.github.io/cloudreport-docs/faq/faq_excel.html
+
 でも設定方法をご紹介しております。
 
 <br>
