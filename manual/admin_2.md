@@ -514,7 +514,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 <h3 id="dl_ledger_2">7-2.テンプレートの作成</h3>
 
-繰り返し行の前後を　　　{{LOOP_START}}　　～　　{{LOOP_END}}　　　で囲みます。(この行は削除されます) <br>
+繰り返し行の前後を　```　　{{LOOP_START}}　　～　　{{LOOP_END}}　　```　で囲みます。(この行は削除されます) <br>
 ![囲む](images/dl_ledger/dl_ledger_2.png) <br><br>
 
 <h3 id="dl_ledger_3">7-3.テンプレートの登録</h3> 
