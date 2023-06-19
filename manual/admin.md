@@ -302,7 +302,22 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 (3) 「PORTERSフィールド」欄からPORTERSに紐づける項目を選択します。
 ![PORTERSに紐づける項目](images/mapping/mp_2.png)
+<br><br><br>
+なお、各リソース(階層)によってマッピングできるエイリアスの種類が異なります。
+詳細は下記の通りです。<br>
 
+|リソース(階層)|マッピングできるエイリアスの種類|
+|-----|-----|
+|企業|SystemField、Client|
+|企業担当者|SystemField、Recruiter、Client|
+|JOB|SystemField、Job、Client、Recruiter|
+|個人連絡先|SystemField、Person|
+|レジュメ|SystemField、Resume、Person|
+|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume|
+|アクティビティ|SystemField、Activity、Job、Resume|
+|選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
+
+<br><br>
 (4) 「保存する」を押下します。
 ![保存する](images/mapping/mp_3.png)
 
@@ -723,7 +738,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2021年8月25日新規作成
-* 2022年9月6日更新
+* 2023年6月19日更新
 
 
 {% include footer.md %}
