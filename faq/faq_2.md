@@ -148,7 +148,7 @@ A.クラウドドキュメントはPORTERSと連携したクラウドサービ�
 　　※利用狩猟手続きを行いませんと全くご利用がない場合でも月額利用料がかかり続けますのでご注意ください。<br>
 
 　解約手続きは<br>
-[利用終了するための手続きについて](https://e2info.github.io/cloudreport-docs/faq/stop/stop1.html)をご覧の上、ご対応お願いいたします。　　<br>
+[利用終了するための手続きについて](https://e2info.github.io/cloudreport-docs/faq/faq_2.html#stop1)をご覧の上、ご対応お願いいたします。　　<br>
 <br>
 
  <br>
