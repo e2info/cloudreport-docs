@@ -149,7 +149,6 @@ A.クラウドドキュメントはPORTERSと連携したクラウドサービ�
 
 　解約手続きは<br>
 [利用終了するための手続きについて](https://e2info.github.io/cloudreport-docs/faq/faq_2.html#stop1)をご覧の上、ご対応お願いいたします。　　<br>
-
 <br>
 
  <br>
