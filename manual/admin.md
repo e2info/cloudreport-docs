@@ -598,7 +598,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 
 (5)新規でアクションメニューを作成し、URLを設定します
 
-クラウドドキュメント上の左側のメニュー「HRBC側の設定」に入ります<br>
+クラウドドキュメント上の左側のメニュー「PORTERS側の設定」に入ります<br>
 <img src="images/dl_ledger/dl_ledger_8.png" width="300"><br>
 
 ### URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
@@ -636,6 +636,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br>
 
 (2)表示されているデータ全てorチェックを入れたデータかを選びます。<br>
+※いずれの場合も選択できるデータの上限は1000件です。<br>
 ![表示されているデータ全てorチェックを入れたデータかを選ぶ](images/dl_ledger/dl_ledger_5.png)
 <br><br>
 
