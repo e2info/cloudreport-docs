@@ -469,14 +469,16 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/res
 <br>
 JOB<br>
 https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job/\{\{ob.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
+<br><br>
 
 (3)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
 もしくはページに表示されている全件のIDの出力を希望の場合はチェックを入れる必要はありません。<br>
+※一度に一括出力できるIDは100件までです<br>
 <img src="images/hrbc_dl/hrbc_dl_39.png" width="800"><br><br>
 
 (4)「チェックされているデータ」を選択し「OK」を押下します。<br>
 ページに表示されている全件のIDの出力を希望の場合は「表示されているデータ」を選択し「OK」を押下します。<br>
+※この場合でも上限は100件です<br>
 <img src="images/hrbc_dl/hrbc_dl_36.png" width="300"><br><br>
 
 (5)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
@@ -501,14 +503,14 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 
 ここでは[3.帳票テンプレートの作成](#document_temp) で取り込んだ出力用の項目を、PORTERSデータに紐づけを行います。
 
-<h3 id="dl_1">6-1.「帳票一覧」からクラウド帳票を出力する</h3>
+<h3 id="dl_1">6-1.「帳票一覧」から帳票を出力する</h3>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)　<br>詳細は[帳票のご利用料金について](#price)をご確認ください。
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
-(1) 「帳票一覧」を選択し、「個別出力」欄に成約IDを入力します。
+(1) 「帳票一覧」を選択し、「個別出力」欄に成約IDを入力します。<br>
 
-(2) 「出力」を押下すると、帳票ダウンロード画面に切り替わります。
+(2) 「出力」を押下すると、帳票ダウンロード画面に切り替わります。<br>
 
 ![「帳票一覧」を選択](images/hrbc_dl/hrbc_dl_24.png)
 
@@ -538,6 +540,7 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <img src="images/hrbc_dl/hrbc_dl_30.png" width="300"><br><br>
 
 (2) 出力したいIDをコンマで区切り入力し、テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
+※一度に一括出力できるIDは100件までです<br>
 ![出力したいIDをコンマで区切り入力](images/hrbc_dl/hrbc_dl_32.png)<br><br>
 
 (3) 左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
