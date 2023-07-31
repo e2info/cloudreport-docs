@@ -259,7 +259,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 (3)帳票削除について確認画面が表示されます。<br>
 #### 【ご注意ください】　削除するともとに戻すことはできません。<br>よくご確認の上「削除する」を押下します。<br>
-![「削除前の確認画面](images/document_temp/document_temp_16.png)<br><br>
+<img src="images/document_temp/document_temp_16.png" width="500"><br><br>
 
 (4)削除が完了すると「帳票を削除しました」と確認の案内がでます。<br>
 ![「削除確認](images/document_temp/document_temp_17.png)<br><br>
@@ -601,12 +601,6 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 クラウドドキュメント上の左側のメニュー「PORTERS側の設定」に入ります<br>
 <img src="images/dl_ledger/dl_ledger_8.png" width="300"><br>
 
-### URLが https://【利用中のドメイン】.report-cloud.com の場合 <br>
-該当するリソースのURLをコピーしてください
-![アクションメニュー設定用URL（帳票の種類：一覧表）](images/dl_ledger/dl_ledger_6.png)<br>
-
-
-### URLが https://【利用中のドメイン】.cloud-document.net の場合 <br>
 該当するリソースのURLをコピーしてください <br>
 ※IDやテンプレートの変更可否やテンプレート初期値の指定あり・なしでURLが変わります。 <br>
 　詳しくは [8.特定の帳票をアクションボタンに設定する](#dl_sp)をご参照ください。 <br>
@@ -650,9 +644,6 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 <br><br>
 
 <h2 id="dl_sp">8.特定の帳票をアクションボタンに設定する</h2><br>
-
-### こちらの機能は、URLが https://【利用中のドメイン】.cloud-document.net　の場合に利用可能です。<br>
-※【利用中のドメイン】について 　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br><br>
 
 よく使う帳票はアクションボタンに設定することが可能です。<br>
 この設定により、帳票の種類を選ぶ工程等を省くことができます。<br>
@@ -742,7 +733,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2021年8月25日新規作成
-* 2023年6月19日更新
+* 2023年8月1日更新
 
 
 {% include footer.md %}
