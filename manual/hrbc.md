@@ -67,6 +67,6 @@ PORTERSに設定いただいたアクションメニューからクラウドド�
 ![アクションメニュー例](images/hrbc/hrbc_actionmenu_1.png)
 -----
 * 2020年12月25日新規作成
-* 2023年8月1日更新
+* 2023年8月16日更新
 
 {% include footer.md %}
