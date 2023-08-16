@@ -27,8 +27,7 @@ title: クラウドドキュメント リリースノート
   - [2-3.「出力履歴」からクラウドドキュメントを出力する](#dl_3)
 - [3.台帳(一覧表)をダウンロードする](#dl_ledger)
   - [3-1.出力](#dl_ledger_1)
-- [4.特定の帳票を設定したアクションボタンについて](#dl_sp)
-
+  - 
  
 <h2 id="introduction">はじめに</h2>
 
@@ -86,20 +85,23 @@ PORTERSに準じ、動作環境を設定しています。
 
 <h2 id="porters_dl">1.PORTERSからクラウドドキュメントをダウンロードする</h2>
 
+#### 事前にPORTERS管理者ユーザーによる[PORTERS側の設定](https://e2info.github.io/cloudreport-docs/manual/hrbc.html)が必要です。<br>
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
-<h3 id="porters_dl_1">1-1.クラウドドキュメントを1件ダウンロードする</h3>
-(1) PORTERS画面左上のタブで「成約」または「売上」を選択し、ドロップダウンから「すべての成約」または「すべての売上」を選択すると一覧が表示されます。
+<h3 id="porters_dl_1">1-1.クラウドドキュメントを1件ダウンロードする</h3><br>
+例として「売上」階層で出力を行います<br>
+(1) PORTERS画面左上のタブで「売上」を選択し、ドロップダウンから「すべての売上」を選択すると一覧が表示されます。
 
 ![成約一覧](images/hrbc_dl/hrbc_dl_1.png)
 
 (2) クラウドドキュメントを作成したいPORTERSデータのIDをクリックします
 ![PORTERSデータのIDをクリック](images/hrbc_dl/hrbc_dl_2.png)
 
-(3) 左上のタブで「クラウド帳票(本番)」を選択し、ダウンロード画面に切り替えます。
+(3) 左上のタブでアクションボタン(こちらの環境では クラウド帳票(本番))を選択し、ダウンロード画面に切り替えます。
 
-※検証環境がある場合、検証環境でダウンロードしたい場合は「クラウド帳票(検証)」を選択します。
+※テスト環境がある場合、テスト環境でダウンロードしたい場合はテスト環境に遷移するアクションボタンを選択します。<br>
+※ボタン名称は各環境で管理者ユーザーが指定した名称で表示されます。<br>
 ![ダウンロード画面](images/hrbc_dl/hrbc_dl_3.png)
 
 <h3 id="porters_dl_1_4"></h3>
@@ -132,49 +134,30 @@ PORTERSに準じ、動作環境を設定しています。
 
 まずPORTERSの設定から行います。<br>
 ※PORTERSの設定は管理者の方のみ設定可能です。<br>
-(1)PORTERSの「カスタマイズ」ページに入り<br>
+管理者の方に依頼いただくか、<br>
+管理者としてログインの上[管理者用マニュアル](https://e2info.github.io/cloudreport-docs/manual/admin.html#porters_dl_2)をご確認ください。
 <br>
-<img src="images/hrbc_dl/hrbc_dl_33.png" width="300"><br><br>
-アクションメニュー→レジュメ or 売上　or JOBを選択→一括アクションを選択します。<br>
-新規の項目を作成します。<br>
-<img src="images/hrbc_dl/hrbc_dl_34.png" width="500">
-
-(2)項目名は任意で設定してください。<br>
-　URLは下記の通り、【ご利用中のドメイン】にはご利用中のドメインを置き換えて設定してください。<br>
- (例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。<br>
- <img src="images/hrbc_dl/hrbc_dl_35.png" width="500"><br>
-<br>
-売上<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/sales/\{\{Sales.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-レジュメ<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/resume/\{\{Resume.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-JOB<br>
-https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job/\{\{ob.P_Id\}\}?user=\{\{Session.P_UserId\}\}
-<br>
-
-(3)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
+(1)PORTERSの各階層で、出力したいIDにチェックを入れて、先ほど設定したアクションメニューを選択します。<br>
 もしくはページに表示されている全件のIDの出力を希望の場合はチェックを入れる必要はありません。<br>
 <img src="images/hrbc_dl/hrbc_dl_39.png" width="800"><br><br>
 
-(4)「チェックされているデータ」を選択し「OK」を押下します。<br>
+(2)「チェックされているデータ」を選択し「OK」を押下します。<br>
 ページに表示されている全件のIDの出力を希望の場合は「表示されているデータ」を選択し「OK」を押下します。<br>
 <img src="images/hrbc_dl/hrbc_dl_36.png" width="300"><br><br>
 
-(5)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
+(3)クラウドドキュメントに遷移し、先ほどチェックを入れた複数のIDが自動的に入力されます。<br>
 テンプレートを選択して「ダウンロードする」ボタンを押下します。<br>
 ![ダウンロードする](images/hrbc_dl/hrbc_dl_32.png)<br><br>
 
-(6)左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
+(4)左側のメニュー「帳票の一括作成」の中の「処理結果DL」ページに入り、<br>
 <img src="images/hrbc_dl/hrbc_dl_31.png" width="300"><br><br>
 
-(7)処理結果からExcelまたはPDFを選択します。<br>
+(5)処理結果からExcelまたはPDFを選択します。<br>
 ※処理結果にExcelまたはPDFのボタンが表示されるまで少々お待ちください。<br>
 ※ダウンロードできるのは5の「ダウンロードする」ボタンを押してから30分以内となりますのでお気をつけください。
 ![形式を選択](images/hrbc_dl/hrbc_dl_37.png)<br><br>
 
-(8)zipファイルにてダウンロードされますので解凍してご確認ください。<br>
+(6)zipファイルにてダウンロードされますので解凍してご確認ください。<br>
 ![ダウンロード](images/hrbc_dl/hrbc_dl_38.png)<br><br>
 
 <br><br>
@@ -261,23 +244,10 @@ https://【ご利用中のドメイン】.cloud-document.net/report/multiple/job
 [▲TOPに戻る](#TOP)
 <br><br><br>
 
-
-<h2 id="dl_sp">4.特定の帳票を設定したアクションボタンについて</h2><br>
-
-### この機能はURLが https://【利用中のドメイン】.report-cloud.com の場合に利用可能です。<br>
-
-※【利用中のドメイン】について 　(例)https://e2info.report-cloud.com →利用中のドメインは　e2info の部分です。<br>
-
-よく使う帳票はアクションボタンに設定することが可能です。<br>
-
-![アクションボタン](images/dl_sp/dl_sp_5.png)<br>
-
-※設定は管理者の方のみ可能です。変更したい場合は管理者の方に依頼をお願いいたします。
-
 <br><br>
 -----
 * 2021年8月25日新規作成
-* 2022年9月6日更新
+* 2023年8月16日更新
 
 
 {% include footer.md %}
