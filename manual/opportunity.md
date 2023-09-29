@@ -102,7 +102,7 @@ PORTERS側から、商談階層IDを押下した際にクラウドドキュメ�
 
 URLはクラウドドキュメントから取得可能です。
 クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。
-<img src="images/opportunity/opportunity_5.png" width="600">
+<img src="images/opportunity/opportunity_5.png" width="300">
 
 一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロースし
 <img src="images/opportunity/opportunity_7.png" width="600">
@@ -155,85 +155,10 @@ URLはクラウドドキュメントから取得可能です。
 
 ![テンプレートが表示される](images/document_temp/document_temp_8.png)
 
-出力したい項目が正しく抽出されたかを確認する場合、「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下してご確認ください。
 
-![「マッピング」](images/document_temp/document_temp_9.png)
-
-注意事項 ：「帳票更新」画面の「ステータス」欄の「有効」をOFFにした場合
-![「ステータス」欄の「有効」をOFF](images/document_temp/document_temp_10.png)
-
-「帳票更新」画面の「ステータス」欄の「有効」をOFFにした場合、「帳票一覧」に表示されなくなります。
-
-「無効の帳票も表示する」を選択することで表示されます。
-
-![無効の帳票も表示する](images/document_temp/document_temp_11.png)
-
-またマッピングが必要な場合、「無効の帳票も表示する」を選択し[3-2.テンプレートの更新](#document_temp_2)にて「ステータス」の「有効」をONに変更する必要があります。
-
-<br><br>
-
-<h3 id="document_temp_2">3-2.テンプレートの更新</h3>
-(1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。
-
-![更新を押下](images/document_temp/document_temp_12.png)
-
-(2) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
-![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_13.png)
-
-(3) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![アップロード](images/document_temp/document_temp_4.png)
-
-(4)「保存する」を押下すると「帳票一覧」に追加されます
-![「帳票一覧」に追加](images/document_temp/document_temp_7.png)
-
-テンプレートが作成されると「帳票一覧」に遷移し、「更新しました」という緑色の帯が表示され、作成したテンプレートが表示されます。
-
-![更新しました](images/document_temp/document_temp_14.png)
-
-<br><br>
-
-<h3 id="document_temp_3">3-3.テンプレートの削除</h3><br>
-(1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。<br>
-
-![更新を押下](images/document_temp/document_temp_12.png)<br><br>
-
-(2) 「帳票更新」画面下の「この帳票を削除する」ボタンを押下します。<br>
-![「「この帳票を削除する」ボタンを押下](images/document_temp/document_temp_15.png)<br><br>
-
-(3)帳票削除について確認画面が表示されます。<br>
-#### 【ご注意ください】　削除するともとに戻すことはできません。<br>よくご確認の上「削除する」を押下します。<br>
-<img src="images/document_temp/document_temp_16.png" width="500"><br><br>
-
-(4)削除が完了すると「帳票を削除しました」と確認の案内がでます。<br>
-![「削除確認](images/document_temp/document_temp_17.png)<br><br>
-
-<br><br>
-
-<h3 id="document_temp_3">3-4.テンプレートのステータス(有効/無効)について</h3><br>
-テンプレートのステータスを無効にすることで一時的にテンプレートを利用できないようにします。<br>
-標準ユーザーの方には無効のテンプレートは表示されないため選択できません。<br>
-(1) 「帳票一覧」を選択し、右側の「アクション」にある「更新」を押下します。<br>
-
-![更新を押下](images/document_temp/document_temp_12.png)<br><br>
-
-(2) 「帳票更新」画面下の「この帳票を無効する」ボタンを押下します。<br>
-![「「この帳票を無効にする」ボタンを押下](images/document_temp/document_temp_18.png)<br><br>
-
-(3)デフォルトの状態では無効の帳票は一覧に表示されません。<br>
-無効とした帳票を表示したい場合は赤枠の「無効の帳票も表示する」を押下してください。<br>
-![「デフォルトの状態](images/document_temp/document_temp_19.png)<br><br>
-
-(4)ステータスを有効に変更したい場合は「帳票更新」の項目から「ステータス」を有効にしてください。<br>
-![有効](images/document_temp/document_temp_21.png)<br><br>
-
-
-
-[▲TOPに戻る](#TOP)
-<br><br><br>
 
 <h2 id="mapping">4．マッピングの設定</h2>
-
-ここでは[3.帳票テンプレートの作成](#document_temp) で取り込んだ出力用の項目を、PORTERSデータに紐づけを行います。
+登録した帳票にマッピングを行います。
 
 <h3 id="mapping_1">4-1.マッピングの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
@@ -251,6 +176,7 @@ URLはクラウドドキュメントから取得可能です。
 
 |リソース(階層)|マッピングできるエイリアスの種類|
 |-----|-----|
+|商談階層|SystemField、Opportunity、Client、Recruiter|
 |企業|SystemField、Client|
 |企業担当者|SystemField、Recruiter、Client|
 |JOB|SystemField、Job、Client、Recruiter|
@@ -269,55 +195,6 @@ URLはクラウドドキュメントから取得可能です。
 
 <br><br>
 
-<h3 id="mapping_2">4-2.マッピングのエクスポート/インポート</h3>
-
-(1)「エクスポート」では設定済みの「項目」と「エイリアス」の一覧表をExcelにてダウンロードが可能です。
-
-![エクスポート](images/mapping/mp_11.png)
-
-(2)「インポート」よりマッピングを一括で行うことが可能です。
-
-![「エクスポート」](images/mapping/mp_6.png)
-
-
-(3)エクスポートしたマッピングファイルをアップロードし、インポートしてください。
-
-![ファイルをアップロード](images/mapping/mp_10.png)
-
-(4)インポートした内容が表示されますので、内容を確認し、問題なければ「登録する」ボタンを押してください。
-
-![「登録するボタン」を押下](images/mapping/mp_12.png)
-
-(5)「マッピング情報を更新しました」と表示されましたらインポート完了です。
-
-![マッピング情報を更新しました](images/mapping/mp_13.png)
-
-
-※インポート用に「項目」と「エイリアス」の一覧表をExcelで作成してインポートして一括でマッピングすることも可能です。
-インポート可能なファイルは、xls,xlsx,xlsmの拡張子のファイルのみ、最大サイズは5MBです
-
-![「一覧表作成」](images/mapping/mp_8.png)
-
-
-
-
-<h3 id="mapping_3">4-3.マッピングの削除</h3>
-(1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
-
-![「アクション」にある「マッピング」](images/document_temp/document_temp_9.png)
-
-(2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。
-![「アクション」にある「更新」](images/mapping/mp_1.png)
-
-(3) 「PORTERSフィールド」欄から「選択してください」を選択し、マッピングを外します。
-![「選択してください」を選択](images/mapping/mp_5.png)
-
-(4)マッピングが解除されると「マッピング設定」に遷移し、指定した行が削除されております。
-
-
-[▲TOPに戻る](#TOP)
-<br><br><br>
-
 
 <h2 id="porters_dl">5.PORTERSから帳票をダウンロードする</h2>
 
@@ -331,21 +208,14 @@ URLはクラウドドキュメントから取得可能です。
 
 ![一覧](images/hrbc_dl/hrbc_dl_1.png)
 
-(2) クラウドドキュメントを作成したいPORTERSデータのIDをクリックします
-![PORTERSデータのIDをクリック](images/hrbc_dl/hrbc_dl_2.png)
+(2) PORTERSでクラウドドキュメントを作成したい商談階層IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。
+<img src="images/opportunity/opportunity_8.png" width="600">
 
-(3) 左上のタブで「クラウド帳票(本番)」を選択し、ダウンロード画面に切り替えます。
+(3) クラウドドキュメントに遷移します。先ほど選択した商談管理IDが挿入された状態になっています。
+出力したいテンプレートをプルダウンから指定し「ダウンロード」をします。もしくは「プレビュー」も可能です。
+<img src="images/opportunity/opportunity_10.png" width="600">
 
-※検証環境がある場合、検証環境でダウンロードしたい場合は「クラウド帳票(検証)」を選択します。
-![ダウンロード画面](images/hrbc_dl/hrbc_dl_3.png)
-
-<h3 id="porters_dl_1_4"></h3>
-(4) ダウンロード画面の各ID欄に表示されているIDが正しいことを確認し、
-テンプレートのドロップダウンから利用したいテンプレート名称を選択します。
-
-![テンプレート名称を選択](images/hrbc_dl/hrbc_dl_4.png)
-
-(5)「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。
+(4)「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。
 ![帳票ダウンロード画面](images/hrbc_dl/hrbc_dl_5.png)
 
 <br><br>
