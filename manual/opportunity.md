@@ -50,32 +50,36 @@ title: クラウドドキュメント リリースノート
 #### 商談管理階層利用開始に伴い、PORTERSとクラウドドキュメントを手動で同期する必要があります。
 
 <h3 id="porters_1">1-1.PORTERSフィールドの同期</h3>
-(1) 左側の「PORTERSフィールド同期」を選択します。<br>
+(1) 左側メニューから「PORTERSフィールド同期」を選択します。<br>
 
-![PORTERSフィールド情報を更新しました](images/hrbc_sync/hrbc_1.png)
+<img src="images/hrbc_sync/hrbc_1.png" width="300">
 
 (2)「PORTERSフィールド情報の同期」を押下します。
-![PORTERSフィールド情報の同期](images/hrbc_sync/hrbc_2.png)
+
+<img src="images/hrbc_sync/hrbc_2.png" width="500">
+
 
 PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERSフィールド情報を同期しました。」という緑色の帯が表示されます。
 
-![PORTERSフィールド情報を同期しました](images/hrbc_sync/hrbc_3.png)
+<img src="images/hrbc_sync/hrbc_3.png" width="500">
 
 <br><br>
 
 <h3 id="porters_2">1-2.PORTERS選択肢の取得</h3>
 (1) 左側の「PORTERS選択肢取得」を選択します。
 
-![PORTERS選択肢取得](images/hrbc_sync/hrbc_4.png)
+<img src="images/hrbc_sync/hrbc_4.png" width="300">
 
 (2)「PORTERS選択肢情報の同期」を押下します。
-![PORTERS選択肢情報の同期](images/hrbc_sync/hrbc_5.png)
+
+<img src="images/hrbc_sync/hrbc_5.png" width="500">
+
 
 PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERS選択肢情報を同期しています。処理完了までおよそ10分程度かかります。」という緑色の帯が表示されます。
 10分程度置いていただければ完了となります。
 
 ※現状、「PORTERS選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
-![PORTERS選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
+<img src="images/hrbc_sync/hrbc_6.png" width="500">
 
 
 [▲TOPに戻る](#TOP)
@@ -100,14 +104,14 @@ PORTERS側から、商談階層IDを押下した際にクラウドドキュメ�
 
 <img src="images/opportunity/opportunity_4.png" width="600">
 
-URLはクラウドドキュメントから取得可能です。
-クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。
+URLはクラウドドキュメントから取得可能です。<br>
+クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。<br>
 <img src="images/opportunity/opportunity_5.png" width="300">
 
-一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロースし
+一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロールし<br>
 <img src="images/opportunity/opportunity_7.png" width="600">
-
-リソース　商談階層からURLをコピーします。
+<br>
+リソース　商談階層からURLをコピーします。<br>
 <img src="images/opportunity/opportunity_6.png" width="600">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
