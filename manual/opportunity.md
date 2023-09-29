@@ -141,6 +141,8 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 ![テンプレートが表示される](images/document_temp/document_temp_8.png)
 
+[▲TOPに戻る](#TOP)
+<br><br><br>
 
 
 <h2 id="mapping">4．マッピングの設定</h2>
@@ -180,7 +182,8 @@ URLはクラウドドキュメントから取得可能です。<br>
 <img src="images/mapping/mp_4.png" width="800">
 
 <br><br>
-
+[▲TOPに戻る](#TOP)
+<br><br><br>
 
 <h2 id="porters_dl">5.PORTERSから帳票をダウンロードする</h2>
 
@@ -235,7 +238,8 @@ URLはクラウドドキュメントから取得可能です。<br>
 ![EXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_11.png)
 
 <br><br>
-
+[▲TOPに戻る](#TOP)
+<br><br><br>
 
 <h2 id="dl">6.クラウドドキュメントからIDを入力してダウンロードする</h2>
 
@@ -270,7 +274,8 @@ URLはクラウドドキュメントから取得可能です。<br>
 (2) 以降の操作は [5.クラウドドキュメントをダウンロードする](#porters_dl)をご参照ください。
 
 <br><br>
-
+[▲TOPに戻る](#TOP)
+<br><br><br>
 
 <h2 id="dl_ledger">7.一覧表をダウンロードする</h2>
 
@@ -400,8 +405,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 
 -----
 
-* 2021年8月25日新規作成
-* 2023年9月15日更新
+* 2023年9月29日新規作成
 
 
 {% include footer.md %}
