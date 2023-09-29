@@ -15,34 +15,20 @@ title: クラウドドキュメント リリースノート
 
 - [1.PORTERSとの同期](#porters)
   - [1-1.PORTERSフィールドの取得](#porters_1)
-  - [1-2.PORTERS選択肢の取得](#PORTERS_2)
-- [2.テンプレート用ファイルの作成](#document_temp_file)
-  - [2-1.テンプレート用ファイルの作成](#document_temp_file_1)
-- [3.テンプレートの作成](#document_temp)
-  - [3-1.テンプレートの新規作成](#document_temp_1)
-  - [3-2.テンプレートの更新](#document_temp_2)
-  - [3-3.テンプレートの削除](#document_temp_3) 
-  - [3-4.テンプレートのステータス(有効/無効)について](#document_temp_4) 
+  - [1-2.PORTERS選択肢の取得](#porters_2)
+- [2.PORTERS側にアクションボタンを設定](#porters_action)
+- [3.帳票の新規登録](#document_temp)
 - [4.マッピングの設定](#mapping)
-  - [4-1.マッピングの更新](#mapping_1)
-  - [4-2.マッピングのエクスポート/インポート](#mapping_2)
-  - [4-3.マッピングの削除](#mapping_3)
 - [5.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)
-  - [5-1.クラウドドキュメントを1件ダウンロードする](#porters_dl_1)
-  - [5-2.クラウドドキュメントを一括ダウンロードする](#porters_dl_2)
 - [6.クラウドドキュメントからIDを入力して ダウンロードする](#dl)
   - [6-1.「帳票一覧」からクラウドドキュメントを出力する](#dl_1)
   - [6-2.「ダウンロード」からクラウドドキュメントを出力する](#dl_2)
-  - [6-3.「一括ダウンロード」からクラウドドキュメントを出力する](#dl_3)
-  - [6-4.「出力履歴」からクラウドドキュメントを出力する](#dl_4)
 - [7.台帳(一覧表)をダウンロードする](#dl_ledger)
   - [7-1.PORTERSの設定](#dl_ledger_1)
   - [7-2.テンプレートの作成](#dl_ledger_2)
   - [7-3.テンプレートの登録](#dl_ledger_3)
-  - [7-4.出力](#dl_ledger_4)
-- [8.特定の帳票をアクションボタンに設定する](#dl_sp)
-  - [8-1.PORTERSの設定](#dl_sp_1)
-  - [8-2.出力](#dl_sp_2)
+  - [7-4.一覧表の出力](#dl_ledger_4)
+- [8.PORTERSに設定するURLの種類について](#dl_sp)
  
 
 <h2 id="porters">1.PORTERSとの同期</h2>
@@ -56,12 +42,12 @@ title: クラウドドキュメント リリースノート
 
 (2)「PORTERSフィールド情報の同期」を押下します。
 
-<img src="images/hrbc_sync/hrbc_2.png" width="500">
+<img src="images/hrbc_sync/hrbc_2.png" width="800">
 
 
 PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERSフィールド情報を同期しました。」という緑色の帯が表示されます。
 
-<img src="images/hrbc_sync/hrbc_3.png" width="500">
+<img src="images/hrbc_sync/hrbc_3.png" width="800">
 
 <br><br>
 
@@ -72,14 +58,14 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 (2)「PORTERS選択肢情報の同期」を押下します。
 
-<img src="images/hrbc_sync/hrbc_5.png" width="500">
+<img src="images/hrbc_sync/hrbc_5.png" width="800">
 
 
 PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERS選択肢情報を同期しています。処理完了までおよそ10分程度かかります。」という緑色の帯が表示されます。
 10分程度置いていただければ完了となります。
 
 ※現状、「PORTERS選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
-<img src="images/hrbc_sync/hrbc_6.png" width="500">
+<img src="images/hrbc_sync/hrbc_6.png" width="800">
 
 
 [▲TOPに戻る](#TOP)
@@ -98,31 +84,31 @@ PORTERS側から、商談階層IDを押下した際にクラウドドキュメ�
 
 (3) 左上のプルダウンから「商談階層」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
 
-<img src="images/opportunity/opportunity_3.png" width="600">
+<img src="images/opportunity/opportunity_3.png" width="800">
 
 (4) アクションボタンの名称とURLを設定します。<br>
 
-<img src="images/opportunity/opportunity_4.png" width="600">
+<img src="images/opportunity/opportunity_4.png" width="500">
 
 URLはクラウドドキュメントから取得可能です。<br>
 クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。<br>
 <img src="images/opportunity/opportunity_5.png" width="300">
 
 一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロールし<br>
-<img src="images/opportunity/opportunity_7.png" width="600">
+<img src="images/opportunity/opportunity_7.png" width="800">
 <br>
 リソース　商談階層からURLをコピーします。<br>
-<img src="images/opportunity/opportunity_6.png" width="600">
+<img src="images/opportunity/opportunity_6.png" width="800">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
-<img src="images/opportunity/opportunity_4.png" width="600">
+<img src="images/opportunity/opportunity_4.png" width="500">
 
 追加したアクションボタンを左の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下してください。
-<img src="images/opportunity/opportunity_11.png" width="600">
+<img src="images/opportunity/opportunity_11.png" width="800">
 
 (5)以上の作業でアクションボタンの設定が完了です<br>
 
-<img src="images/opportunity/opportunity_8.png" width="600">
+<img src="images/opportunity/opportunity_8.png" width="800">
 
 
 [▲TOPに戻る](#TOP)
@@ -133,7 +119,6 @@ URLはクラウドドキュメントから取得可能です。<br>
 商談階層用の帳票を新規登録します。
 ※登録の仕方は他の階層と同様です
 
-<h3 id="document_1">3-1.テンプレートの新規作成</h3>
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
 
 <img src="images/document_temp/document_temp_1.png" width="800">
@@ -204,7 +189,6 @@ URLはクラウドドキュメントから取得可能です。<br>
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
-<h3 id="porters_dl_1">5-1.クラウドドキュメントを1件ダウンロードする</h3>
 
 (1) PORTERSでクラウドドキュメントを作成したい商談階層IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
 <img src="images/opportunity/opportunity_8.png" width="600">
@@ -270,7 +254,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 ![「帳票一覧」を選択](images/hrbc_dl/hrbc_dl_24.png)
 
-(3) 以降の操作は [5-1.クラウド帳票を1件ダウンロードする(4)](#porters_dl_1_4)をご参照ください。
+(3) 以降の操作は [5.クラウド帳票を1件ダウンロードする(4)](#porters_dl)をご参照ください。
 
 #### 【ご注意ください】個別出力にIDを入力し出力された場合も課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。
 
@@ -285,7 +269,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 ![ID欄に出力したい各階層のIDを入力](images/hrbc_dl/hrbc_dl_25.png)
 
-(2) 以降の操作は [5-1.クラウドドキュメントを1件ダウンロードする(4)](#porters_dl_1_4)をご参照ください。
+(2) 以降の操作は [5.クラウドドキュメントをダウンロードする](#porters_dl)をご参照ください。
 
 <br><br>
 
@@ -374,7 +358,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 <br><br>
 
 
-<h3 id="dl_sp_2">8-2.PORTERSに設定するURLの種類について</h3>
+<h3 id="dl_sp">8.PORTERSに設定するURLの種類について</h3>
 
 ### どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。<br>
 
