@@ -227,7 +227,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 #### ※マクロを使用したテンプレート(xlms形式)はPORTERSに保存できません。
 
 (1)「PORTERSに保存する」の右側にあるEXCEL/PDFのボタンを押下します。
-<img src="images/hrbc_dl/hrbc_dl_9.png" width="600">
+<img src="images/hrbc_dl/hrbc_dl_9.png" width="800">
 
 (2)上部に「PORTERSにファイルを添付しました。」という緑色の帯が表示されたら「PORTERSを開く」をクリックします。
 ![「PORTERSを開く」](images/hrbc_dl/hrbc_dl_10.png)
