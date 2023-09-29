@@ -117,6 +117,9 @@ URLはクラウドドキュメントから取得可能です。<br>
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
 <img src="images/opportunity/opportunity_4.png" width="600">
 
+追加したアクションボタンを左の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下してください。
+<img src="images/opportunity/opportunity_11.png" width="600">
+
 (5)以上の作業でアクションボタンの設定が完了です<br>
 
 <img src="images/opportunity/opportunity_8.png" width="600">
@@ -145,7 +148,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 ※デフォルトではすべて「許可」となっています。<br>
 帳票制作時の空白の値の処理について選択してください。<br>
 ※デフォルトでは「値を出力せず、セルを空白にする」となっています。<br>
-<img src="images/document_temp/document_temp_5.png" width="800">
+<img src="images/document_temp/document_temp_5.png" width="500">
 
 (7)最後に「保存する」を押下すると帳票一覧に追加されます。
 
@@ -158,7 +161,6 @@ URLはクラウドドキュメントから取得可能です。<br>
 <h2 id="mapping">4．マッピングの設定</h2>
 登録した帳票にマッピングを行います。
 
-<h3 id="mapping_1">4-1.マッピングの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
 <img src="images/document_temp/document_temp_9.png" width="800">
 
@@ -203,19 +205,15 @@ URLはクラウドドキュメントから取得可能です。<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
 <h3 id="porters_dl_1">5-1.クラウドドキュメントを1件ダウンロードする</h3>
-(1) PORTERS画面左上のタブで出力したい各階層を選択し、ドロップダウンからすべてのID分を表示するように選択すると一覧が表示されます。
 
-![一覧](images/hrbc_dl/hrbc_dl_1.png)
-
-(2) PORTERSでクラウドドキュメントを作成したい商談階層IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。
+(1) PORTERSでクラウドドキュメントを作成したい商談階層IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
 <img src="images/opportunity/opportunity_8.png" width="600">
 
-(3) クラウドドキュメントに遷移します。先ほど選択した商談管理IDが挿入された状態になっています。
-出力したいテンプレートをプルダウンから指定し「ダウンロード」をします。もしくは「プレビュー」も可能です。
+(3) クラウドドキュメントに遷移します。先ほど選択した商談管理IDが挿入された状態になっています。<br>
+出力したいテンプレートをプルダウンから指定し「ダウンロード」をします。もしくは「プレビュー」も可能です。<br>
+「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。<br>
 <img src="images/opportunity/opportunity_10.png" width="600">
 
-(4)「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。
-![帳票ダウンロード画面](images/hrbc_dl/hrbc_dl_5.png)
 
 <br><br>
 
