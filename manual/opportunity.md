@@ -133,27 +133,21 @@ URLはクラウドドキュメントから取得可能です。<br>
 <h3 id="document_1">3-1.テンプレートの新規作成</h3>
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
 
-![＋新規登録](images/document_temp/document_temp_1.png)
+<img src="images/document_temp/document_temp_1.png" width="800">
 
 (2) 「タイトル」欄に帳票名を入力、「リソース」欄に「商談階層」を選択し、「保存する」を押下します。
-<img src="images/opportunity/opportunity_9.png" width="600">
+<img src="images/opportunity/opportunity_9.png" width="800">
 
-(3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
-![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_3.png)
+(3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下し、ファイルをアップロードします。
+<img src="images/document_temp/document_temp_4.png" width="800">
 
-(4) 表示されるエクスプローラーの中からファイルを選択し、アップロードします。
-![ファイルを選択し、アップロード](images/document_temp/document_temp_4.png)
-
-(5) 作成する帳票の操作について許可、不許可を選択してください。
+(4) 作成する帳票の操作について許可、不許可を選択してください。
 ※デフォルトではすべて「許可」となっています。
-![作成する帳票の操作について許可、不許可を選択](images/document_temp/document_temp_5.png)
-
-(6) 帳票制作時の空白の値の処理について選択してください。
+帳票制作時の空白の値の処理について選択してください。
 ※デフォルトでは「値を出力せず、セルを空白にする」となっています。
-![帳票制作時の空白の値の処理について選択](images/document_temp/document_temp_6.png)
+<img src="images/document_temp/document_temp_5.png" width="800">
 
-(7)「保存する」を押下すると帳票一覧に追加されます。
-![「保存する」](images/document_temp/document_temp_7.png)
+(7)最後に「保存する」を押下すると帳票一覧に追加されます。
 
 テンプレートが作成されると帳票一覧に遷移し、「更新しました」という緑色の帯が表示され、帳票一覧に作成したテンプレートが表示されます。
 
