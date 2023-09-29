@@ -346,17 +346,17 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <h3 id="dl_ledger_3">7-3.テンプレートの登録</h3> 
 
-帳票一覧→新規登録から一覧表を選んで保存し、テンプレートを設定し、マッピングを行います。
+帳票一覧→新規登録を行い帳票の種類に「一覧表」を選んで保存し、テンプレートを設定し、マッピングを行います。
 
-![一覧表を選ぶ](images/dl_ledger/dl_ledger_3.png)
+<img src="images/opportunity/opportunity_19.png" width="600">
 
 <br><br>
 
-<h3 id="dl_ledger_4">7-4.出力</h3>
+<h3 id="dl_ledger_4">7-4.一覧表の出力</h3>
 
-(1)一括アクションボタンのプルダウンから、 [7-1.PORTERSの設定](#dl_ledger_1)でPORTERSに設定した一覧表メニューを選びます。
+(1)一覧表として出力したいIDにチェックを入れて、「一括アクションボタン」に設定したボタンを押下します。
 
-![一覧表メニューを選ぶ](images/dl_ledger/dl_ledger_4.png)
+<img src="images/opportunity/opportunity_18.png" width="600">
 <br><br>
 
 (2)表示されているデータ全てorチェックを入れたデータかを選びます。<br>
@@ -374,7 +374,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 <br><br>
 
 
-<h3 id="dl_sp_2">8-2.出力</h3>
+<h3 id="dl_sp_2">8-2.PORTERSに設定するURLの種類について</h3>
 
 ### どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。<br>
 
