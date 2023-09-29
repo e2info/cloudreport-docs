@@ -76,7 +76,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 <h2 id="porters_action">2.PORTERS側にアクションボタンを設定</h2>
 PORTERS側から、商談管理IDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
 
-(1) PORTERの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
+(1) PORTERSの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
 
 <img src="images/opportunity/opportunity_1.png" width="500">
 
@@ -215,7 +215,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 <img src="images/hrbc_dl/hrbc_dl_6.png" width="600">
 
 (2) 画面左下に表示されるブラウザのダウンロードバーをクリックするとダウンロードしたEXCEL/PDFファイルが確認できます。
-![たEXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_7.png)
+![EXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_7.png)
 
 もしくはPCのダウンロードフォルダにEXCEL/PDFファイルが保存され確認できます。
 ![EXCEL/PDFファイルを保存](images/hrbc_dl/hrbc_dl_8.png)
@@ -236,13 +236,25 @@ URLはクラウドドキュメントから取得可能です。<br>
   
 <img src="images/opportunity/opportunity_20.png" width="800">
 
+#### PORTERS上にサブリストが表示されない場合は
+(1) PORTERの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
+<img src="images/opportunity/opportunity_1.png" width="500">
+
+(2) 「サブリスト」の編集を押下し、左上のプルダウンから「商談管理」を選びます<br>
+<img src="images/sublist/sublist_2.png" width="800">
+
+(3)「添付ファイル」のサブリスト項目を中央の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下します<br>
+<img src="images/sublist/sublist_1.png" width="800">
+
+上記の設定で表示されます。
+
 <br><br>
 [▲TOPに戻る](#TOP)
 <br><br><br>
 
 <h2 id="dl">6.クラウドドキュメントからIDを入力してダウンロードする</h2>
 
-ここでは[3.帳票テンプレートの作成](#document_temp) で取り込んだ出力用の項目を、PORTERSデータに紐づけを行います。
+[5.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)でご紹介した方法以外の出力方法を紹介します。
 
 <h3 id="dl_1">6-1.「帳票一覧」から帳票を出力する</h3>
 
@@ -257,7 +269,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <br><br>
 
-<h3 id="dl_2">6-2.「帳票の作成」からクラウドドキュメントを出力する</h3>
+<h3 id="dl_2">6-2.「帳票の作成」から帳票を出力する</h3>
 
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
