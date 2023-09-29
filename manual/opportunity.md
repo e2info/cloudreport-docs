@@ -17,7 +17,7 @@ title: クラウドドキュメント リリースノート
   - [1-1.PORTERSフィールドの取得](#porters_1)
   - [1-2.PORTERS選択肢の取得](#porters_2)
 - [2.PORTERS側にアクションボタンを設定](#porters_action)
-- [3.帳票の新規登録](#document_temp)
+- [3.帳票の新規登録](#document)
 - [4.マッピングの設定](#mapping)
 - [5.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)
 - [6.クラウドドキュメントからIDを入力して ダウンロードする](#dl)
@@ -72,7 +72,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 <br><br><br>
 
 <h2 id="porters_action">2.PORTERS側にアクションボタンを設定</h2>
-PORTERS側から、商談階層IDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
+PORTERS側から、商談管理IDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
 
 (1) PORTERの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
 
@@ -82,7 +82,7 @@ PORTERS側から、商談階層IDを押下した際にクラウドドキュメ�
 
 <img src="images/opportunity/opportunity_2.png" width="500">
 
-(3) 左上のプルダウンから「商談階層」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
+(3) 左上のプルダウンから「商談管理」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
 
 <img src="images/opportunity/opportunity_3.png" width="800">
 
@@ -97,7 +97,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロールし<br>
 <img src="images/opportunity/opportunity_7.png" width="800">
 <br>
-リソース　商談階層からURLをコピーします。<br>
+リソース　商談管理からURLをコピーします。<br>
 <img src="images/opportunity/opportunity_6.png" width="800">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
@@ -116,14 +116,14 @@ URLはクラウドドキュメントから取得可能です。<br>
 <br><br><br>
 
 <h2 id="document">3.帳票の新規登録</h2>
-商談階層用の帳票を新規登録します。
+商談管理用の帳票を新規登録します。
 ※登録の仕方は他の階層と同様です
 
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
 
 <img src="images/document_temp/document_temp_1.png" width="800">
 
-(2) 「タイトル」欄に帳票名を入力、「リソース」欄に「商談階層」を選択し、「保存する」を押下します。
+(2) 「タイトル」欄に帳票名を入力、「リソース」欄に「商談管理」を選択し、「保存する」を押下します。
 <img src="images/opportunity/opportunity_9.png" width="800">
 
 (3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下し、ファイルをアップロードします。
@@ -161,7 +161,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 |リソース(階層)|マッピングできるエイリアスの種類|
 |-----|-----|
-|商談階層|SystemField、Opportunity、Client、Recruiter|
+|商談管理|SystemField、Opportunity、Client、Recruiter|
 |企業|SystemField、Client|
 |企業担当者|SystemField、Recruiter、Client|
 |JOB|SystemField、Job、Client、Recruiter|
@@ -184,13 +184,11 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <h2 id="porters_dl">5.PORTERSから帳票をダウンロードする</h2>
 
-ここでは[3.帳票テンプレートの作成](#document_temp) で取り込んだ出力用の項目を、PORTERSデータに紐づけを行います。<br>
-
 #### 【ご注意ください】本番環境にて出力した帳票すべてが課金対象になります(トライアル期間内、テスト環境での利用を除く)<br>詳細は[帳票のご利用料金について](#price)をご確認ください。　<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
 
-(1) PORTERSでクラウドドキュメントを作成したい商談階層IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
+(1) PORTERSでクラウドドキュメントを作成したい商談管理IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
 <img src="images/opportunity/opportunity_8.png" width="600">
 
 (3) クラウドドキュメントに遷移します。先ほど選択した商談管理IDが挿入された状態になっています。<br>
@@ -289,7 +287,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <img src="images/opportunity/opportunity_2.png" width="500">
 
-(3) 左上のプルダウンから「商談階層」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
+(3) 左上のプルダウンから「商談管理」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
 
 <img src="images/opportunity/opportunity_12.png" width="600">
 
@@ -307,7 +305,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 「アクションメニュー設定用URL(帳票の種類:一覧表出力)」にページ内遷移しますのでそのまま下にスクロールし
 <img src="images/opportunity/opportunity_14.png" width="600">
 
-リソース　商談階層からURLをコピーします。<br>
+リソース　商談管理からURLをコピーします。<br>
 <img src="images/opportunity/opportunity_15.png" width="600">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
