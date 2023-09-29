@@ -9,15 +9,10 @@ title: クラウドドキュメント リリースノート
 </div>
 <br><br>
 
-# クラウドドキュメント 作成マニュアル（管理者用）
+# クラウドドキュメント 商談管理階層対応マニュアル（管理者用）
 
 <h2 id="TOP">目次</h2>
 
-- [はじめに](#introduction)
-  - [クラウドドキュメントの動作保証環境について](#os) 
-  - [主なフローについて](#flow)
-  - [クラウドドキュメントのログインについて](#login)
-  - [帳票のご利用料金について](#price)
 - [1.PORTERSとの同期](#porters)
   - [1-1.PORTERSフィールドの取得](#porters_1)
   - [1-2.PORTERS選択肢の取得](#PORTERS_2)
@@ -49,75 +44,10 @@ title: クラウドドキュメント リリースノート
   - [8-1.PORTERSの設定](#dl_sp_1)
   - [8-2.出力](#dl_sp_2)
  
-<h2 id="introduction">はじめに</h2>
-
-<h3 id="os">クラウドドキュメントの動作保証環境について</h3>
-PORTERSに準じ、動作保証環境を設定しています。
-
-[クラウドドキュメント よくある質問 「クラウドドキュメントの動作保証環境はどちらになりますか？」](https://e2info.github.io/cloudreport-docs/faq/faq.html#about1)でご確認ください。
-<br><br>
-
-
-<h3 id="flow">主なフローについて</h3>
-
-<br>
-<div align="center">
-<img src="images/hrbc_sync/flow.png" width="600" alt="主なフロー" title="主なフロー">
-</div>
-<br><br>
-
-#### 1.PORTERSの同期（管理者のみ利用可能）
-
-初回はクラウドドキュメントの「PORTERSフィールド取得」「PORTERS選択肢の取得」画面にて、PORTERSのデータと紐づける項目を同期します。
-なお、PORTERSで項目の追加・削除などの変更があった場合、クラウドドキュメント側も都度同期する必要があります。
-
-詳細は[1.PORTERSとの同期](#porters)をご確認ください。
-
-<br>
-
-#### 2.帳票テンプレートの作成（管理者のみ利用可能）
-
-「帳票一覧」画面より、クラウドドキュメントに出力する帳票のテンプレートを新規作成します。<br>
-テンプレートを新規作成あるいは更新する場合、Excelファイルで作成したテンプレートを取り込みます。<br>
-その後、「マッピング設定」画面にて、出力項目とPORTERSのデータを紐づけします。
-
-詳細は[2.帳票テンプレート用ファイルの作成](#document_temp_file)　[3.帳票テンプレートの作成](#document_temp)　[4.マッピングの設定](#mapping)をご確認ください。
-
-<br>
-
-#### 3.ダウンロード（管理者/標準ユーザー共通で利用可能）
-
-作成した帳票テンプレートをユーザーPCかPORTERSにダウンロードします。<br>
-ダウンロードは、「PORTERSから出力したい各階層のIDの画面から出力する方法」と「クラウドドキュメントから出力したい各階層のIDを入力する方法」があります。<br>
-
-詳細は[5.PORTERSからクラウドドキュメントをダウンロードする](#porters_dl)　　[6.クラウドドキュメントから出力したい各階層のIDを入力してダウンロードする](#dl)をご確認ください。
-<br><br>
-
-<h3 id="login">クラウドドキュメントのログインについて</h3>
-初回の設定を行う上で、クラウドドキュメントの画面は一度PORTERSを経由してログインする必要があります。
-お知らせしたクラウドドキュメントURLにアクセスいただき、PORTERSのログインを経てご使用いただけます。
-
-<h3 id="price">帳票のご利用料金について</h3>
-
-#### 本番環境にて出力した帳票全てが課金対象となります。(トライアル期間・テスト環境での利用を除く)
-
-(1) 課金のタイミングについて<br>
-「ダウンロード」ボタンを押すと１帳票分課金となります。<br>
-その後遷移する画面にてPDFやExcelのダウンロードボタン、もしくは「PORTERSに保存する」のPDFやExcelのダウンロードボタンを押しても課金されません。
-
-![課金のタイミングについて](images/price1.png)
-
-(2) 出力枚数の確認について<br>
-クラウドドキュメントのメニュー 利用状況 統計に各月における各帳票の出力枚数の確認ができます。
-
-![出力枚数の確認について](images/price2.png)
-
-[▲TOPに戻る](#TOP)
-<br><br><br>
 
 <h2 id="porters">1.PORTERSとの同期</h2>
 
-#### PORTERSのフィールドや選択肢の変更した場合、クラウドドキュメントを手動で同期する必要があります。
+#### 商談管理階層利用開始に伴い、PORTERSとクラウドドキュメントを手動で同期する必要があります。
 
 <h3 id="porters_1">1-1.PORTERSフィールドの同期</h3>
 (1) 左側の「PORTERSフィールド同期」を選択します。<br>
@@ -151,45 +81,58 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 [▲TOPに戻る](#TOP)
 <br><br><br>
 
-<h2 id="document_temp_file">2.帳票テンプレート用ファイルの作成</h2>
-クラウドドキュメントのテンプレートはExcelファイルで作成したものを取り込む必要があります。
-ここでは、テンプレート用ファイルの作成について説明いたします。
+<h2 id="porters_action">2.PORTERS側にアクションボタンを設定</h2>
+PORTERS側から、商談階層IDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
 
+(1) PORTERの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
 
-#### <注意事項>
-#### ・原則としてテンプレートの作成や修正はお客様にてお願いしており、弊社での対応はオプションにて承ります。<br>
-#### (テンプレート作成:出力項目数、分岐数等により100,000円～)<br>
-#### ・PDFでの出力はエクセルでの出力結果と全く同じにならない場合がございます。
-#### ・マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
-<br>
+<img src="images/opportunity/opportunity_1.png" width="500">
 
-<h3 id="document_temp_file_1">2-1.テンプレート用ファイルの作成</h3>
-(1) Excelファイルでテンプレートファイルを作成します。このときクラウドドキュメントに出力したい　箇所は
-\{\{\}\}で囲みます。<br>
+(2) 「アクションメニュー」の編集を押下します<br>
 
-![テンプレートファイル](images/document_temp/document_temp_file_1.png)
+<img src="images/opportunity/opportunity_2.png" width="500">
 
-(2) 保存する際は、下記の拡張子でファイルを保存してください。
+(3) 左上のプルダウンから「商談階層」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
 
-![保存する際の拡張子](images/document_temp/document_temp_file_2.png)
+<img src="images/opportunity/opportunity_3.png" width="600">
+
+(4) アクションボタンの名称とURLを設定します。<br>
+
+<img src="images/opportunity/opportunity_4.png" width="600">
+
+URLはクラウドドキュメントから取得可能です。
+クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。
+<img src="images/opportunity/opportunity_5.png" width="600">
+
+一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロースし
+<img src="images/opportunity/opportunity_7.png" width="600">
+
+リソース　商談階層からURLをコピーします。
+<img src="images/opportunity/opportunity_6.png" width="600">
+
+コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
+<img src="images/opportunity/opportunity_4.png" width="600">
+
+(5)以上の作業でアクションボタンの設定が完了です<br>
+
+<img src="images/opportunity/opportunity_8.png" width="600">
 
 
 [▲TOPに戻る](#TOP)
 
 <br><br><br>
 
-<h2 id="document_temp">3.帳票テンプレートの作成</h2>
+<h2 id="document">3.帳票の新規登録</h2>
+商談階層用の帳票を新規登録します。
+※登録の仕方は他の階層と同様です
 
-[2．帳票テンプレート用ファイルの作成](#document_temp_file)で作成したファイルを取り込みます。
-ファイルを取り込むことで、クラウドドキュメントに出力したい項目を抽出することができます。
-
-<h3 id="document_temp_1">3-1.テンプレートの新規作成</h3>
+<h3 id="document_1">3-1.テンプレートの新規作成</h3>
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
 
 ![＋新規登録](images/document_temp/document_temp_1.png)
 
-(2) 「タイトル」欄に帳票名を入力、「リソース」欄にPORTERSリソースを選択し、「保存する」を押下します。
-![「リソース」欄にPORTERSリソースを選択し、「保存する」](images/document_temp/document_temp_2.png)
+(2) 「タイトル」欄に帳票名を入力、「リソース」欄に「商談階層」を選択し、「保存する」を押下します。
+<img src="images/opportunity/opportunity_9.png" width="600">
 
 (3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下します。
 ![「ファイルをアップロードしてください」または「Browse」](images/document_temp/document_temp_3.png)
