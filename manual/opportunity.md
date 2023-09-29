@@ -231,9 +231,10 @@ URLはクラウドドキュメントから取得可能です。<br>
 (2)上部に「PORTERSにファイルを添付しました。」という緑色の帯が表示されたら「PORTERSを開く」をクリックします。
 <img src="images/hrbc_dl/hrbc_dl_10.png" width="800">
 
-(3)PORTERS画面に切り替わり、出力したい各階層のウィンドウが表示されます。「サブリスト｜ 添付ファイル」でダウンロードしたEXCEL/PDFファイルが確認できます。
+(3)PORTERS画面に切り替わり、出力したい各階層のウィンドウが表示されます。<br>
+「サブリスト｜ 添付ファイル」でダウンロードしたEXCEL/PDFファイルが確認、ファイル名押下でダウンロードできます。<br>
   
-![EXCEL/PDFファイルを確認](images/hrbc_dl/hrbc_dl_11.png)
+<img src="images/opportunity/opportunity_20.png" width="800">
 
 <br><br>
 [▲TOPに戻る](#TOP)
