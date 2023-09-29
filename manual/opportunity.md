@@ -141,10 +141,10 @@ URLはクラウドドキュメントから取得可能です。<br>
 (3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下し、ファイルをアップロードします。
 <img src="images/document_temp/document_temp_4.png" width="800">
 
-(4) 作成する帳票の操作について許可、不許可を選択してください。
-※デフォルトではすべて「許可」となっています。
-帳票制作時の空白の値の処理について選択してください。
-※デフォルトでは「値を出力せず、セルを空白にする」となっています。
+(4) 作成する帳票の操作について許可、不許可を選択してください。<br>
+※デフォルトではすべて「許可」となっています。<br>
+帳票制作時の空白の値の処理について選択してください。<br>
+※デフォルトでは「値を出力せず、セルを空白にする」となっています。<br>
 <img src="images/document_temp/document_temp_5.png" width="800">
 
 (7)最後に「保存する」を押下すると帳票一覧に追加されます。
@@ -160,14 +160,14 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <h3 id="mapping_1">4-1.マッピングの更新</h3>
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
+<img src="images/document_temp/document_temp_9.png" width="800">
 
-![「アクション」にある「マッピング」](images/document_temp/document_temp_9.png)
+(2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。<br>
+<img src="images/mapping/mp_1.png" width="800">
 
-(2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。
-![「アクション」にある「更新」](images/mapping/mp_1.png)
-
-(3) 「PORTERSフィールド」欄からPORTERSに紐づける項目を選択します。
-![PORTERSに紐づける項目](images/mapping/mp_2.png)
+(3) 「PORTERSフィールド」欄からPORTERSに紐づける項目を選択します。<br>
+プルダウンから選択したり、キーワードを入力し検索することも可能です。<br>
+<img src="images/mapping/mp_2.png" width="800">
 <br><br><br>
 なお、各リソース(階層)によってマッピングできるエイリアスの種類が異なります。
 詳細は下記の通りです。<br>
@@ -185,11 +185,12 @@ URLはクラウドドキュメントから取得可能です。<br>
 |選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
 
 <br><br>
-(4) 「保存する」を押下します。
-![保存する](images/mapping/mp_3.png)
+(4)設定が完了したら最後に 「保存する」を押下します。
+<img src="images/mapping/mp_3.png" width="800">
 
-更新が完了すると「マッピング設定」に遷移し、「マッピング情報を更新しました。」という緑色の帯が表示され、「PORTERS名称」と「PORTERSエイリアス」が反映されます。
-![「PORTERS名称」と「PORTERSエイリアス」が反映される](images/mapping/mp_4.png)
+更新が完了すると「マッピング設定」に遷移し、「マッピング情報を更新しました。」という緑色の帯が表示され、<br>
+「PORTERS名称」と「PORTERSエイリアス」が反映されます。
+<img src="images/mapping/mp_4.png" width="800">
 
 <br><br>
 
