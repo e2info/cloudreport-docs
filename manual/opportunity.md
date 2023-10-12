@@ -16,6 +16,7 @@ title: クラウドドキュメント リリースノート
 - [1.PORTERSとの同期](#porters)
   - [1-1.PORTERSフィールドの取得](#porters_1)
   - [1-2.PORTERS選択肢の取得](#porters_2)
+  - [1-3.PORTERSユーザーの取得](#porters_3)
 - [2.PORTERS側にアクションボタンを設定](#porters_action)
 - [3.帳票の新規登録](#document)
 - [4.マッピングの設定](#mapping)
@@ -68,6 +69,25 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 ※現状、「PORTERS選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
 <img src="images/hrbc_sync/hrbc_6.png" width="800">
+
+<br><br>
+
+<h3 id="porters_3">1-3.PORTERSユーザーの同期</h3>
+(1) 左側メニューから「PORTERSユーザーの同期」を選択します。<br>
+
+<img src="images/hrbc_sync/hrbc_7.png" width="300">
+
+(2)「PORTERSユーザーの同期」を押下します。
+
+<img src="images/hrbc_sync/hrbc_8.png" width="800">
+
+
+PORTERSフィールドの取得が完了すると管理画面に遷移し、<br>
+「PORTERSユーザーを同期しました。」という緑色の帯が表示されます。
+
+<img src="images/hrbc_sync/hrbc_9.png" width="800">
+
+<br><br>
 
 
 [▲TOPに戻る](#TOP)
@@ -417,6 +437,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2023年9月29日新規作成
+* 2023年10月12日更新
 
 
 {% include footer.md %}
