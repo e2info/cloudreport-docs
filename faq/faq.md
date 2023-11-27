@@ -394,8 +394,18 @@ PORTERSの設定→カスタマイズ→各階層の「詳細画面・項目」�
 
 A.各リソース(階層)によってマッピングできるエイリアスの種類が異なります。
 
+|リソース(階層)|マッピングできるエイリアスの種類|
+|-----|-----|
+|企業|SystemField、Client|
+|企業担当者|SystemField、Recruiter、Client|
+|JOB|SystemField、Job、Client、Recruiter|
+|個人連絡先|SystemField、Person|
+|レジュメ|SystemField、Resume、Person|
+|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume|
+|アクティビティ|SystemField、Activity、Job、Resume|
+|選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
 
-クラウドドキュメントに該当のエイリアスが同期されていない可能性があります。<br>
+上記でマッピング可能なエイリアスに該当しているのにも関わらずクラウドドキュメントに該当のエイリアスが同期されていない可能性があります。<br>
 PORTERSに新しく項目を追加した際は、都度クラウドドキュメントと同期させる必要があります。<br>
 自動ではありませんので、追加した際は必ず実施をお願いします。<br>
 クラウドドキュメント上の「フィールドの同期」を行なってください。<br>
@@ -403,8 +413,7 @@ PORTERSに新しく項目を追加した際は、都度クラウドドキュメ�
 <br>
 
 上記を行っても該当のエイリアスが選択できない場合は、選択できないエイリアスとなります。<br>
-登録する帳票の階層の種類によって登録できないエイリアスがあるため、<br><br>
-表示されない場合は選択不可となりますのでご了承ください。<br>
+選択できない場合はマッピング不可となりますのでご了承ください。<br>
 
 <br>
 
