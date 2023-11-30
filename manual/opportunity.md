@@ -190,13 +190,14 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 |リソース(階層)|マッピングできるエイリアスの種類|
 |-----|-----|
+|コンタクト|SystemField、Client、Contact|
 |商談管理|SystemField、Opportunity、Client、Recruiter|
 |企業|SystemField、Client|
 |企業担当者|SystemField、Recruiter、Client|
 |JOB|SystemField、Job、Client、Recruiter|
 |個人連絡先|SystemField、Person|
 |レジュメ|SystemField、Resume、Person|
-|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume|
+|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume、Contact|
 |アクティビティ|SystemField、Activity、Job、Resume|
 |選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
 
@@ -437,7 +438,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2023年9月29日新規作成
-* 2023年10月12日更新
+* 2023年11月30日更新
 
 
 {% include footer.md %}
