@@ -310,12 +310,14 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 |リソース(階層)|マッピングできるエイリアスの種類|
 |-----|-----|
+|コンタクト|SystemField、Client、Contact|
+|商談管理|SystemField、Opportunity、Client、Recruiter|
 |企業|SystemField、Client|
 |企業担当者|SystemField、Recruiter、Client|
 |JOB|SystemField、Job、Client、Recruiter|
 |個人連絡先|SystemField、Person|
 |レジュメ|SystemField、Resume、Person|
-|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume|
+|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume、Contact|
 |アクティビティ|SystemField、Activity、Job、Resume|
 |選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
 
