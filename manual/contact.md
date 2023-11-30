@@ -119,7 +119,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロールし<br>
 <img src="images/opportunity/opportunity_7.png" width="800">
 <br>
-リソース　商談管理からURLをコピーします。<br>
+リソース　コンタクトからURLをコピーします。<br>
 <img src="images/contact/contact_3.png" width="800">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
@@ -319,13 +319,13 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <img src="images/opportunity/opportunity_2.png" width="500">
 
-(3) 左上のプルダウンから「商談管理」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
+(3) 左上のプルダウンから「コンタクト」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
 
-<img src="images/opportunity/opportunity_12.png" width="600">
+<img src="images/contact/contact_16.png" width="600">
 
 (4) アクションボタンの名称とURLを設定します。<br>
 
-<img src="images/opportunity/opportunity_16.png" width="600">
+<img src="images/contact/contact_17.png" width="600">
 
 URLはクラウドドキュメントから取得可能です。<br>
 クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。<br>
@@ -337,18 +337,18 @@ URLはクラウドドキュメントから取得可能です。<br>
 「アクションメニュー設定用URL(帳票の種類:一覧表出力)」にページ内遷移しますのでそのまま下にスクロールし
 <img src="images/opportunity/opportunity_14.png" width="600">
 
-リソース　商談管理からURLをコピーします。<br>
-<img src="images/opportunity/opportunity_15.png" width="600">
+リソース　コンタクトからURLをコピーします。<br>
+<img src="images/contact/contact_18.png" width="600">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
-<img src="images/opportunity/opportunity_16.png" width="600">
+<img src="images/contact/contact_17.png" width="600">
 
 追加したアクションボタンを左の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下してください。
-<img src="images/opportunity/opportunity_17.png" width="600">
+<img src="images/contact/contact_19.png" width="600">
 
 (5)以上の作業で一括アクションボタンの設定が完了です<br>
 
-<img src="images/opportunity/opportunity_18.png" width="600">
+<img src="images/contact/contact_20.png" width="600">
 
 ※設定するURLの違いについては [8.PORTERSに設定するURLの種類について](#dl_sp)をご参照ください。
 
