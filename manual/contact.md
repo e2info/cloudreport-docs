@@ -372,7 +372,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 (1)一覧表として出力したいIDにチェックを入れて、「一括アクションボタン」に設定したボタンを押下します。
 
-<img src="images/opportunity/opportunity_18.png" width="600">
+<img src="images/contact/contact_20.png" width="600">
 <br><br>
 
 (2)表示されているデータ全てorチェックを入れたデータかを選びます。<br>
