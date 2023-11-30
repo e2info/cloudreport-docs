@@ -9,7 +9,7 @@ title: クラウドドキュメント リリースノート
 </div>
 <br><br>
 
-# クラウドドキュメント 商談管理階層対応マニュアル（管理者用）
+# クラウドドキュメント コンタクト階層対応マニュアル（管理者用）
 
 <h2 id="TOP">目次</h2>
 
@@ -34,7 +34,7 @@ title: クラウドドキュメント リリースノート
 
 <h2 id="porters">1.PORTERSとの同期</h2>
 
-#### 商談管理階層利用開始に伴い、PORTERSとクラウドドキュメントを手動で同期する必要があります。
+#### コンタクト階層利用開始に伴い、PORTERSとクラウドドキュメントを手動で同期する必要があります。
 
 <h3 id="porters_1">1-1.PORTERSフィールドの同期</h3>
 (1) 左側メニューから「PORTERSフィールド同期」を選択します。<br>
@@ -94,7 +94,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、<br>
 <br><br><br>
 
 <h2 id="porters_action">2.PORTERS側にアクションボタンを設定</h2>
-PORTERS側から、商談管理IDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
+PORTERS側から、コンタクトIDを押下した際にクラウドドキュメントに遷移するアクションボタンを設定します。
 
 (1) PORTERSの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
 
@@ -104,13 +104,13 @@ PORTERS側から、商談管理IDを押下した際にクラウドドキュメ�
 
 <img src="images/opportunity/opportunity_2.png" width="500">
 
-(3) 左上のプルダウンから「商談管理」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
+(3) 左上のプルダウンから「コンタクト」を選択、その隣のプルダウンから「アクションメニュー」を選択し、右側の「新規」を押下します<br>
 
-<img src="images/opportunity/opportunity_3.png" width="800">
+<img src="images/contact/contact_1.png" width="800">
 
 (4) アクションボタンの名称とURLを設定します。<br>
 
-<img src="images/opportunity/opportunity_4.png" width="500">
+<img src="images/contact/contact_2.png" width="500">
 
 URLはクラウドドキュメントから取得可能です。<br>
 クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。<br>
@@ -119,18 +119,18 @@ URLはクラウドドキュメントから取得可能です。<br>
 一番上に表示されている「アクションメニュー設定用URL(帳票の種類:通常)」の欄から下にスクロールし<br>
 <img src="images/opportunity/opportunity_7.png" width="800">
 <br>
-リソース　商談管理からURLをコピーします。<br>
-<img src="images/opportunity/opportunity_6.png" width="800">
+リソース　コンタクトからURLをコピーします。<br>
+<img src="images/contact/contact_3.png" width="800">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
-<img src="images/opportunity/opportunity_4.png" width="500">
+<img src="images/contact/contact_2.png" width="500">
 
 追加したアクションボタンを左の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下してください。
-<img src="images/opportunity/opportunity_11.png" width="800">
+<img src="images/contact/contact_4.png" width="800">
 
 (5)以上の作業でアクションボタンの設定が完了です<br>
 
-<img src="images/opportunity/opportunity_8.png" width="800">
+<img src="images/contact/contact_5.png" width="800">
 
 ※設定するURLの違いについては [8.PORTERSに設定するURLの種類について](#dl_sp)をご参照ください。
 
@@ -140,18 +140,18 @@ URLはクラウドドキュメントから取得可能です。<br>
 <br><br><br>
 
 <h2 id="document">3.帳票の新規登録</h2>
-商談管理用の帳票を新規登録します。
+コンタクト用の帳票を新規登録します。
 ※登録の仕方は他の階層と同様です
 
 (1) 「帳票一覧」を選択し、「＋新規登録」を押下します。
 
 <img src="images/document_temp/document_temp_1.png" width="800">
 
-(2) 「タイトル」欄に帳票名を入力、「リソース」欄に「商談管理」を選択し、「保存する」を押下します。
-<img src="images/opportunity/opportunity_9.png" width="800">
+(2) 「タイトル」欄に帳票名を入力、「リソース」欄に「コンタクト」を選択し、「保存する」を押下します。
+<img src="images/contact/contact_6.png" width="800">
 
 (3) 「テンプレート」欄の「ファイルをアップロードしてください」または「Browse」を押下し、ファイルをアップロードします。<br>
-<img src="images/document_temp/document_temp_4.png" width="800">
+<img src="images/contact/contact_7.png" width="800">
 
 (4) その他帳票の設定について<br>
 ・作成した帳票に許可する操作<br>
@@ -176,14 +176,14 @@ URLはクラウドドキュメントから取得可能です。<br>
 登録した帳票にマッピングを行います。
 
 (1) 「帳票一覧」を選択し、右側の「アクション」にある「マッピング」を押下します。
-<img src="images/document_temp/document_temp_9.png" width="800">
+<img src="images/contact/contact_8.png" width="800">
 
 (2) 「マッピング設定」に遷移するので、右側の「アクション」にある「更新」アイコンを押下します。<br>
-<img src="images/mapping/mp_1.png" width="800">
+<img src="images/contact/contact_9.png" width="800">
 
 (3) 「PORTERSフィールド」欄からPORTERSに紐づける項目を選択します。<br>
 プルダウンから選択したり、キーワードを入力し検索することも可能です。<br>
-<img src="images/mapping/mp_2.png" width="800">
+<img src="images/contact/contact_10.png" width="800">
 <br><br><br>
 なお、各リソース(階層)によってマッピングできるエイリアスの種類が異なります。
 詳細は下記の通りです。<br>
@@ -203,11 +203,10 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <br><br>
 (4)設定が完了したら最後に 「保存する」を押下します。
-<img src="images/mapping/mp_3.png" width="800">
+<img src="images/contact/contact_11.png" width="800">
 
 更新が完了すると「マッピング設定」に遷移し、「マッピング情報を更新しました。」という緑色の帯が表示され、<br>
 「PORTERS名称」と「PORTERSエイリアス」が反映されます。
-<img src="images/mapping/mp_4.png" width="800">
 
 <br><br>
 [▲TOPに戻る](#TOP)
@@ -219,13 +218,13 @@ URLはクラウドドキュメントから取得可能です。<br>
 #### ※マクロを使用したテンプレート(xlms形式)は出力について注意点がございます。　<br>詳細は[よくある質問 Q.テンプレートにマクロは使用できますか？ ](https://e2info.github.io/cloudreport-docs/faq/faq.html#template3)でご確認ください。
 
 
-(1) PORTERSでクラウドドキュメントを作成したい商談管理IDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
-<img src="images/opportunity/opportunity_8.png" width="600">
+(1) PORTERSでクラウドドキュメントを作成したいコンタクトIDをクリックし、アクションボタン「クラウドドキュメント」を押下します。<br>
+<img src="images/contact/contact_5.png" width="600">
 
-(3) クラウドドキュメントに遷移します。先ほど選択した商談管理IDが挿入された状態になっています。<br>
+(3) クラウドドキュメントに遷移します。先ほど選択したコンタクトIDが挿入された状態になっています。<br>
 出力したいテンプレートをプルダウンから指定し「ダウンロード」をします。もしくは「プレビュー」も可能です。<br>
 「ダウンロードする」ボタンを押下すると、帳票ダウンロード画面に切り替わります。<br>
-<img src="images/opportunity/opportunity_10.png" width="600">
+<img src="images/contact/contact_12.png" width="600">
 
 
 <br><br>
@@ -255,17 +254,17 @@ URLはクラウドドキュメントから取得可能です。<br>
 (3)PORTERS画面に切り替わり、出力したい各階層のウィンドウが表示されます。<br>
 「サブリスト｜ 添付ファイル」でダウンロードしたEXCEL/PDFファイルが確認、ファイル名押下でダウンロードできます。<br>
   
-<img src="images/opportunity/opportunity_20.png" width="800">
+<img src="images/contact/contact_13.png" width="800">
 
 #### PORTERS上にサブリストが表示されない場合は
 (1) PORTERの「設定」→「カスタマイズ/デスクトップ」に入ります<br>
 <img src="images/opportunity/opportunity_1.png" width="500">
 
-(2) 「サブリスト」の編集を押下し、左上のプルダウンから「商談管理」を選びます<br>
-<img src="images/sublist/sublist_2.png" width="800">
+(2) 「サブリスト」の編集を押下し、左上のプルダウンから「コンタクト」を選びます<br>
+<img src="images/contact/contact_14.png" width="800">
 
 (3)「添付ファイル」のサブリスト項目を中央の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下します<br>
-<img src="images/sublist/sublist_1.png" width="800">
+<img src="images/contact/contact_15.png" width="800">
 
 上記の設定で表示されます。
 
@@ -320,13 +319,13 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 <img src="images/opportunity/opportunity_2.png" width="500">
 
-(3) 左上のプルダウンから「商談管理」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
+(3) 左上のプルダウンから「コンタクト」を選択、その隣のプルダウンから「一括アクション」を選択し、右側の「新規」を押下します<br>
 
-<img src="images/opportunity/opportunity_12.png" width="600">
+<img src="images/contact/contact_16.png" width="600">
 
 (4) アクションボタンの名称とURLを設定します。<br>
 
-<img src="images/opportunity/opportunity_16.png" width="600">
+<img src="images/contact/contact_17.png" width="600">
 
 URLはクラウドドキュメントから取得可能です。<br>
 クラウドドキュメント「PORTERS設定」から「PORTERS側の設定」に入ります。<br>
@@ -338,18 +337,18 @@ URLはクラウドドキュメントから取得可能です。<br>
 「アクションメニュー設定用URL(帳票の種類:一覧表出力)」にページ内遷移しますのでそのまま下にスクロールし
 <img src="images/opportunity/opportunity_14.png" width="600">
 
-リソース　商談管理からURLをコピーします。<br>
-<img src="images/opportunity/opportunity_15.png" width="600">
+リソース　コンタクトからURLをコピーします。<br>
+<img src="images/contact/contact_18.png" width="600">
 
 コピーしたものをPORTERSの下記画面のURL欄にペーストし、「保存」します。
-<img src="images/opportunity/opportunity_16.png" width="600">
+<img src="images/contact/contact_17.png" width="600">
 
 追加したアクションボタンを左の枠内にドラッグし、最後に必ず「レイアウトを確定」を押下してください。
-<img src="images/opportunity/opportunity_17.png" width="600">
+<img src="images/contact/contact_19.png" width="600">
 
 (5)以上の作業で一括アクションボタンの設定が完了です<br>
 
-<img src="images/opportunity/opportunity_18.png" width="600">
+<img src="images/contact/contact_20.png" width="600">
 
 ※設定するURLの違いについては [8.PORTERSに設定するURLの種類について](#dl_sp)をご参照ください。
 
@@ -373,7 +372,7 @@ URLはクラウドドキュメントから取得可能です。<br>
 
 (1)一覧表として出力したいIDにチェックを入れて、「一括アクションボタン」に設定したボタンを押下します。
 
-<img src="images/opportunity/opportunity_18.png" width="600">
+<img src="images/contact/contact_20.png" width="600">
 <br><br>
 
 (2)表示されているデータ全てorチェックを入れたデータかを選びます。<br>
@@ -437,8 +436,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 
 -----
 
-* 2023年9月29日新規作成
-* 2023年11月30日更新
+* 2023年11月30日新規作成
 
 
 {% include footer.md %}
