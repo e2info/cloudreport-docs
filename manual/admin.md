@@ -317,7 +317,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 |JOB|SystemField、Job、Client、Recruiter|
 |個人連絡先|SystemField、Person|
 |レジュメ|SystemField、Resume、Person|
-|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume、Contact|
+|売上|SystemField、Sales、Person、Job、Client、Recruiter、Contract、Resume|
 |アクティビティ|SystemField、Activity、Job、Resume|
 |選考プロセス|SystemField、Process、Person、Job、Client、Recruiter、Resume|
 
