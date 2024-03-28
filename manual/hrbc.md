@@ -42,11 +42,9 @@ URLをコピーして、先ほどのPORTERSアクションメニューの設定�
 ## 応用編
 ID・テンプレートが可または不可、初期値が指定有りまたは無し　でURLが異なります。<br>
 どのURLを入れるかによりアクションボタン押下で帳票出力画面に遷移後の表示が異なります。<br>
-くわしくは[こちら](https://e2info.github.io/cloudreport-docs/manual/admin.html#dl_sp_2)をご確認ください。<br>
+くわしくは[こちら](https://e2info.github.io/cloudreport-docs/manual/admin.html#dl_sp_2)をご確認ください。<br><br>
 
-もし上記の操作でURLを取得できない場合は、下記URLの【利用中のドメイン】をお使いのドメインに置き換えて設定してください。<br>
-
-※【利用中のドメイン】について
+※【利用中のドメイン】については、通常お使いのドメインが自動で挿入された状態で表示されます。
 　(例)https://e2info.cloud-document.net →利用中のドメインは　e2info の部分です。
 
 |リソース|URL|
@@ -67,6 +65,6 @@ PORTERSに設定いただいたアクションメニューからクラウドド�
 ![アクションメニュー例](images/hrbc/hrbc_actionmenu_1.png)
 -----
 * 2020年12月25日新規作成
-* 2023年8月16日更新
+* 2024年3月28日更新
 
 {% include footer.md %}
