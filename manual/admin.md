@@ -172,14 +172,14 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 <h3 id="porters_2">1-3.PORTERSユーザーの同期</h3>
 (1) 左側の「PORTERSユーザーの同期」を選択します。
 
-![PORTERSユーザーの同期](images/hrbc_sync/hrbc_7.png)
+![PORTERSユーザーの同期](images/hrbc_sync/hrbc_10.png)
 
 (2)「PORTERSユーザーの同期」を押下します。
-![PORTERSユーザーの同期を押下](images/hrbc_sync/hrbc_８.png)
+![PORTERSユーザーの同期を押下](images/hrbc_sync/hrbc_11.png)
 
 PORTERSユーザーの同期が完了すると管理画面に遷移し、「PORTERSユーザーを同期しました。」という緑色の帯が表示されます。
 
-![PORTERSユーザーを同期しました](images/hrbc_sync/hrbc_９.png)
+![PORTERSユーザーを同期しました](images/hrbc_sync/hrbc_12.png)
 
 <br><br>
 
