@@ -169,7 +169,7 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 <br><br>
 
-<h3 id="porters_2">1-3.PORTERSユーザーの同期</h3>
+<h3 id="porters_3">1-3.PORTERSユーザーの同期</h3>
 (1) 左側の左側の「PORTERS設定」から「ユーザーの同期」を選択します。
 
 ![ユーザーの同期](images/hrbc_sync/hrbc_10.png)
