@@ -22,6 +22,7 @@ title: クラウドドキュメント リリースノート
 - [1.PORTERSとの同期](#porters)
   - [1-1.PORTERSフィールドの取得](#porters_1)
   - [1-2.PORTERS選択肢の取得](#PORTERS_2)
+  - [1-3.PORTERSユーザーの取得](#PORTERS_3)
 - [2.テンプレート用ファイルの作成](#document_temp_file)
   - [2-1.テンプレート用ファイルの作成](#document_temp_file_1)
 - [3.テンプレートの作成](#document_temp)
@@ -135,35 +136,52 @@ PORTERSに準じ、動作保証環境を設定しています。
 
 <h2 id="porters">1.PORTERSとの同期</h2>
 
-#### PORTERSのフィールドや選択肢の変更した場合、クラウドドキュメントを手動で同期する必要があります。
+#### PORTERSのフィールドや選択肢、ユーザーを追加・変更した場合、クラウドドキュメントを手動で同期する必要があります。
 
 <h3 id="porters_1">1-1.PORTERSフィールドの同期</h3>
-(1) 左側の「PORTERSフィールド同期」を選択します。<br>
+(1) 左側の「PORTERS設定」から「フィールドの同期」を選択します。<br>
 
-![PORTERSフィールド情報を更新しました](images/hrbc_sync/hrbc_1.png)
+![PORTERSフィールドの同期](images/hrbc_sync/hrbc_1.png)
 
-(2)「PORTERSフィールド情報の同期」を押下します。
-![PORTERSフィールド情報の同期](images/hrbc_sync/hrbc_2.png)
+(2)「PORTERSフィールドの同期」を押下します。
+![PORTERSフィールドの同期](images/hrbc_sync/hrbc_2.png)
 
-PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERSフィールド情報を同期しました。」という緑色の帯が表示されます。
+PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERSフィールドを同期しました。」という緑色の帯が表示されます。
 
-![PORTERSフィールド情報を同期しました](images/hrbc_sync/hrbc_3.png)
+![PORTERSフィールドを同期しました](images/hrbc_sync/hrbc_3.png)
 
 <br><br>
 
-<h3 id="porters_2">1-2.PORTERS選択肢の取得</h3>
-(1) 左側の「PORTERS選択肢取得」を選択します。
+<h3 id="porters_2">1-2.PORTERS選択肢の同期</h3>
+(1) 左側の左側の「PORTERS設定」から「選択肢の同期」を選択します。
 
-![PORTERS選択肢取得](images/hrbc_sync/hrbc_4.png)
+![選択肢取得](images/hrbc_sync/hrbc_4.png)
 
-(2)「PORTERS選択肢情報の同期」を押下します。
-![PORTERS選択肢情報の同期](images/hrbc_sync/hrbc_5.png)
+(2)「PORTERS選択肢の同期」を押下します。
+![PORTERS選択肢の同期](images/hrbc_sync/hrbc_5.png)
 
 PORTERSフィールドの取得が完了すると管理画面に遷移し、「PORTERS選択肢情報を同期しています。処理完了までおよそ10分程度かかります。」という緑色の帯が表示されます。
 10分程度置いていただければ完了となります。
 
-※現状、「PORTERS選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
-![PORTERS選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
+※現状、「PORTERS選択肢を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
+![PORTERS選択肢を同期しました](images/hrbc_sync/hrbc_6.png)
+
+
+<br><br>
+
+<h3 id="porters_2">1-3.PORTERSユーザーの同期</h3>
+(1) 左側の左側の「PORTERS設定」から「ユーザーの同期」を選択します。
+
+![ユーザーの同期](images/hrbc_sync/hrbc_10.png)
+
+(2)「PORTERSユーザーの同期」を押下します。
+![PORTERSユーザーの同期を押下](images/hrbc_sync/hrbc_12.png)
+
+PORTERSユーザーの同期が完了すると管理画面に遷移し、「PORTERSユーザーを同期しました。」という緑色の帯が表示されます。
+
+![PORTERSユーザーを同期しました](images/hrbc_sync/hrbc_11.png)
+
+<br><br>
 
 
 [▲TOPに戻る](#TOP)
@@ -760,7 +778,7 @@ IDは変更不可、テンプレートは指定されたものが自動的に設
 -----
 
 * 2021年8月25日新規作成
-* 2023年12月22日更新
+* 2024年3月28日更新
 
 
 {% include footer.md %}
