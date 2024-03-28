@@ -22,6 +22,7 @@ title: クラウドドキュメント リリースノート
 - [1.PORTERSとの同期](#porters)
   - [1-1.PORTERSフィールドの取得](#porters_1)
   - [1-2.PORTERS選択肢の取得](#PORTERS_2)
+  - [1-3.PORTERSユーザーの取得](#PORTERS_3)
 - [2.テンプレート用ファイルの作成](#document_temp_file)
   - [2-1.テンプレート用ファイルの作成](#document_temp_file_1)
 - [3.テンプレートの作成](#document_temp)
@@ -151,8 +152,8 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 <br><br>
 
-<h3 id="porters_2">1-2.PORTERS選択肢の取得</h3>
-(1) 左側の「PORTERS選択肢取得」を選択します。
+<h3 id="porters_2">1-2.PORTERS選択肢の同期</h3>
+(1) 左側の「PORTERS選択肢同期」を選択します。
 
 ![PORTERS選択肢取得](images/hrbc_sync/hrbc_4.png)
 
@@ -164,6 +165,23 @@ PORTERSフィールドの取得が完了すると管理画面に遷移し、「P
 
 ※現状、「PORTERS選択肢情報を同期しました。」と表示されませんが処理は完了しております。(現在改修中です)
 ![PORTERS選択肢情報を同期しました](images/hrbc_sync/hrbc_6.png)
+
+
+<br><br>
+
+<h3 id="porters_2">1-3.PORTERSユーザーの同期</h3>
+(1) 左側の「PORTERSユーザーの同期」を選択します。
+
+![PORTERSユーザーの同期](images/hrbc_sync/hrbc_7.png)
+
+(2)「PORTERSユーザーの同期」を押下します。
+![PORTERSユーザーの同期を押下](images/hrbc_sync/hrbc_８.png)
+
+PORTERSユーザーの同期が完了すると管理画面に遷移し、「PORTERSユーザーを同期しました。」という緑色の帯が表示されます。
+
+![PORTERSユーザーを同期しました](images/hrbc_sync/hrbc_９.png)
+
+<br><br>
 
 
 [▲TOPに戻る](#TOP)
